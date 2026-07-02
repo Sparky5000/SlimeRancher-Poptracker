@@ -1,0 +1,178 @@
+{
+    "tabbed_maps": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "The Ranch",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "The Ranch"
+                    ]
+                }
+            },
+            {
+                "title": "Ancient Ruins",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Ancient Ruins"
+                    ]
+                }
+            },
+            {
+                "title": "Ash Isles",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Ash Isles"
+                    ]
+                }
+            },
+            {
+                "title": "Dry Reef",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Dry Reef"
+                    ]
+                }
+            },
+            {
+                "title": "Glass Desert",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Glass Desert"
+                    ]
+                }
+            },
+            {
+                "title": "Indigo Quarry",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Indigo Quarry"
+                    ]
+                }
+            },
+            {
+                "title": "Moss Blanket",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Moss Blanket"
+                    ]
+                }
+            },
+            {
+                "title": "Moss Blanket Vault",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Moss Blanket Vault"
+                    ]
+                }
+            },
+            {
+                "title": "Nimble Valley",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Nimble Valley"
+                    ]
+                }
+            },
+            {
+                "title": "Ogdens Retreat",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Ogdens Retreat"
+                    ]
+                }
+            },
+            {
+                "title": "Ring Island",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Ring Island"
+                    ]
+                }
+            },
+            {
+                "title": "Slime Gate",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Slime Gate"
+                    ]
+                }
+            },
+            {
+                "title": "The Docks",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "The Docks"
+                    ]
+                }
+            },
+            {
+                "title": "The Grotto",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "The Grotto"
+                    ]
+                }
+            },
+            {
+                "title": "The Lab",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "The Lab"
+                    ]
+                }
+            },
+            {
+                "title": "The Overgrowth",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "The Overgrowth"
+                    ]
+                }
+            },
+            {
+                "title": "The Slime Sea",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "The Slime Sea"
+                    ]
+                }
+            },
+            {
+                "title": "The Slimeulation",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "The Slimeulation"
+                    ]
+                }
+            },
+            {
+                "title": "The Wilds",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "The Wilds"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,244 @@
+[
+    {
+        "name": "progressivemarketstonks",
+        "type": "toggle",
+        "img": "images/items/progressivemarketstonks.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "progressivemarketstonks"
+    },
+    {
+        "name": "Glass Desert",
+        "type": "toggle",
+        "img": "images/items/glassdesert.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "regionunlock-glassdesert"
+    },
+    {
+        "name": "Liquid Slot",
+        "type": "toggle",
+        "img": "images/items/liquidslot.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "liquidslot"
+    },
+    {
+        "name": "Market Link",
+        "type": "toggle",
+        "img": "images/items/marketlink.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "marketlink"
+    },
+    {
+        "name": "The Slimeulations",
+        "type": "toggle",
+        "img": "images/items/theslimeulations.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "regionunlock-theslimeulations"
+    },
+    {
+        "name": "The Docks",
+        "type": "toggle",
+        "img": "images/items/thedocks.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "regionunlock-thedocks"
+    },
+    {
+        "name": "Drone",
+        "type": "toggle",
+        "img": "images/items/drone.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "drone"
+    },
+    {
+        "name": "Progressive Jetpack",
+        "type": "toggle",
+        "img": "images/items/progressivejetpack.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "progressivejetpack"
+    },
+    {
+        "name": "Moss Blanket",
+        "type": "toggle",
+        "img": "images/items/mossblanket.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "regionunlock-mossblanket"
+    },
+    {
+        "name": "The Grotto",
+        "type": "toggle",
+        "img": "images/items/thegrotto.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "regionunlock-thegrotto"
+    },
+    {
+        "name": "Progressive Max Health",
+        "type": "toggle",
+        "img": "images/items/progressivemaxhealth.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "progressivemaxhealth"
+    },
+    {
+        "name": "Ogden's Retreat",
+        "type": "toggle",
+        "img": "images/items/ogdensretreat.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "regionunlock-ogdensretreat"
+    },
+    {
+        "name": "Advanced Drone",
+        "type": "toggle",
+        "img": "images/items/advanceddrone.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "advanceddrone"
+    },
+    {
+        "name": "The Wilds",
+        "type": "toggle",
+        "img": "images/items/thewilds.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "regionunlock-thewilds"
+    },
+    {
+        "name": "Mochi's Manor",
+        "type": "toggle",
+        "img": "images/items/mochismanor.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "regionunlock-mochismanor"
+    },
+    {
+        "name": "Progressive Run Efficiency",
+        "type": "toggle",
+        "img": "images/items/progressiverunefficiency.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "progressiverunefficiency"
+    },
+    {
+        "name": "Air Burst",
+        "type": "toggle",
+        "img": "images/items/airburst.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "airburst"
+    },
+    {
+        "name": "Dry Reef",
+        "type": "toggle",
+        "img": "images/items/dryreef.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "regionunlock-dryreef"
+    },
+    {
+        "name": "The Overgrowth",
+        "type": "toggle",
+        "img": "images/items/theovergrowth.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "regionunlock-theovergrowth"
+    },
+    {
+        "name": "Progressive Max Ammo",
+        "type": "toggle",
+        "img": "images/items/progressivemaxammo.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "progressivemaxammo"
+    },
+    {
+        "name": "Progressive Treasure Cracker",
+        "type": "toggle",
+        "img": "images/items/progressivetreasurecracker.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "progressivetreasurecracker"
+    },
+    {
+        "name": "Ancient Ruins Transition",
+        "type": "toggle",
+        "img": "images/items/ancientruinstransition.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "regionunlock-ancientruinstransition"
+    },
+    {
+        "name": "Indigo Quarry",
+        "type": "toggle",
+        "img": "images/items/indigoquarry.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "regionunlock-indigoquarry"
+    },
+    {
+        "name": "Viktor's Workshop",
+        "type": "toggle",
+        "img": "images/items/viktorsworkshop.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "regionunlock-viktorsworkshop"
+    },
+    {
+        "name": "Golden Sureshot",
+        "type": "toggle",
+        "img": "images/items/goldensureshot.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "goldensureshot"
+    },
+    {
+        "name": "Nimble Valley",
+        "type": "toggle",
+        "img": "images/items/nimblevalley.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "regionunlock-nimblevalley"
+    },
+    {
+        "name": "Ancient Ruins",
+        "type": "toggle",
+        "img": "images/items/ancientruins.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "regionunlock-ancientruins"
+    },
+    {
+        "name": "Progressive Max Energy",
+        "type": "consumable",
+        "img": "images/items/progressivemaxenergy.png",
+        "max_quantity": 3,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "codes": "progressivemaxenergy"
+    },
+    {
+        "name": "The Lab",
+        "type": "toggle",
+        "img": "images/items/thelab.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "regionunlock-thelab"
+    },
+    {
+        "name": "Update",
+        "type": "toggle",
+        "img": "images/items/update.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "update"
+    }
+]

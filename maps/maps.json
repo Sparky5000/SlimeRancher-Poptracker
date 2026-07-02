@@ -1,0 +1,110 @@
+[
+    {
+        "name": "Ancient Ruins",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Ancient Ruins.png"
+    },
+    {
+        "name": "Ash Isles",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Ash Isles.png"
+    },
+    {
+        "name": "Dry Reef",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Dry Reef.png"
+    },
+    {
+        "name": "Glass Desert",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Glass Desert.png"
+    },
+    {
+        "name": "Indigo Quarry",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Indigo Quarry.png"
+    },
+    {
+        "name": "Moss Blanket",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Moss Blanket.png"
+    },
+    {
+        "name": "Nimble Valley",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Nimble Valley.png"
+    },
+    {
+        "name": "Ogdens Retreat",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Ogdens Retreat.png"
+    },
+    {
+        "name": "Ring Island",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Ring Island.png"
+    },
+    {
+        "name": "Slime Gate",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Slime Gate.png"
+    },
+    {
+        "name": "The Docks",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/The Docks.png"
+    },
+    {
+        "name": "The Grotto",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/The Grotto.png"
+    },
+    {
+        "name": "The Lab",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/The Lab.png"
+    },
+    {
+        "name": "The Overgrowth",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/The Overgrowth.png"
+    },
+    {
+        "name": "The Slime Sea",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/The Slime Sea.png"
+    },
+    {
+        "name": "The Slimeulation",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/The Slimeulation.png"
+    },
+    {
+        "name": "The Wilds",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/The Wilds.png"
+    },
+    {
+        "name": "The Ranch",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/The Ranch.png"
+    }
+]

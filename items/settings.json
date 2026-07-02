@@ -1,0 +1,83 @@
+[
+    {
+        "name": "Easy Skips",
+        "type": "toggle",
+        "img": "images/settings/EasySkips.png",
+        "codes": "EasySkips"
+    },
+    {
+        "name": "Precise Movement",
+        "type": "toggle",
+        "img": "images/settings/PreciseMovement.png",
+        "codes": "PreciseMovement"
+    },
+    {
+        "name": "Dangerous Skips",
+        "type": "toggle",
+        "img": "images/settings/DangerousSkips.png",
+        "codes": "DangerousSkips"
+    },
+    {
+        "name": "Obscure Locations",
+        "type": "toggle",
+        "img": "images/settings/ObscureLocations.png",
+        "codes": "ObscureLocations"
+    },
+    {
+        "name": "Largo Jumps",
+        "type": "toggle",
+        "img": "images/settings/LargoJumps.png",
+        "codes": "LargoJumps"
+    },
+    {
+        "name": "Jetpack Boosts",
+        "type": "toggle",
+        "img": "images/settings/JetpackBoosts.png",
+        "codes": "JetpackBoosts"
+    },
+    {
+        "name": "Market Logic",
+        "type": "toggle",
+        "img": "images/settings/MarketLogic.png",
+        "codes": "MarketLogic"
+    },
+    {
+        "name": "Plortsanity",
+        "type": "toggle",
+        "img": "images/settings/Plortsanity.png",
+        "codes": "Plortsanity"
+    },
+    {
+        "name": "Include7z",
+        "type": "toggle",
+        "img": "images/settings/Include7z.png",
+        "codes": "Include7z"
+    },
+    {
+        "name": "Treasure Cracker Checks",
+        "type": "consumable",
+        "max_quantity": 3,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "codes": "TreasureCrackerChecks"
+    },
+    {
+        "name": "EnableStylishDlcTreasurePods",
+        "type": "toggle",
+        "img": "images/settings/EnableStylishDlcTreasurePods.png",
+        "codes": "EnableStylishDlcTreasurePods"
+    },
+    {
+        "name": "Postgame",
+        "type": "toggle",
+        "img": "images/settings/postgame.png",
+        "codes": "postgame"
+    },
+    {
+        "name": "MerketLogic",
+        "type": "toggle",
+        "img": "images/settings/MarketLogic.png",
+        "codes": "MarketLogic"
+    }
+]

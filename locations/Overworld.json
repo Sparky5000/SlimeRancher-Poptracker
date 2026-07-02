@@ -1,0 +1,2741 @@
+[
+    {
+        "name": "Overworld",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "children": [
+            {
+                "name": "7Zee lv.1",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "7Zee lv.1 - Roostro Weathervane",
+                        "ref": "7Zee lv.1/Roostro Weathervane"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1059,
+                        "y": 465,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "7Zee lv.10",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "7Zee lv.10 - Advanced Slime Toys",
+                        "ref": "7Zee lv.10/Advanced Slime Toys"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1190,
+                        "y": 565,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "7Zee lv.11",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "7Zee lv.11 - Gingersnap Chroma",
+                        "ref": "7Zee lv.11/Gingersnap Chroma"
+                    },
+                    {
+                        "name": "7Zee lv.11 - Peapod Chroma",
+                        "ref": "7Zee lv.11/Peapod Chroma"
+                    },
+                    {
+                        "name": "7Zee lv.11 - Market Link",
+                        "ref": "7Zee lv.11/Market Link"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1805,
+                        "y": 361,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "7Zee lv.12",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "7Zee lv.12 - Grotto Upgrade",
+                        "ref": "7Zee lv.12/Grotto Upgrade"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 178,
+                        "y": 728,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "7Zee lv.13",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "7Zee lv.13 - Decorizer",
+                        "ref": "7Zee lv.13/Decorizer"
+                    },
+                    {
+                        "name": "7Zee lv.13 - Vanguard Chroma",
+                        "ref": "7Zee lv.13/Vanguard Chroma"
+                    },
+                    {
+                        "name": "7Zee lv.13 - Willow Chroma",
+                        "ref": "7Zee lv.13/Willow Chroma"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1728,
+                        "y": 1569,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "7Zee lv.14",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "7Zee lv.14 - Slime Trophy I",
+                        "ref": "7Zee lv.14/Slime Trophy I"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 2408,
+                        "y": 1118,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "7Zee lv.15",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "7Zee lv.15 - Daybreak Chroma",
+                        "ref": "7Zee lv.15/Daybreak Chroma"
+                    },
+                    {
+                        "name": "7Zee lv.15 - Eventide Chroma",
+                        "ref": "7Zee lv.15/Eventide Chroma"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1795,
+                        "y": 1626,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "7Zee lv.16",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "7Zee lv.16 - Overgrowth Upgrade",
+                        "ref": "7Zee lv.16/Overgrowth Upgrade"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1564,
+                        "y": 1721,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "7Zee lv.17",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "7Zee lv.17 - Salamander Chroma",
+                        "ref": "7Zee lv.17/Salamander Chroma"
+                    },
+                    {
+                        "name": "7Zee lv.17 - Royalton Chroma",
+                        "ref": "7Zee lv.17/Royalton Chroma"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 505,
+                        "y": 2388,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "7Zee lv.18",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "7Zee lv.18 - Slime Trophy II",
+                        "ref": "7Zee lv.18/Slime Trophy II"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 653,
+                        "y": 1595,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "7Zee lv.19",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "7Zee lv.19 - Neopolitan Chroma",
+                        "ref": "7Zee lv.19/Neopolitan Chroma"
+                    },
+                    {
+                        "name": "7Zee lv.19 - Min Chip Chroma",
+                        "ref": "7Zee lv.19/Min Chip Chroma"
+                    },
+                    {
+                        "name": "7Zee lv.19 - Ultra Dash Boots",
+                        "ref": "7Zee lv.19/Ultra Dash Boots"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 2007,
+                        "y": 1242,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "7Zee lv.2",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "7Zee lv.2 - Fence Upgrade",
+                        "ref": "7Zee lv.2/Fence Upgrade"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1964,
+                        "y": 1458,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "7Zee lv.20",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "7Zee lv.20 - Tank Booster Ultra",
+                        "ref": "7Zee lv.20/Tank Booster Ultra"
+                    },
+                    {
+                        "name": "7Zee lv.20 - Master Gordo Snare Blueprint",
+                        "ref": "7Zee lv.20/Master Gordo Snare Blueprint"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1624,
+                        "y": 1358,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "7Zee lv.21",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "7Zee lv.21 - Ghost Wine Chroma",
+                        "ref": "7Zee lv.21/Ghost Wine Chroma"
+                    },
+                    {
+                        "name": "7Zee lv.21 - Volcanic Chroma",
+                        "ref": "7Zee lv.21/Volcanic Chroma"
+                    },
+                    {
+                        "name": "7Zee lv.21 - Heart Module Ultra",
+                        "ref": "7Zee lv.21/Heart Module Ultra"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 34,
+                        "y": 1510,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "7Zee lv.22",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "7Zee lv.22 - Lab Upgrade",
+                        "ref": "7Zee lv.22/Lab Upgrade"
+                    },
+                    {
+                        "name": "7Zee lv.22 - Golden Sureshot",
+                        "ref": "7Zee lv.22/Golden Sureshot"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1394,
+                        "y": 1258,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "7Zee lv.23",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "7Zee lv.23 - Knight Light Chroma",
+                        "ref": "7Zee lv.23/Knight Light Chroma"
+                    },
+                    {
+                        "name": "7Zee lv.23 - Pretty Loud Chroma",
+                        "ref": "7Zee lv.23/Pretty Loud Chroma"
+                    },
+                    {
+                        "name": "7Zee lv.23 - Titan Drill Blueprint",
+                        "ref": "7Zee lv.23/Titan Drill Blueprint"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1611,
+                        "y": 2064,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "7Zee lv.24",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "7Zee lv.24 - Slime Trophy III",
+                        "ref": "7Zee lv.24/Slime Trophy III"
+                    },
+                    {
+                        "name": "7Zee lv.24 - Abyssal Pump Blueprint",
+                        "ref": "7Zee lv.24/Abyssal Pump Blueprint"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 2310,
+                        "y": 1156,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "7Zee lv.25",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "7Zee lv.25 - Silverfox Chroma",
+                        "ref": "7Zee lv.25/Silverfox Chroma"
+                    },
+                    {
+                        "name": "7Zee lv.25 - Frozen Violet Chroma",
+                        "ref": "7Zee lv.25/Frozen Violet Chroma"
+                    },
+                    {
+                        "name": "7Zee lv.25 - Royal Apiary Blueprint",
+                        "ref": "7Zee lv.25/Royal Apiary Blueprint"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1259,
+                        "y": 105,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "7Zee lv.26",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "7Zee lv.26 - Docks Upgrade",
+                        "ref": "7Zee lv.26/Docks Upgrade"
+                    },
+                    {
+                        "name": "7Zee lv.26 - Gold Slime Lamp Blueprint",
+                        "ref": "7Zee lv.26/Gold Slime Lamp Blueprint"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 2193,
+                        "y": 2006,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "7Zee lv.27",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "7Zee lv.27 - Goldleaf Chroma",
+                        "ref": "7Zee lv.27/Goldleaf Chroma"
+                    },
+                    {
+                        "name": "7Zee lv.27 - Astro Pearl Chroma",
+                        "ref": "7Zee lv.27/Astro Pearl Chroma"
+                    },
+                    {
+                        "name": "7Zee lv.27 - Gold Warp Depot Blueprint",
+                        "ref": "7Zee lv.27/Gold Warp Depot Blueprint"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1798,
+                        "y": 1197,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "7Zee lv.28",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "7Zee lv.28 - Slime Trophy IV",
+                        "ref": "7Zee lv.28/Slime Trophy IV"
+                    },
+                    {
+                        "name": "7Zee lv.28 - Gold Teleporter Blueprint",
+                        "ref": "7Zee lv.28/Gold Teleporter Blueprint"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 887,
+                        "y": 1896,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "7Zee lv.3",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "7Zee lv.3 - Path Upgrade",
+                        "ref": "7Zee lv.3/Path Upgrade"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 601,
+                        "y": 1637,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "7Zee lv.4",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "7Zee lv.4 - Porch Upgrade",
+                        "ref": "7Zee lv.4/Porch Upgrade"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1720,
+                        "y": 1868,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "7Zee lv.5",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "7Zee lv.5 - Chroma Station",
+                        "ref": "7Zee lv.5/Chroma Station"
+                    },
+                    {
+                        "name": "7Zee lv.5 - Cobalt Chroma",
+                        "ref": "7Zee lv.5/Cobalt Chroma"
+                    },
+                    {
+                        "name": "7Zee lv.5 - Milkshake Chroma",
+                        "ref": "7Zee lv.5/Milkshake Chroma"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1268,
+                        "y": 2404,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "7Zee lv.6",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "7Zee lv.6 - Arch Upgrade",
+                        "ref": "7Zee lv.6/Arch Upgrade"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1151,
+                        "y": 1593,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "7Zee lv.7",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "7Zee lv.7 - Firecracker Chroma",
+                        "ref": "7Zee lv.7/Firecracker Chroma"
+                    },
+                    {
+                        "name": "7Zee lv.7 - Grapeshot Chroma",
+                        "ref": "7Zee lv.7/Grapeshot Chroma"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1512,
+                        "y": 2363,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "7Zee lv.8",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "7Zee lv.8 - Slime Toy Shop",
+                        "ref": "7Zee lv.8/Slime Toy Shop"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 2292,
+                        "y": 1393,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "7Zee lv.9",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "7Zee lv.9 - Robo Ranger Chroma",
+                        "ref": "7Zee lv.9/Robo Ranger Chroma"
+                    },
+                    {
+                        "name": "7Zee lv.9 - Maidatron Chroma",
+                        "ref": "7Zee lv.9/Maidatron Chroma"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1937,
+                        "y": 672,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Ancient Ruins",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Ancient Ruins - These Folks Like Slimes",
+                        "ref": "Ancient Ruins/These Folks Like Slimes"
+                    },
+                    {
+                        "name": "Ancient Ruins - You Gotta Choose a Path",
+                        "ref": "Ancient Ruins/You Gotta Choose a Path"
+                    },
+                    {
+                        "name": "Ancient Ruins - Ice-Cold Lemonade",
+                        "ref": "Ancient Ruins/Ice-Cold Lemonade"
+                    },
+                    {
+                        "name": "Ancient Ruins - Map Data Node",
+                        "ref": "Ancient Ruins/Map Data Node"
+                    },
+                    {
+                        "name": "Ancient Ruins - Tree Memorial",
+                        "ref": "Ancient Ruins/Tree Memorial"
+                    },
+                    {
+                        "name": "Ancient Ruins - A Flowery Respite",
+                        "ref": "Ancient Ruins/A Flowery Respite"
+                    },
+                    {
+                        "name": "Ancient Ruins - Hidden Nook",
+                        "ref": "Ancient Ruins/Hidden Nook"
+                    },
+                    {
+                        "name": "Ancient Ruins - The Hidden Turnabout",
+                        "ref": "Ancient Ruins/The Hidden Turnabout"
+                    },
+                    {
+                        "name": "Ancient Ruins - Caught Up in the Explosion",
+                        "ref": "Ancient Ruins/Caught Up in the Explosion"
+                    },
+                    {
+                        "name": "Ancient Ruins - The End of a Long and Arduous Journey",
+                        "ref": "Ancient Ruins/The End of a Long and Arduous Journey"
+                    },
+                    {
+                        "name": "Ancient Ruins - In a Crumbled Pile",
+                        "ref": "Ancient Ruins/In a Crumbled Pile"
+                    },
+                    {
+                        "name": "Ancient Ruins - At the End of a Broken Pillar Path",
+                        "ref": "Ancient Ruins/At the End of a Broken Pillar Path"
+                    },
+                    {
+                        "name": "Ancient Ruins - Theres Slimes in the Walls",
+                        "ref": "Ancient Ruins/Theres Slimes in the Walls"
+                    },
+                    {
+                        "name": "Ancient Ruins - Collapsed Upper Staircase",
+                        "ref": "Ancient Ruins/Collapsed Upper Staircase"
+                    },
+                    {
+                        "name": "Ancient Ruins - The Room With No Door",
+                        "ref": "Ancient Ruins/The Room With No Door"
+                    },
+                    {
+                        "name": "Ancient Ruins - Shrine Overlooking the Ancient Ruins",
+                        "ref": "Ancient Ruins/Shrine Overlooking the Ancient Ruins"
+                    },
+                    {
+                        "name": "Ancient Ruins - Hidden Nook on a High Up Platform",
+                        "ref": "Ancient Ruins/Hidden Nook on a High Up Platform"
+                    },
+                    {
+                        "name": "Ancient Ruins - Follow the Sunken Pillars",
+                        "ref": "Ancient Ruins/Follow the Sunken Pillars"
+                    },
+                    {
+                        "name": "Ancient Ruins - Truly Untamed Country",
+                        "ref": "Ancient Ruins/Truly Untamed Country"
+                    },
+                    {
+                        "name": "Ancient Ruins - Everything Quiet on the Western Front",
+                        "ref": "Ancient Ruins/Everything Quiet on the Western Front"
+                    },
+                    {
+                        "name": "Ancient Ruins - Above the Ancient Teleporter",
+                        "ref": "Ancient Ruins/Above the Ancient Teleporter"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 48,
+                        "y": 2496,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Ancient Ruins Transition",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Ancient Ruins Transition - Slime Buddy",
+                        "ref": "Ancient Ruins Transition/Slime Buddy"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1069,
+                        "y": 667,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Ash Isle Vault",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Ash Isle Vault - The Lone Pod Stands Alone",
+                        "ref": "Ash Isle Vault/The Lone Pod Stands Alone"
+                    },
+                    {
+                        "name": "Ash Isle Vault - Daniel #1",
+                        "ref": "Ash Isle Vault/Daniel #1"
+                    },
+                    {
+                        "name": "Ash Isle Vault - Daniel #2",
+                        "ref": "Ash Isle Vault/Daniel #2"
+                    },
+                    {
+                        "name": "Ash Isle Vault - Daniel #3",
+                        "ref": "Ash Isle Vault/Daniel #3"
+                    },
+                    {
+                        "name": "Ash Isle Vault - The Cooler Daniel #1",
+                        "ref": "Ash Isle Vault/The Cooler Daniel #1"
+                    },
+                    {
+                        "name": "Ash Isle Vault - The Cooler Daniel #2",
+                        "ref": "Ash Isle Vault/The Cooler Daniel #2"
+                    },
+                    {
+                        "name": "Ash Isle Vault - The Cooler Daniel #3",
+                        "ref": "Ash Isle Vault/The Cooler Daniel #3"
+                    },
+                    {
+                        "name": "Ash Isle Vault - The Cooler Daniel #4",
+                        "ref": "Ash Isle Vault/The Cooler Daniel #4"
+                    },
+                    {
+                        "name": "Ash Isle Vault - The Cooler Daniel #5",
+                        "ref": "Ash Isle Vault/The Cooler Daniel #5"
+                    },
+                    {
+                        "name": "Ash Isle Vault - Golden Rain #1",
+                        "ref": "Ash Isle Vault/Golden Rain #1"
+                    },
+                    {
+                        "name": "Ash Isle Vault - Golden Rain #2",
+                        "ref": "Ash Isle Vault/Golden Rain #2"
+                    },
+                    {
+                        "name": "Ash Isle Vault - Golden Rain #3",
+                        "ref": "Ash Isle Vault/Golden Rain #3"
+                    },
+                    {
+                        "name": "Ash Isle Vault - Golden Rain #4",
+                        "ref": "Ash Isle Vault/Golden Rain #4"
+                    },
+                    {
+                        "name": "Ash Isle Vault - Golden Rain #5",
+                        "ref": "Ash Isle Vault/Golden Rain #5"
+                    },
+                    {
+                        "name": "Ash Isle Vault - Okay Listen, Im Running Out of Good Names For These Treasure Pods, And They All Look The Same So Hopefully You Can Take This As My Apology #1",
+                        "ref": "Ash Isle Vault/Okay Listen, Im Running Out of Good Names For These Treasure Pods, And They All Look The Same So Hopefully You Can Take This As My Apology #1"
+                    },
+                    {
+                        "name": "Ash Isle Vault - Okay Listen, Im Running Out of Good Names For These Treasure Pods, And They All Look The Same So Hopefully You Can Take This As My Apology #2",
+                        "ref": "Ash Isle Vault/Okay Listen, Im Running Out of Good Names For These Treasure Pods, And They All Look The Same So Hopefully You Can Take This As My Apology #2"
+                    },
+                    {
+                        "name": "Ash Isle Vault - Okay Listen, Im Running Out of Good Names For These Treasure Pods, And They All Look The Same So Hopefully You Can Take This As My Apology #3",
+                        "ref": "Ash Isle Vault/Okay Listen, Im Running Out of Good Names For These Treasure Pods, And They All Look The Same So Hopefully You Can Take This As My Apology #3"
+                    },
+                    {
+                        "name": "Ash Isle Vault - The Council Member 1",
+                        "ref": "Ash Isle Vault/The Council Member 1"
+                    },
+                    {
+                        "name": "Ash Isle Vault - The Council Member 2",
+                        "ref": "Ash Isle Vault/The Council Member 2"
+                    },
+                    {
+                        "name": "Ash Isle Vault - The Council Member 3",
+                        "ref": "Ash Isle Vault/The Council Member 3"
+                    },
+                    {
+                        "name": "Ash Isle Vault - The Council Member 4",
+                        "ref": "Ash Isle Vault/The Council Member 4"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1528,
+                        "y": 599,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Ash Isles",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Ash Isles - Looking to the Stars",
+                        "ref": "Ash Isles/Looking to the Stars"
+                    },
+                    {
+                        "name": "Ash Isles - Atop a Firey Perch",
+                        "ref": "Ash Isles/Atop a Firey Perch"
+                    },
+                    {
+                        "name": "Ash Isles - The Edge of the World",
+                        "ref": "Ash Isles/The Edge of the World"
+                    },
+                    {
+                        "name": "Ash Isles - Blooming from Fire Flowers",
+                        "ref": "Ash Isles/Blooming from Fire Flowers"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 2216,
+                        "y": 927,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Buy Personal Upgrade (Air Drive)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 2025,
+                        "y": 1965,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Buy Personal Upgrade (Dash Boots lv.1)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 2493,
+                        "y": 1093,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Buy Personal Upgrade (Dash Boots lv.2)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 680,
+                        "y": 317,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Buy Personal Upgrade (Heart Module lv.1)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1786,
+                        "y": 1135,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Buy Personal Upgrade (Heart Module lv.2)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 964,
+                        "y": 1450,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Buy Personal Upgrade (Heart Module lv.3)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1057,
+                        "y": 1162,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Buy Personal Upgrade (Heart Module lv.4)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1346,
+                        "y": 1479,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Buy Personal Upgrade (Jetpack)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1364,
+                        "y": 1656,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Buy Personal Upgrade (Liquid Slot)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 2075,
+                        "y": 687,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Buy Personal Upgrade (Power Core lv.1)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 576,
+                        "y": 437,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Buy Personal Upgrade (Power Core lv.2)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 38,
+                        "y": 1599,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Buy Personal Upgrade (Power Core lv.3)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 475,
+                        "y": 2466,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Buy Personal Upgrade (Pulse Wave)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1636,
+                        "y": 653,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Buy Personal Upgrade (Tank Booster lv.1)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 231,
+                        "y": 1164,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Buy Personal Upgrade (Tank Booster lv.2)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1518,
+                        "y": 1298,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Buy Personal Upgrade (Tank Booster lv.3)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1040,
+                        "y": 1988,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Buy Personal Upgrade (Tank Booster lv.4)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 965,
+                        "y": 825,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Buy Personal Upgrade (Treasure Cracker lv.1)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 381,
+                        "y": 1796,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Buy Personal Upgrade (Treasure Cracker lv.2)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 138,
+                        "y": 551,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Buy Personal Upgrade (Treasure Cracker lv.3)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 293,
+                        "y": 787,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Dry Reef",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Dry Reef - Hobsons Greetings",
+                        "ref": "Dry Reef/Hobsons Greetings"
+                    },
+                    {
+                        "name": "Dry Reef - Indigo Quarry Entrance",
+                        "ref": "Dry Reef/Indigo Quarry Entrance"
+                    },
+                    {
+                        "name": "Dry Reef - Great Big Tree",
+                        "ref": "Dry Reef/Great Big Tree"
+                    },
+                    {
+                        "name": "Dry Reef - A Darn Good Boot",
+                        "ref": "Dry Reef/A Darn Good Boot"
+                    },
+                    {
+                        "name": "Dry Reef - Map Data Node",
+                        "ref": "Dry Reef/Map Data Node"
+                    },
+                    {
+                        "name": "Dry Reef - Hidden Behind a Short Wall",
+                        "ref": "Dry Reef/Hidden Behind a Short Wall"
+                    },
+                    {
+                        "name": "Dry Reef - Phosphor Gordos Personal Pod",
+                        "ref": "Dry Reef/Phosphor Gordos Personal Pod"
+                    },
+                    {
+                        "name": "Dry Reef - In the Cliff Trees Roots",
+                        "ref": "Dry Reef/In the Cliff Trees Roots"
+                    },
+                    {
+                        "name": "Dry Reef - Nested by Tabby Gordo",
+                        "ref": "Dry Reef/Nested by Tabby Gordo"
+                    },
+                    {
+                        "name": "Dry Reef - Stony Hen Hen Coop",
+                        "ref": "Dry Reef/Stony Hen Hen Coop"
+                    },
+                    {
+                        "name": "Dry Reef - Hidden Away on an ARCH-ipelago",
+                        "ref": "Dry Reef/Hidden Away on an ARCH-ipelago"
+                    },
+                    {
+                        "name": "Dry Reef - Overlooking the Tarr Hotspot",
+                        "ref": "Dry Reef/Overlooking the Tarr Hotspot"
+                    },
+                    {
+                        "name": "Dry Reef - Hidden Crevice Under the Hidden Cliff",
+                        "ref": "Dry Reef/Hidden Crevice Under the Hidden Cliff"
+                    },
+                    {
+                        "name": "Dry Reef - Ruminating on the Beach",
+                        "ref": "Dry Reef/Ruminating on the Beach"
+                    },
+                    {
+                        "name": "Dry Reef - Carrot Patch Cache",
+                        "ref": "Dry Reef/Carrot Patch Cache"
+                    },
+                    {
+                        "name": "Dry Reef - Hidden in the Shade",
+                        "ref": "Dry Reef/Hidden in the Shade"
+                    },
+                    {
+                        "name": "Dry Reef - Beneath the Wooden Scaffolding",
+                        "ref": "Dry Reef/Beneath the Wooden Scaffolding"
+                    },
+                    {
+                        "name": "Dry Reef - Hidden Treasure of the Pink Gordo",
+                        "ref": "Dry Reef/Hidden Treasure of the Pink Gordo"
+                    },
+                    {
+                        "name": "Dry Reef - Nested in Crystal",
+                        "ref": "Dry Reef/Nested in Crystal"
+                    },
+                    {
+                        "name": "Dry Reef - Tiny Not-Huge Island",
+                        "ref": "Dry Reef/Tiny Not-Huge Island"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 271,
+                        "y": 755,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Glass Desert",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Glass Desert - Youll Risk Burning Your Tuchus!",
+                        "ref": "Glass Desert/Youll Risk Burning Your Tuchus!"
+                    },
+                    {
+                        "name": "Glass Desert - Life Waiting to Flow",
+                        "ref": "Glass Desert/Life Waiting to Flow"
+                    },
+                    {
+                        "name": "Glass Desert - Map Data Node",
+                        "ref": "Glass Desert/Map Data Node"
+                    },
+                    {
+                        "name": "Glass Desert - Buried Among Rubble",
+                        "ref": "Glass Desert/Buried Among Rubble"
+                    },
+                    {
+                        "name": "Glass Desert - Behind a False Wall",
+                        "ref": "Glass Desert/Behind a False Wall"
+                    },
+                    {
+                        "name": "Glass Desert - Atop the Pillar before a Chasm",
+                        "ref": "Glass Desert/Atop the Pillar before a Chasm"
+                    },
+                    {
+                        "name": "Glass Desert - Hidden in the Rafters",
+                        "ref": "Glass Desert/Hidden in the Rafters"
+                    },
+                    {
+                        "name": "Glass Desert - Slime Statue Offering",
+                        "ref": "Glass Desert/Slime Statue Offering"
+                    },
+                    {
+                        "name": "Glass Desert - At the Tippy Top of the Highest Mountain",
+                        "ref": "Glass Desert/At the Tippy Top of the Highest Mountain"
+                    },
+                    {
+                        "name": "Glass Desert - Halfway up a Towering Tower",
+                        "ref": "Glass Desert/Halfway up a Towering Tower"
+                    },
+                    {
+                        "name": "Glass Desert - In a High-up Nook",
+                        "ref": "Glass Desert/In a High-up Nook"
+                    },
+                    {
+                        "name": "Glass Desert - Situated on a Collapsed Bridge",
+                        "ref": "Glass Desert/Situated on a Collapsed Bridge"
+                    },
+                    {
+                        "name": "Glass Desert - Flames Burning at an Unperceivable Pace",
+                        "ref": "Glass Desert/Flames Burning at an Unperceivable Pace"
+                    },
+                    {
+                        "name": "Glass Desert - Two Doors",
+                        "ref": "Glass Desert/Two Doors"
+                    },
+                    {
+                        "name": "Glass Desert - She Stole a Piece of My Heart",
+                        "ref": "Glass Desert/She Stole a Piece of My Heart"
+                    },
+                    {
+                        "name": "Glass Desert - Sold the Ranch",
+                        "ref": "Glass Desert/Sold the Ranch"
+                    },
+                    {
+                        "name": "Glass Desert - I Wasnt Ready",
+                        "ref": "Glass Desert/I Wasnt Ready"
+                    },
+                    {
+                        "name": "Glass Desert - The Sand Sea",
+                        "ref": "Glass Desert/The Sand Sea"
+                    },
+                    {
+                        "name": "Glass Desert - Down in a Hole",
+                        "ref": "Glass Desert/Down in a Hole"
+                    },
+                    {
+                        "name": "Glass Desert - Just Around the Brick Wall",
+                        "ref": "Glass Desert/Just Around the Brick Wall"
+                    },
+                    {
+                        "name": "Glass Desert - Dead-End Forgotten to the World",
+                        "ref": "Glass Desert/Dead-End Forgotten to the World"
+                    },
+                    {
+                        "name": "Glass Desert - Under the Private Island",
+                        "ref": "Glass Desert/Under the Private Island"
+                    },
+                    {
+                        "name": "Glass Desert - Hiding Behind a Sheer Mountain",
+                        "ref": "Glass Desert/Hiding Behind a Sheer Mountain"
+                    },
+                    {
+                        "name": "Glass Desert - Hover from One Tower to Another",
+                        "ref": "Glass Desert/Hover from One Tower to Another"
+                    },
+                    {
+                        "name": "Glass Desert - Stupidly High Up",
+                        "ref": "Glass Desert/Stupidly High Up"
+                    },
+                    {
+                        "name": "Glass Desert - Ruined Wall On a Cliff",
+                        "ref": "Glass Desert/Ruined Wall On a Cliff"
+                    },
+                    {
+                        "name": "Glass Desert - In a Supporting Pillar",
+                        "ref": "Glass Desert/In a Supporting Pillar"
+                    },
+                    {
+                        "name": "Glass Desert - Hidden at the Edge of the Sand Sea",
+                        "ref": "Glass Desert/Hidden at the Edge of the Sand Sea"
+                    },
+                    {
+                        "name": "Glass Desert - At the Base of a Fire Glass Sculpture",
+                        "ref": "Glass Desert/At the Base of a Fire Glass Sculpture"
+                    },
+                    {
+                        "name": "Glass Desert - The Highest Fountain",
+                        "ref": "Glass Desert/The Highest Fountain"
+                    },
+                    {
+                        "name": "Glass Desert - Lonely Pillar in the Sand Sea",
+                        "ref": "Glass Desert/Lonely Pillar in the Sand Sea"
+                    },
+                    {
+                        "name": "Glass Desert - Painted Hen Stowaway Crate",
+                        "ref": "Glass Desert/Painted Hen Stowaway Crate"
+                    },
+                    {
+                        "name": "Glass Desert - On a Private Island",
+                        "ref": "Glass Desert/On a Private Island"
+                    },
+                    {
+                        "name": "Glass Desert - Overlooking Great Glass Pillars",
+                        "ref": "Glass Desert/Overlooking Great Glass Pillars"
+                    },
+                    {
+                        "name": "Glass Desert - Jagged Rock Formation in a Plateu",
+                        "ref": "Glass Desert/Jagged Rock Formation in a Plateu"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 58,
+                        "y": 984,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Indigo Quarry",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Indigo Quarry - I Liked Her Laugh",
+                        "ref": "Indigo Quarry/I Liked Her Laugh"
+                    },
+                    {
+                        "name": "Indigo Quarry - Crystal Wind Chime",
+                        "ref": "Indigo Quarry/Crystal Wind Chime"
+                    },
+                    {
+                        "name": "Indigo Quarry - Peeping Puddle Slimes",
+                        "ref": "Indigo Quarry/Peeping Puddle Slimes"
+                    },
+                    {
+                        "name": "Indigo Quarry - Map Data Node",
+                        "ref": "Indigo Quarry/Map Data Node"
+                    },
+                    {
+                        "name": "Indigo Quarry - Skate Fast Eat Grass",
+                        "ref": "Indigo Quarry/Skate Fast Eat Grass"
+                    },
+                    {
+                        "name": "Indigo Quarry - Coral Tube Treasure",
+                        "ref": "Indigo Quarry/Coral Tube Treasure"
+                    },
+                    {
+                        "name": "Indigo Quarry - The Boom Zone",
+                        "ref": "Indigo Quarry/The Boom Zone"
+                    },
+                    {
+                        "name": "Indigo Quarry - Above the Smoke and Ashes",
+                        "ref": "Indigo Quarry/Above the Smoke and Ashes"
+                    },
+                    {
+                        "name": "Indigo Quarry - Personal Puddle Pod",
+                        "ref": "Indigo Quarry/Personal Puddle Pod"
+                    },
+                    {
+                        "name": "Indigo Quarry - Hidden Behind Stalagtmites",
+                        "ref": "Indigo Quarry/Hidden Behind Stalagtmites"
+                    },
+                    {
+                        "name": "Indigo Quarry - On a Cliff Before Puddle Lake",
+                        "ref": "Indigo Quarry/On a Cliff Before Puddle Lake"
+                    },
+                    {
+                        "name": "Indigo Quarry - Across Hexium Crystal Formations",
+                        "ref": "Indigo Quarry/Across Hexium Crystal Formations"
+                    },
+                    {
+                        "name": "Indigo Quarry - Under a Hexium Crystal",
+                        "ref": "Indigo Quarry/Under a Hexium Crystal"
+                    },
+                    {
+                        "name": "Indigo Quarry - Under Crumbled Scaffolding",
+                        "ref": "Indigo Quarry/Under Crumbled Scaffolding"
+                    },
+                    {
+                        "name": "Indigo Quarry - Slightly Irradiated Reward",
+                        "ref": "Indigo Quarry/Slightly Irradiated Reward"
+                    },
+                    {
+                        "name": "Indigo Quarry - Through the Radiation Cave",
+                        "ref": "Indigo Quarry/Through the Radiation Cave"
+                    },
+                    {
+                        "name": "Indigo Quarry - Crystal Cache behind Rickety Bridges",
+                        "ref": "Indigo Quarry/Crystal Cache behind Rickety Bridges"
+                    },
+                    {
+                        "name": "Indigo Quarry - Treasure After the End",
+                        "ref": "Indigo Quarry/Treasure After the End"
+                    },
+                    {
+                        "name": "Indigo Quarry - Ashore Near Puddle Lake",
+                        "ref": "Indigo Quarry/Ashore Near Puddle Lake"
+                    },
+                    {
+                        "name": "Indigo Quarry - Follow the Ravine",
+                        "ref": "Indigo Quarry/Follow the Ravine"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1019,
+                        "y": 1475,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Moss Blanket",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Moss Blanket - New Ancient Jungle",
+                        "ref": "Moss Blanket/New Ancient Jungle"
+                    },
+                    {
+                        "name": "Moss Blanket - MOSS BLANKET STUCK",
+                        "ref": "Moss Blanket/MOSS BLANKET STUCK"
+                    },
+                    {
+                        "name": "Moss Blanket - Map Data Node",
+                        "ref": "Moss Blanket/Map Data Node"
+                    },
+                    {
+                        "name": "Moss Blanket - Surrounded by Mushrooms",
+                        "ref": "Moss Blanket/Surrounded by Mushrooms"
+                    },
+                    {
+                        "name": "Moss Blanket - Flowery Dead End",
+                        "ref": "Moss Blanket/Flowery Dead End"
+                    },
+                    {
+                        "name": "Moss Blanket - Above the Hungry Hungry Largos",
+                        "ref": "Moss Blanket/Above the Hungry Hungry Largos"
+                    },
+                    {
+                        "name": "Moss Blanket - In the Honey Heaven",
+                        "ref": "Moss Blanket/In the Honey Heaven"
+                    },
+                    {
+                        "name": "Moss Blanket - The Cupboard under the Stairs",
+                        "ref": "Moss Blanket/The Cupboard under the Stairs"
+                    },
+                    {
+                        "name": "Moss Blanket - Under the Log River",
+                        "ref": "Moss Blanket/Under the Log River"
+                    },
+                    {
+                        "name": "Moss Blanket - Behind a Lonely Mountain",
+                        "ref": "Moss Blanket/Behind a Lonely Mountain"
+                    },
+                    {
+                        "name": "Moss Blanket - In the Roots of a Huge Tree",
+                        "ref": "Moss Blanket/In the Roots of a Huge Tree"
+                    },
+                    {
+                        "name": "Moss Blanket - Overlooking the Tiny Pond",
+                        "ref": "Moss Blanket/Overlooking the Tiny Pond"
+                    },
+                    {
+                        "name": "Moss Blanket - Under the Log Bridge",
+                        "ref": "Moss Blanket/Under the Log Bridge"
+                    },
+                    {
+                        "name": "Moss Blanket - Cant Recommend Love Enough",
+                        "ref": "Moss Blanket/Cant Recommend Love Enough"
+                    },
+                    {
+                        "name": "Moss Blanket - Just Under a Ledge",
+                        "ref": "Moss Blanket/Just Under a Ledge"
+                    },
+                    {
+                        "name": "Moss Blanket - At the Bottom of a Sheer Wall",
+                        "ref": "Moss Blanket/At the Bottom of a Sheer Wall"
+                    },
+                    {
+                        "name": "Moss Blanket - Sunken Treasure",
+                        "ref": "Moss Blanket/Sunken Treasure"
+                    },
+                    {
+                        "name": "Moss Blanket - Peepers Peeled!",
+                        "ref": "Moss Blanket/Peepers Peeled!"
+                    },
+                    {
+                        "name": "Moss Blanket - Very, Very, Very Tall Tree",
+                        "ref": "Moss Blanket/Very, Very, Very Tall Tree"
+                    },
+                    {
+                        "name": "Moss Blanket - The Lost Archipelago",
+                        "ref": "Moss Blanket/The Lost Archipelago"
+                    },
+                    {
+                        "name": "Moss Blanket - The Missed the Jump Crevice",
+                        "ref": "Moss Blanket/The Missed the Jump Crevice"
+                    },
+                    {
+                        "name": "Moss Blanket - Fairy Circle Treasure",
+                        "ref": "Moss Blanket/Fairy Circle Treasure"
+                    },
+                    {
+                        "name": "Moss Blanket - Not Quite Hidden",
+                        "ref": "Moss Blanket/Not Quite Hidden"
+                    },
+                    {
+                        "name": "Moss Blanket - Off the Unbeaten Path",
+                        "ref": "Moss Blanket/Off the Unbeaten Path"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 950,
+                        "y": 1625,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Moss Blanket Vault",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Moss Blanket Vault - The Slime Centrals Left-Hand Man",
+                        "ref": "Moss Blanket Vault/The Slime Centrals Left-Hand Man"
+                    },
+                    {
+                        "name": "Moss Blanket Vault - The Slime Centrals Right-Hand Man",
+                        "ref": "Moss Blanket Vault/The Slime Centrals Right-Hand Man"
+                    },
+                    {
+                        "name": "Moss Blanket Vault - Whats Left of the Riches #1",
+                        "ref": "Moss Blanket Vault/Whats Left of the Riches #1"
+                    },
+                    {
+                        "name": "Moss Blanket Vault - Whats Left of the Riches #2",
+                        "ref": "Moss Blanket Vault/Whats Left of the Riches #2"
+                    },
+                    {
+                        "name": "Moss Blanket Vault - Whats Right of the Riches #1",
+                        "ref": "Moss Blanket Vault/Whats Right of the Riches #1"
+                    },
+                    {
+                        "name": "Moss Blanket Vault - Whats Right of the Riches #2",
+                        "ref": "Moss Blanket Vault/Whats Right of the Riches #2"
+                    },
+                    {
+                        "name": "Moss Blanket Vault - A Mountain of Gold #1",
+                        "ref": "Moss Blanket Vault/A Mountain of Gold #1"
+                    },
+                    {
+                        "name": "Moss Blanket Vault - A Mountain of Gold #2",
+                        "ref": "Moss Blanket Vault/A Mountain of Gold #2"
+                    },
+                    {
+                        "name": "Moss Blanket Vault - A Mountain of Gold #3",
+                        "ref": "Moss Blanket Vault/A Mountain of Gold #3"
+                    },
+                    {
+                        "name": "Moss Blanket Vault - A Mountain of Gold #4",
+                        "ref": "Moss Blanket Vault/A Mountain of Gold #4"
+                    },
+                    {
+                        "name": "Moss Blanket Vault - A Mountain of Gold #5",
+                        "ref": "Moss Blanket Vault/A Mountain of Gold #5"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 786,
+                        "y": 1018,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Nimble Valley",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Nimble Valley - In a Nook on Top of The Final Stretch Arch",
+                        "ref": "Nimble Valley/In a Nook on Top of The Final Stretch Arch"
+                    },
+                    {
+                        "name": "Nimble Valley - Bordering the Slime Sea",
+                        "ref": "Nimble Valley/Bordering the Slime Sea"
+                    },
+                    {
+                        "name": "Nimble Valley - Inside the Magneticore Pillar",
+                        "ref": "Nimble Valley/Inside the Magneticore Pillar"
+                    },
+                    {
+                        "name": "Nimble Valley - Floating Outcropping Above a Crevice",
+                        "ref": "Nimble Valley/Floating Outcropping Above a Crevice"
+                    },
+                    {
+                        "name": "Nimble Valley - Floating Above the Second Stretch",
+                        "ref": "Nimble Valley/Floating Above the Second Stretch"
+                    },
+                    {
+                        "name": "Nimble Valley - Hidden in some Magneticore Ore",
+                        "ref": "Nimble Valley/Hidden in some Magneticore Ore"
+                    },
+                    {
+                        "name": "Nimble Valley - Overlooking the Beginner Start",
+                        "ref": "Nimble Valley/Overlooking the Beginner Start"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1817,
+                        "y": 539,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Ogdens Retreat",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Ogdens Retreat - Thats a Whole Lotta Kookabobas",
+                        "ref": "Ogdens Retreat/Thats a Whole Lotta Kookabobas"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 2006,
+                        "y": 118,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Ring Island",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Ring Island - Wed Get Along Just Fine",
+                        "ref": "Ring Island/Wed Get Along Just Fine"
+                    },
+                    {
+                        "name": "Ring Island - Flower Viewing on a Cliff",
+                        "ref": "Ring Island/Flower Viewing on a Cliff"
+                    },
+                    {
+                        "name": "Ring Island - Perilously Perched Pod",
+                        "ref": "Ring Island/Perilously Perched Pod"
+                    },
+                    {
+                        "name": "Ring Island - Hidden on the Backside of the Island",
+                        "ref": "Ring Island/Hidden on the Backside of the Island"
+                    },
+                    {
+                        "name": "Ring Island - King of the Hill",
+                        "ref": "Ring Island/King of the Hill"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 2029,
+                        "y": 2362,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Ring Island Vault",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Ring Island Vault - Dont Get Too Greedy Pod 1",
+                        "ref": "Ring Island Vault/Dont Get Too Greedy Pod 1"
+                    },
+                    {
+                        "name": "Ring Island Vault - Dont Get Too Greedy Pod 2",
+                        "ref": "Ring Island Vault/Dont Get Too Greedy Pod 2"
+                    },
+                    {
+                        "name": "Ring Island Vault - Dont Get Too Greedy Pod 3",
+                        "ref": "Ring Island Vault/Dont Get Too Greedy Pod 3"
+                    },
+                    {
+                        "name": "Ring Island Vault - Dont Get Too Greedy Pod 4",
+                        "ref": "Ring Island Vault/Dont Get Too Greedy Pod 4"
+                    },
+                    {
+                        "name": "Ring Island Vault - The Quintessential Quintuplet #1",
+                        "ref": "Ring Island Vault/The Quintessential Quintuplet #1"
+                    },
+                    {
+                        "name": "Ring Island Vault - The Quintessential Quintuplet #2",
+                        "ref": "Ring Island Vault/The Quintessential Quintuplet #2"
+                    },
+                    {
+                        "name": "Ring Island Vault - The Quintessential Quintuplet #3",
+                        "ref": "Ring Island Vault/The Quintessential Quintuplet #3"
+                    },
+                    {
+                        "name": "Ring Island Vault - The Quintessential Quintuplet #4",
+                        "ref": "Ring Island Vault/The Quintessential Quintuplet #4"
+                    },
+                    {
+                        "name": "Ring Island Vault - The Quintessential Quintuplet #5",
+                        "ref": "Ring Island Vault/The Quintessential Quintuplet #5"
+                    },
+                    {
+                        "name": "Ring Island Vault - Mushroom Column Riches #1",
+                        "ref": "Ring Island Vault/Mushroom Column Riches #1"
+                    },
+                    {
+                        "name": "Ring Island Vault - Mushroom Column Riches #2",
+                        "ref": "Ring Island Vault/Mushroom Column Riches #2"
+                    },
+                    {
+                        "name": "Ring Island Vault - Mushroom Column Riches #3",
+                        "ref": "Ring Island Vault/Mushroom Column Riches #3"
+                    },
+                    {
+                        "name": "Ring Island Vault - Boring Column Riches #1",
+                        "ref": "Ring Island Vault/Boring Column Riches #1"
+                    },
+                    {
+                        "name": "Ring Island Vault - Boring Column Riches #2",
+                        "ref": "Ring Island Vault/Boring Column Riches #2"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 500,
+                        "y": 2491,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Sell a Boom Plort",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1811,
+                        "y": 2070,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Sell a Crystal Plort",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 2298,
+                        "y": 1764,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Sell a Dervish Plort",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 281,
+                        "y": 1216,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Sell a Fire Plort",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 586,
+                        "y": 565,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Sell a Gold Plort",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1224,
+                        "y": 74,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Sell a Honey Plort",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1595,
+                        "y": 633,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Sell a Hunter Plort",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 2018,
+                        "y": 2364,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Sell a Mosaic Plort",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 2402,
+                        "y": 832,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Sell a Phosphor Plort",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 893,
+                        "y": 415,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Sell a Pink Plort",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 2420,
+                        "y": 2013,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Sell a Puddle Plort",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 785,
+                        "y": 160,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Sell a Quantum Plort",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 2415,
+                        "y": 482,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Sell a Rad Plort",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 989,
+                        "y": 129,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Sell a Rock Plort",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1866,
+                        "y": 1617,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Sell a Saber Plort",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1209,
+                        "y": 888,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Sell a Tabby Plort",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1659,
+                        "y": 1127,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Sell a Tangle Plort",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 61,
+                        "y": 505,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Slime Gate",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Slime Gate - Dry Reef Beach to Ring Island",
+                        "ref": "Slime Gate/Dry Reef Beach to Ring Island"
+                    },
+                    {
+                        "name": "Slime Gate - Dry Reef to Moss Blanket",
+                        "ref": "Slime Gate/Dry Reef to Moss Blanket"
+                    },
+                    {
+                        "name": "Slime Gate - Dry Reef to Indigo Quarry",
+                        "ref": "Slime Gate/Dry Reef to Indigo Quarry"
+                    },
+                    {
+                        "name": "Slime Gate - Moss Blanket to Ancient Ruins Transition",
+                        "ref": "Slime Gate/Moss Blanket to Ancient Ruins Transition"
+                    },
+                    {
+                        "name": "Slime Gate - Indigo Quarry to Ancient Ruins Transition",
+                        "ref": "Slime Gate/Indigo Quarry to Ancient Ruins Transition"
+                    },
+                    {
+                        "name": "Slime Gate - Ancient Ruins to Glass Desert",
+                        "ref": "Slime Gate/Ancient Ruins to Glass Desert"
+                    },
+                    {
+                        "name": "Slime Gate - Glass Desert Central Gate",
+                        "ref": "Slime Gate/Glass Desert Central Gate"
+                    },
+                    {
+                        "name": "Slime Gate - Glass Desert Lower Gate",
+                        "ref": "Slime Gate/Glass Desert Lower Gate"
+                    },
+                    {
+                        "name": "Slime Gate - Ancient Ruins Transition to Ancient Ruins",
+                        "ref": "Slime Gate/Ancient Ruins Transition to Ancient Ruins"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 433,
+                        "y": 1634,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "The Docks",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "The Docks - Our Greater Purpose",
+                        "ref": "The Docks/Our Greater Purpose"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 2127,
+                        "y": 198,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "The Grotto",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "The Grotto - The Limitless Black of Space",
+                        "ref": "The Grotto/The Limitless Black of Space"
+                    },
+                    {
+                        "name": "The Grotto - Overlooking the Slime Sea",
+                        "ref": "The Grotto/Overlooking the Slime Sea"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 914,
+                        "y": 1054,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "The Lab",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "The Lab - The Wonders of Plort Technology",
+                        "ref": "The Lab/The Wonders of Plort Technology"
+                    },
+                    {
+                        "name": "The Lab - Tinkerers Starting Cache",
+                        "ref": "The Lab/Tinkerers Starting Cache"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 43,
+                        "y": 2301,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "The Mustache Shrine",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "The Mustache Shrine - Mustache Stache Cache",
+                        "ref": "The Mustache Shrine/Mustache Stache Cache"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 204,
+                        "y": 1863,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "The Overgrowth",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "The Overgrowth - Artifical Moss Blanket",
+                        "ref": "The Overgrowth/Artifical Moss Blanket"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 2198,
+                        "y": 113,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "The Slime Sea",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "The Slime Sea - Island Alone in the Sea",
+                        "ref": "The Slime Sea/Island Alone in the Sea"
+                    },
+                    {
+                        "name": "The Slime Sea - On the Giant Tree Stump",
+                        "ref": "The Slime Sea/On the Giant Tree Stump"
+                    },
+                    {
+                        "name": "The Slime Sea - In Between a Rock and an Island",
+                        "ref": "The Slime Sea/In Between a Rock and an Island"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 351,
+                        "y": 329,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "The Slimeulation",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "The Slimeulation - Under a Cliff Bordering The Simulated Sea",
+                        "ref": "The Slimeulation/Under a Cliff Bordering The Simulated Sea"
+                    },
+                    {
+                        "name": "The Slimeulation - Not Quite Rendered Arch",
+                        "ref": "The Slimeulation/Not Quite Rendered Arch"
+                    },
+                    {
+                        "name": "The Slimeulation - Just Around the Corner",
+                        "ref": "The Slimeulation/Just Around the Corner"
+                    },
+                    {
+                        "name": "The Slimeulation - Blocky Crevice Beside Moss Entrance",
+                        "ref": "The Slimeulation/Blocky Crevice Beside Moss Entrance"
+                    },
+                    {
+                        "name": "The Slimeulation - Underwater in a Ravine",
+                        "ref": "The Slimeulation/Underwater in a Ravine"
+                    },
+                    {
+                        "name": "The Slimeulation - Offshoot of a Hazardous Pathway",
+                        "ref": "The Slimeulation/Offshoot of a Hazardous Pathway"
+                    },
+                    {
+                        "name": "The Slimeulation - Looking Over the Puddle Slimes",
+                        "ref": "The Slimeulation/Looking Over the Puddle Slimes"
+                    },
+                    {
+                        "name": "The Slimeulation - Non-Rendered Cliff",
+                        "ref": "The Slimeulation/Non-Rendered Cliff"
+                    },
+                    {
+                        "name": "The Slimeulation - Platforming On Blocky Clouds",
+                        "ref": "The Slimeulation/Platforming On Blocky Clouds"
+                    },
+                    {
+                        "name": "The Slimeulation - Off The Rendered Path",
+                        "ref": "The Slimeulation/Off The Rendered Path"
+                    },
+                    {
+                        "name": "The Slimeulation - On Top Of The Simulated Winding Path",
+                        "ref": "The Slimeulation/On Top Of The Simulated Winding Path"
+                    },
+                    {
+                        "name": "The Slimeulation - In Between Muhsrooms and Rivers",
+                        "ref": "The Slimeulation/In Between Muhsrooms and Rivers"
+                    },
+                    {
+                        "name": "The Slimeulation - Right Across from the Exit",
+                        "ref": "The Slimeulation/Right Across from the Exit"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1677,
+                        "y": 445,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "The Wilds",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "The Wilds - Across From the Hunters Sakura Tree",
+                        "ref": "The Wilds/Across From the Hunters Sakura Tree"
+                    },
+                    {
+                        "name": "The Wilds - On a Cliff Dividing Two Entrances",
+                        "ref": "The Wilds/On a Cliff Dividing Two Entrances"
+                    },
+                    {
+                        "name": "The Wilds - A Precarious Ledge By the Waterfall",
+                        "ref": "The Wilds/A Precarious Ledge By the Waterfall"
+                    },
+                    {
+                        "name": "The Wilds - An Outcropping Near the Beach",
+                        "ref": "The Wilds/An Outcropping Near the Beach"
+                    },
+                    {
+                        "name": "The Wilds - Inside a Pink Tree Stump",
+                        "ref": "The Wilds/Inside a Pink Tree Stump"
+                    },
+                    {
+                        "name": "The Wilds - Hidden Bridge Behind a Triangular Staircase",
+                        "ref": "The Wilds/Hidden Bridge Behind a Triangular Staircase"
+                    },
+                    {
+                        "name": "The Wilds - Double Waterfall Treasure",
+                        "ref": "The Wilds/Double Waterfall Treasure"
+                    },
+                    {
+                        "name": "The Wilds - On a Tiny Ledge Overlooking the Underground River",
+                        "ref": "The Wilds/On a Tiny Ledge Overlooking the Underground River"
+                    },
+                    {
+                        "name": "The Wilds - Coral Ring Island Exit",
+                        "ref": "The Wilds/Coral Ring Island Exit"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 585,
+                        "y": 932,
+                        "size": 6
+                    }
+                ]
+            }
+        ]
+    }
+]

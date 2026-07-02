@@ -1,0 +1,171 @@
+[
+    {
+        "name": "Sell a Boom Plort",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "sections": [
+            {
+                "name": "Plort",
+                "img": "images/items/boomplort.png"
+            }
+        ]
+    },
+    {
+        "name": "Sell a Crystal Plort",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ]
+    },
+    {
+        "name": "Sell a Dervish Plort",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ]
+    },
+    {
+        "name": "Sell a Fire Plort",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ]
+    },
+    {
+        "name": "Sell a Gold Plort",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ]
+    },
+    {
+        "name": "Sell a Honey Plort",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ]
+    },
+    {
+        "name": "Sell a Hunter Plort",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ]
+    },
+    {
+        "name": "Sell a Mosaic Plort",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ]
+    },
+    {
+        "name": "Sell a Phosphor Plort",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ]
+    },
+    {
+        "name": "Sell a Pink Plort",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ]
+    },
+    {
+        "name": "Sell a Puddle Plort",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ]
+    },
+    {
+        "name": "Sell a Quantum Plort",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ]
+    },
+    {
+        "name": "Sell a Rad Plort",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ]
+    },
+    {
+        "name": "Sell a Rock Plort",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ]
+    },
+    {
+        "name": "Sell a Saber Plort",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ]
+    },
+    {
+        "name": "Sell a Tabby Plort",
+        "access_rules": [
+            "^$CanReach|TheRanch"
+        ],
+        "sections": [
+            {
+                "name": "Plort",
+                "img": "images/items/tabbyplort.png"
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "The Ranch",
+                "x": 10,
+                "y": 10
+            }
+        ]
+    },
+    {
+        "name": "Sell a Tangle Plort",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ]
+    }
+]
