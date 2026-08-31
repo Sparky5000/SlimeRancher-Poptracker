@@ -13,11 +13,47 @@
                     "content": [
                         {
                             "type": "group",
-                            "header": "Items",
+                            "header": "The Ranch",
                             "dock": "top",
                             "content": {
                                 "type": "layout",
-                                "key": "main_window_item_grid"
+                                "key": "Ranch"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "The Wilderness",
+                            "dock": "top",
+                            "content": {
+                                "type": "layout",
+                                "key": "Wilderness"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Neighbours",
+                            "dock": "top",
+                            "content": {
+                                "type": "layout",
+                                "key": "DLC"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Equipment",
+                            "dock": "top",
+                            "content": {
+                                "type": "layout",
+                                "key": "Equipment"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Gadgets",
+                            "dock": "top",
+                            "content": {
+                                "type": "layout",
+                                "key": "Gadgets"
                             }
                         }
                     ]
@@ -26,8 +62,10 @@
                     "type": "dock",
                     "content": [
                         {
-                            "type": "layout",
-                            "key": "tabbed_maps"
+                            "type": "map",
+                            "maps": [
+                                "World Map"
+                            ]
                         }
                     ]
                 }

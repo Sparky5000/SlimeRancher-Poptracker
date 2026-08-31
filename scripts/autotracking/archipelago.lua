@@ -248,10 +248,23 @@ function OnClear(slot_data)
     PLAYER_ID = Archipelago.PlayerNumber or -1
     TEAM_NUMBER = Archipelago.TeamNumber or 0
     SLOT_DATA = slot_data
-    -- if Tracker:FindObjectForCode("autofill_settings").Active == true then
-    --     AutoFill(slot_data)
-    -- end
-    -- print(PLAYER_ID, TEAM_NUMBER)
+
+    Tracker:FindObjectForCode("EnableStylishDlcTreasurePods").Active = (slot_data['enable_stylish_dlc_treasure_pods'])
+    Tracker:FindObjectForCode("TreasureCrackerChecks").AcquiredCount = (slot_data['treasure_cracker_checks'])
+    Tracker:FindObjectForCode("Include7z").Active = (slot_data['include_7z'])
+    Tracker:FindObjectForCode("Plortsanity").CurrentStage = (slot_data['plortsanity'])
+    Tracker:FindObjectForCode("IncludeOgden").Active = (slot_data['include_ogden'])
+    Tracker:FindObjectForCode("IncludeMochi").Active = (slot_data['include_mochi'])
+    Tracker:FindObjectForCode("IncludeViktor").Active = (slot_data['include_viktor'])
+    Tracker:FindObjectForCode("Postgame").Active = (slot_data['postgame'])
+    Tracker:FindObjectForCode("EasySkips").Active = (slot_data['easy_skips'])
+    Tracker:FindObjectForCode("PreciseMovement").Active = (slot_data['precise_movement'])
+    Tracker:FindObjectForCode("DangerousSkips").Active = (slot_data['dangerous_skips'])
+    Tracker:FindObjectForCode("ObscureLocations").Active = (slot_data['obscure_locations'])
+    Tracker:FindObjectForCode("LargoJumps").Active = (slot_data['largo_jumps'])
+    Tracker:FindObjectForCode("JetpackBoosts").Active = (slot_data['jetpack_boosts'])
+    Tracker:FindObjectForCode("MarketLogic").Active = (slot_data['market_logic'])
+
     if Archipelago.PlayerNumber > -1 then
         if #ALL_LOCATIONS > 0 then
             ALL_LOCATIONS = {}
@@ -348,36 +361,6 @@ function OnLocation(location_id, location_name)
     end
     MANUAL_CHECKED = true
 end
-
--- this Autofill function is meant as an example on how to do the reading from slot_data
--- and mapping the values to your own settings
--- ---@param slot_data table
--- function AutoFill(slot_data)
---     -- print(DumpTable(slot_data))
-
---     mapToggle={[0]=0,[1]=1,[2]=1,[3]=1,[4]=1}
---     mapToggleReverse={[0]=1,[1]=0,[2]=0,[3]=0,[4]=0}
---     mapTripleReverse={[0]=2,[1]=1,[2]=0}
-
---     slotCodes = {
---         map_name = {code="", mapping=mapToggle...}
---     }
---     -- print(Tracker:FindObjectForCode("autofill_settings").Active)
---     if Tracker:FindObjectForCode("autofill_settings").Active == true then
---         for settings_name, settings_value in pairs(slot_data) do
---             -- print(k, v)
---             if slotCodes[settings_name] then
---                 item = Tracker:FindObjectForCode(slotCodes[settings_name].code)
---                 if item.Type == "toggle" then
---                     item.Active = slotCodes[settings_name].mapping[settings_value]
---                 else
---                     -- print(k,v,Tracker:FindObjectForCode(slotCodes[k].code).CurrentStage, slotCodes[k].mapping[v])
---                     item.CurrentStage = slotCodes[settings_name].mapping[settings_value]
---                 end
---             end
---         end
---     end
--- end
 
 ---@class APHintMessage
 ---@field receiving_player integer

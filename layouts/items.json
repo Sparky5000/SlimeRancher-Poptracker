@@ -1,5 +1,41 @@
 {
-    "main_window_item_grid": {
+    "Ranch": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "center",
+                        "item_h_alignment": "center",
+                        "item_v_alignment": "center",
+                        "item_height": 64,
+                        "item_width": 64,
+                        "rows": [
+                            [
+                                "homeranch",
+                                "progressivemarketstonks",
+                                "regionunlock-thelab"
+                                
+                            ],
+                            [
+                                "regionunlock-thegrotto",
+                                "regionunlock-thedocks",
+                                "regionunlock-theovergrowth"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Wilderness": {
         "type": "array",
         "orientation": "vertical",
         "margin": "0,0",
@@ -19,52 +55,119 @@
                         "item_width": 64,
                         "rows": [
                             [
-                                "progressivemarketstonks",
-                                "regionunlock-glassdesert",
-                                "liquidslot",
-                                "marketlink",
-                                "regionunlock-theslimeulations",
-                                "regionunlock-thedocks"
-                            ],
-                            [
-                                "drone",
-                                "progressivejetpack",
+                                "regionunlock-dryreef",
                                 "regionunlock-mossblanket",
-                                "regionunlock-thegrotto",
-                                "progressivemaxhealth",
-                                "99xnewbucks"
+                                "regionunlock-indigoquarry"
                             ],
                             [
-                                "81xnewbucks",
+                                "regionunlock-ancientruinstransition",
+                                "regionunlock-ancientruins",
+                                "regionunlock-glassdesert"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "DLC": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "left",
+                        "item_h_alignment": "center",
+                        "item_v_alignment": "center",
+                        "item_height": 64,
+                        "item_width": 64,
+                        "rows": [
+                            [
                                 "regionunlock-ogdensretreat",
-                                "advanceddrone",
-                                "regionunlock-thewilds",
                                 "regionunlock-mochismanor",
-                                "progressiverunefficiency"
+                                "regionunlock-viktorsworkshop"
                             ],
                             [
-                                "trapslime",
-                                "airburst",
-                                "regionunlock:dryreef",
-                                "100xnewbucks",
-                                "regionunlock-theovergrowth",
+                                "regionunlock-thewilds",
+                                "regionunlock-nimblevalley",
+                                "regionunlock-theslimeulations"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Equipment": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "left",
+                        "item_h_alignment": "center",
+                        "item_v_alignment": "center",
+                        "item_height": 64,
+                        "item_width": 64,
+                        "rows": [
+                            [
+                                "progressivejetpack",
+                                "progressiverunefficiency",
+                                "liquidslot"
+                            ],
+                            [
+                                "progressivemaxhealth",
+                                "progressivemaxenergy",
                                 "progressivemaxammo"
                             ],
                             [
-                                "progressivetreasurecracker",
-                                "regionunlock-ancientruinstransition",
-                                "75xnewbucks",
-                                "regionunlock-indigoquarry",
-                                "regionunlock-viktorsworkshop",
-                                "goldensureshot"
-                            ],
+                                "airburst",
+                                "goldensureshot",
+                                "progressivetreasurecracker"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Gadgets": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "left",
+                        "item_h_alignment": "center",
+                        "item_v_alignment": "center",
+                        "item_height": 64,
+                        "item_width": 64,
+                        "rows": [
                             [
-                                "regionunlock-nimblevalley",
-                                "regionunlock-ancientruins",
-                                "progressivemaxenergy",
-                                "regionunlock-thelab",
-                                "update",
-                                "regionunlock-dryreef"
+                                "drone",
+                                "advanceddrone",
+                                "marketlink"
                             ]
                         ]
                     }

@@ -4,35 +4,68 @@
         "chest_unopened_img": "/images/items/close.png",
         "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
-        "access_rules": [
-            " "
-        ],
-        "sections": [
+        "children": [
             {
                 "name": "Island Alone in the Sea",
-                "access_rules": [],
+                "access_rules": [
+                    "^$CanReach|DryReefMain"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Treasure Pod Mk.2",
+                        "access_rules": ["Jetpack, cracker2, powercore3"],
+                        "chest_unopened_img": "images/items/treasurepod2.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 777,
+                        "y": 1032
+                    }
+                ]
             },
             {
                 "name": "On the Giant Tree Stump",
-                "access_rules": [],
+                "access_rules": [
+                    "^$CanReach|SlimeSeaOffMossBlanket"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Treasure Pod Mk.3",
+                        "access_rules": ["cracker3"],
+                        "chest_unopened_img": "images/items/treasurepod3.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 707,
+                        "y": 471
+                    }
+                ]
             },
             {
                 "name": "In Between a Rock and an Island",
-                "access_rules": [],
+                "access_rules": [
+                    "^$CanReach|SlimeSeaBetweenGrottoAndDryReefIsland1"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
-            }
-        ],
-        "map_locations": [
-            {
-                "map": "The Slime Sea",
-                "x": 221,
-                "y": 1848,
-                "size": 6
+                "sections": [
+                    {
+                        "name": "Secret Style",
+                        "chest_unopened_img": "images/items/treasurepod4.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 1561,
+                        "y": 1272
+                    }
+                ]
             }
         ]
     }

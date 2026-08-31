@@ -1,851 +1,335 @@
 [
     {
-        "name": "7Zee lv.1",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "name": "7Zee Rewards Club",
+        "chest_unopened_img": "/images/items/7zee.png",
         "overlay_background": "#000000",
-        "access_rules": [
-            " "
-        ],
+        "access_rules": [],
+        "visibility_rules": ["Include7z"],
         "sections": [
             {
-                "name": "Roostro Weathervane",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            }
-        ],
-        "map_locations": [
-            {
-                "map": "7Zee lv.1",
-                "x": 1536,
-                "y": 1962,
-                "size": 6
-            }
-        ]
-    },
-    {
-        "name": "7Zee lv.2",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-            " "
-        ],
-        "sections": [
-            {
-                "name": "Fence Upgrade",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            }
-        ],
-        "map_locations": [
-            {
-                "map": "7Zee lv.2",
-                "x": 1481,
-                "y": 1624,
-                "size": 6
-            }
-        ]
-    },
-    {
-        "name": "7Zee lv.3",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-            " "
-        ],
-        "sections": [
-            {
-                "name": "Path Upgrade",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            }
-        ],
-        "map_locations": [
-            {
-                "map": "7Zee lv.3",
-                "x": 2252,
-                "y": 429,
-                "size": 6
-            }
-        ]
-    },
-    {
-        "name": "7Zee lv.4",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-            " "
-        ],
-        "sections": [
-            {
-                "name": "Porch Upgrade",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            }
-        ],
-        "map_locations": [
-            {
-                "map": "7Zee lv.4",
-                "x": 1421,
-                "y": 293,
-                "size": 6
-            }
-        ]
-    },
-    {
-        "name": "7Zee lv.5",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-            " "
-        ],
-        "sections": [
-            {
-                "name": "Chroma Station",
+                "name": "lv.1 Roostro Weathervane",
                 "access_rules": [],
                 "visibility_rules": [],
                 "item_count": 1
             },
             {
-                "name": "Cobalt Chroma",
+                "name": "lv.2 Fence Upgrade",
                 "access_rules": [],
                 "visibility_rules": [],
                 "item_count": 1
             },
             {
-                "name": "Milkshake Chroma",
-                "access_rules": [],
+                "name": "lv.3 Path Upgrade",
+                "access_rules": ["^$CanReach|DryReefMain"],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "lv.4 Porch Upgrade",
+                "access_rules": ["^$CanReach|DryReefMain"],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "lv.5 Chroma Station",
+                "access_rules": ["^$CanReach|DryReefMain"],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "lv.5 Cobalt Chroma",
+                "access_rules": ["^$CanReach|DryReefMain"],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "lv.5 Milkshake Chroma",
+                "access_rules": ["^$CanReach|DryReefMain"],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "lv.6 Arch Upgrade",
+                "access_rules": ["^$CanReach|DryReefMain"],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "lv.7 Firecracker Chroma",
+                "access_rules": ["^$CanReach|DryReefMain"],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "lv.7 Grapeshot Chroma",
+                "access_rules": ["^$CanReach|DryReefMain"],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "lv.8 Slime Toy Shop",
+                "access_rules": ["^$CanReach|DryReefMain"],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "lv.9 Robo Ranger Chroma",
+                "access_rules": ["^$CanReach|DryReefMain"],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "lv.9 Maidatron Chroma",
+                "access_rules": ["^$CanReach|DryReefMain"],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "lv.10 Advanced Slime Toys",
+                "access_rules": ["^$CanReach|DryReefMain"],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "lv.11 Gingersnap Chroma",
+                "access_rules": ["^$CanReach|AncientRuinsTransition"],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "lv.11 Peapod Chroma",
+                "access_rules": ["^$CanReach|AncientRuinsTransition"],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "lv.11 Market Link",
+                "access_rules": ["^$CanReach|AncientRuinsTransition"],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "lv.12 Grotto Upgrade",
+                "access_rules": ["^$CanReach|AncientRuinsTransition"],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "lv.13 Decorizer",
+                "access_rules": ["^$CanReach|AncientRuinsTransition"],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "lv.13 Vanguard Chroma",
+                "access_rules": ["^$CanReach|AncientRuinsTransition"],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "lv.13 Willow Chroma",
+                "access_rules": ["^$CanReach|AncientRuinsTransition"],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "lv.14 Slime Trophy I",
+                "access_rules": ["^$CanReach|AncientRuinsTransition"],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "lv.15 Daybreak Chroma",
+                "access_rules": ["^$CanReach|AncientRuinsTransition"],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "lv.15 Eventide Chroma",
+                "access_rules": ["^$CanReach|AncientRuinsTransition"],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "lv.16 Overgrowth Upgrade",
+                "access_rules": ["^$CanReach|AncientRuinsMain"],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "lv.17 Salamander Chroma",
+                "access_rules": ["^$CanReach|AncientRuinsMain"],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "lv.17 Royalton Chroma",
+                "access_rules": ["^$CanReach|AncientRuinsMain"],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "lv.18 Slime Trophy II",
+                "access_rules": ["^$CanReach|AncientRuinsMain"],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "lv.19 Neopolitan Chroma",
+                "access_rules": ["^$CanReach|AncientRuinsMain"],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "lv.19 Min Chip Chroma",
+                "access_rules": ["^$CanReach|AncientRuinsMain"],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "lv.19 Ultra Dash Boots",
+                "access_rules": ["^$CanReach|AncientRuinsMain"],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "lv.20 Tank Booster Ultra",
+                "access_rules": ["^$CanReach|AncientRuinsMain"],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "lv.20 Master Gordo Snare Blueprint",
+                "access_rules": ["^$CanReach|AncientRuinsMain"],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "lv.21 Ghost Wine Chroma",
+                "access_rules": ["^$CanReach|AncientRuinsMain"],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "lv.21 Volcanic Chroma",
+                "access_rules": ["^$CanReach|AncientRuinsMain"],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "lv.21 Heart Module Ultra",
+                "access_rules": ["^$CanReach|AncientRuinsMain"],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "lv.22 Lab Upgrade",
+                "access_rules": ["^$CanReach|AncientRuinsMain"],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "lv.22 Golden Sureshot",
+                "access_rules": ["^$CanReach|AncientRuinsMain"],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "lv.23 Knight Light Chroma",
+                "access_rules": ["^$CanReach|AncientRuinsMain"],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "lv.23 Pretty Loud Chroma",
+                "access_rules": ["^$CanReach|AncientRuinsMain"],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "lv.23 Titan Drill Blueprint",
+                "access_rules": ["^$CanReach|AncientRuinsMain"],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "lv.24 Slime Trophy III",
+                "access_rules": ["^$CanReach|GlassDesertFirstHalf"],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "lv.24 Abyssal Pump Blueprint",
+                "access_rules": ["^$CanReach|GlassDesertFirstHalf"],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "lv.25 Silverfox Chroma",
+                "access_rules": ["^$CanReach|GlassDesertFirstHalf"],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "lv.25 Frozen Violet Chroma",
+                "access_rules": ["^$CanReach|GlassDesertFirstHalf"],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "lv.25 Royal Apiary Blueprint",
+                "access_rules": ["^$CanReach|GlassDesertFirstHalf"],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "lv.26 Docks Upgrade",
+                "access_rules": ["^$CanReach|GlassDesertFirstHalf"],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "lv.26 Gold Slime Lamp Blueprint",
+                "access_rules": ["^$CanReach|GlassDesertFirstHalf"],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "lv.27 Goldleaf Chroma",
+                "access_rules": ["^$CanReach|GlassDesertFirstHalf"],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "lv.27 Astro Pearl Chroma",
+                "access_rules": ["^$CanReach|GlassDesertFirstHalf"],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "lv.27 Gold Warp Depot Blueprint",
+                "access_rules": ["^$CanReach|GlassDesertFirstHalf"],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "lv.28 Slime Trophy IV",
+                "access_rules": ["^$CanReach|GlassDesertFirstHalf"],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "lv.28 Gold Teleporter Blueprint",
+                "access_rules": ["^$CanReach|GlassDesertFirstHalf"],
                 "visibility_rules": [],
                 "item_count": 1
             }
         ],
         "map_locations": [
             {
-                "map": "7Zee lv.5",
-                "x": 1514,
-                "y": 1089,
-                "size": 6
-            }
-        ]
-    },
-    {
-        "name": "7Zee lv.6",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-            " "
-        ],
-        "sections": [
-            {
-                "name": "Arch Upgrade",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            }
-        ],
-        "map_locations": [
-            {
-                "map": "7Zee lv.6",
-                "x": 896,
-                "y": 713,
-                "size": 6
-            }
-        ]
-    },
-    {
-        "name": "7Zee lv.7",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-            " "
-        ],
-        "sections": [
-            {
-                "name": "Firecracker Chroma",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Grapeshot Chroma",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            }
-        ],
-        "map_locations": [
-            {
-                "map": "7Zee lv.7",
-                "x": 2004,
-                "y": 2309,
-                "size": 6
-            }
-        ]
-    },
-    {
-        "name": "7Zee lv.8",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-            " "
-        ],
-        "sections": [
-            {
-                "name": "Slime Toy Shop",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            }
-        ],
-        "map_locations": [
-            {
-                "map": "7Zee lv.8",
-                "x": 560,
-                "y": 2140,
-                "size": 6
-            }
-        ]
-    },
-    {
-        "name": "7Zee lv.9",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-            " "
-        ],
-        "sections": [
-            {
-                "name": "Robo Ranger Chroma",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Maidatron Chroma",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            }
-        ],
-        "map_locations": [
-            {
-                "map": "7Zee lv.9",
-                "x": 1882,
-                "y": 2179,
-                "size": 6
-            }
-        ]
-    },
-    {
-        "name": "7Zee lv.10",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-            " "
-        ],
-        "sections": [
-            {
-                "name": "Advanced Slime Toys",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            }
-        ],
-        "map_locations": [
-            {
-                "map": "7Zee lv.10",
-                "x": 1996,
-                "y": 2152,
-                "size": 6
-            }
-        ]
-    },
-    {
-        "name": "7Zee lv.11",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-            " "
-        ],
-        "sections": [
-            {
-                "name": "Gingersnap Chroma",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Peapod Chroma",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Market Link",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            }
-        ],
-        "map_locations": [
-            {
-                "map": "7Zee lv.11",
-                "x": 1343,
-                "y": 206,
-                "size": 6
-            }
-        ]
-    },
-    {
-        "name": "7Zee lv.12",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-            " "
-        ],
-        "sections": [
-            {
-                "name": "Grotto Upgrade",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            }
-        ],
-        "map_locations": [
-            {
-                "map": "7Zee lv.12",
-                "x": 2351,
-                "y": 1696,
-                "size": 6
-            }
-        ]
-    },
-    {
-        "name": "7Zee lv.13",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-            " "
-        ],
-        "sections": [
-            {
-                "name": "Decorizer",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Vanguard Chroma",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Willow Chroma",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            }
-        ],
-        "map_locations": [
-            {
-                "map": "7Zee lv.13",
-                "x": 1292,
-                "y": 2399,
-                "size": 6
-            }
-        ]
-    },
-    {
-        "name": "7Zee lv.14",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-            " "
-        ],
-        "sections": [
-            {
-                "name": "Slime Trophy I",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            }
-        ],
-        "map_locations": [
-            {
-                "map": "7Zee lv.14",
-                "x": 655,
-                "y": 1260,
-                "size": 6
-            }
-        ]
-    },
-    {
-        "name": "7Zee lv.15",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-            " "
-        ],
-        "sections": [
-            {
-                "name": "Daybreak Chroma",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Eventide Chroma",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            }
-        ],
-        "map_locations": [
-            {
-                "map": "7Zee lv.15",
-                "x": 1792,
-                "y": 203,
-                "size": 6
-            }
-        ]
-    },
-    {
-        "name": "7Zee lv.16",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-            " "
-        ],
-        "sections": [
-            {
-                "name": "Overgrowth Upgrade",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            }
-        ],
-        "map_locations": [
-            {
-                "map": "7Zee lv.16",
-                "x": 1101,
-                "y": 2157,
-                "size": 6
-            }
-        ]
-    },
-    {
-        "name": "7Zee lv.17",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-            " "
-        ],
-        "sections": [
-            {
-                "name": "Salamander Chroma",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Royalton Chroma",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            }
-        ],
-        "map_locations": [
-            {
-                "map": "7Zee lv.17",
-                "x": 1018,
-                "y": 1706,
-                "size": 6
-            }
-        ]
-    },
-    {
-        "name": "7Zee lv.18",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-            " "
-        ],
-        "sections": [
-            {
-                "name": "Slime Trophy II",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            }
-        ],
-        "map_locations": [
-            {
-                "map": "7Zee lv.18",
-                "x": 148,
-                "y": 825,
-                "size": 6
-            }
-        ]
-    },
-    {
-        "name": "7Zee lv.19",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-            " "
-        ],
-        "sections": [
-            {
-                "name": "Neopolitan Chroma",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Min Chip Chroma",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Ultra Dash Boots",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            }
-        ],
-        "map_locations": [
-            {
-                "map": "7Zee lv.19",
-                "x": 1819,
-                "y": 1839,
-                "size": 6
-            }
-        ]
-    },
-    {
-        "name": "7Zee lv.20",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-            " "
-        ],
-        "sections": [
-            {
-                "name": "Tank Booster Ultra",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Master Gordo Snare Blueprint",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            }
-        ],
-        "map_locations": [
-            {
-                "map": "7Zee lv.20",
-                "x": 385,
-                "y": 1883,
-                "size": 6
-            }
-        ]
-    },
-    {
-        "name": "7Zee lv.21",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-            " "
-        ],
-        "sections": [
-            {
-                "name": "Ghost Wine Chroma",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Volcanic Chroma",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Heart Module Ultra",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            }
-        ],
-        "map_locations": [
-            {
-                "map": "7Zee lv.21",
-                "x": 2119,
-                "y": 2077,
-                "size": 6
-            }
-        ]
-    },
-    {
-        "name": "7Zee lv.22",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-            " "
-        ],
-        "sections": [
-            {
-                "name": "Lab Upgrade",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Golden Sureshot",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            }
-        ],
-        "map_locations": [
-            {
-                "map": "7Zee lv.22",
-                "x": 1637,
-                "y": 969,
-                "size": 6
-            }
-        ]
-    },
-    {
-        "name": "7Zee lv.23",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-            " "
-        ],
-        "sections": [
-            {
-                "name": "Knight Light Chroma",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Pretty Loud Chroma",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Titan Drill Blueprint",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            }
-        ],
-        "map_locations": [
-            {
-                "map": "7Zee lv.23",
-                "x": 652,
-                "y": 996,
-                "size": 6
-            }
-        ]
-    },
-    {
-        "name": "7Zee lv.24",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-            " "
-        ],
-        "sections": [
-            {
-                "name": "Slime Trophy III",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Abyssal Pump Blueprint",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            }
-        ],
-        "map_locations": [
-            {
-                "map": "7Zee lv.24",
-                "x": 2199,
-                "y": 1644,
-                "size": 6
-            }
-        ]
-    },
-    {
-        "name": "7Zee lv.25",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-            " "
-        ],
-        "sections": [
-            {
-                "name": "Silverfox Chroma",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Frozen Violet Chroma",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Royal Apiary Blueprint",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            }
-        ],
-        "map_locations": [
-            {
-                "map": "7Zee lv.25",
-                "x": 506,
-                "y": 1003,
-                "size": 6
-            }
-        ]
-    },
-    {
-        "name": "7Zee lv.26",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-            " "
-        ],
-        "sections": [
-            {
-                "name": "Docks Upgrade",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Gold Slime Lamp Blueprint",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            }
-        ],
-        "map_locations": [
-            {
-                "map": "7Zee lv.26",
-                "x": 1129,
-                "y": 843,
-                "size": 6
-            }
-        ]
-    },
-    {
-        "name": "7Zee lv.27",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-            " "
-        ],
-        "sections": [
-            {
-                "name": "Goldleaf Chroma",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Astro Pearl Chroma",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Gold Warp Depot Blueprint",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            }
-        ],
-        "map_locations": [
-            {
-                "map": "7Zee lv.27",
-                "x": 2205,
-                "y": 438,
-                "size": 6
-            }
-        ]
-    },
-    {
-        "name": "7Zee lv.28",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-            " "
-        ],
-        "sections": [
-            {
-                "name": "Slime Trophy IV",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Gold Teleporter Blueprint",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            }
-        ],
-        "map_locations": [
-            {
-                "map": "7Zee lv.28",
-                "x": 580,
-                "y": 2203,
-                "size": 6
+                "map": "World Map",
+                "x": 1270,
+                "y": 1391
             }
         ]
     }

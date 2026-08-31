@@ -1,230 +1,671 @@
 [
     {
-        "name": "Glass Desert",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
+        "name": "Glass Desert First Half",
         "access_rules": [
-            " "
+            "^$CanReach|GlassDesertFirstHalf"
         ],
-        "sections": [
+        "children": [
             {
                 "name": "Youll Risk Burning Your Tuchus!",
                 "access_rules": [],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "H Note",
+                        "chest_unopened_img": "images/items/HNotes.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 2711,
+                        "y": 1063
+                    }
+                ]
             },
             {
                 "name": "Life Waiting to Flow",
                 "access_rules": [],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "H Note",
+                        "chest_unopened_img": "images/items/HNotes.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 2803,
+                        "y": 1003
+                    }
+                ]
             },
             {
                 "name": "Map Data Node",
                 "access_rules": [],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Map",
+                        "chest_unopened_img": "images/items/glassdesert.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 2670,
+                        "y": 902
+                    }
+                ]
             },
             {
                 "name": "Buried Among Rubble",
-                "access_rules": [],
+                "access_rules": ["cracker2"],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Treasure Pod Mk.2",
+                        "chest_unopened_img": "images/items/treasurepod2.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 2580,
+                        "y": 1379
+                    }
+                ]
             },
             {
                 "name": "Behind a False Wall",
-                "access_rules": [],
+                "access_rules": ["cracker2"],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Treasure Pod Mk.2",
+                        "chest_unopened_img": "images/items/treasurepod2.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 2632,
+                        "y": 1049
+                    }
+                ]
             },
             {
                 "name": "Atop the Pillar before a Chasm",
-                "access_rules": [],
+                "access_rules": ["Jetpack, cracker2"],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Treasure Pod Mk.2",
+                        "chest_unopened_img": "images/items/treasurepod2.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 2714,
+                        "y": 1099
+                    }
+                ]
             },
             {
                 "name": "Hidden in the Rafters",
-                "access_rules": [],
+                "access_rules": ["Jetpack, cracker2"],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Treasure Pod Mk.2",
+                        "chest_unopened_img": "images/items/treasurepod2.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 2772,
+                        "y": 964
+                    }
+                ]
             },
             {
                 "name": "Slime Statue Offering",
-                "access_rules": [],
+                "access_rules": ["Jetpack, cracker3, powercore2"],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Treasure Pod Mk.3",
+                        "chest_unopened_img": "images/items/treasurepod3.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 2593,
+                        "y": 1389
+                    }
+                ]
             },
             {
                 "name": "At the Tippy Top of the Highest Mountain",
-                "access_rules": [],
+                "access_rules": [
+                    "Jetpack, cracker3, powercore3",
+                    "Jetpack, cracker3, powercore2, PreciseMovement"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Treasure Pod Mk.3",
+                        "chest_unopened_img": "images/items/treasurepod3.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 2620,
+                        "y": 1106
+                    }
+                ]
             },
             {
                 "name": "Halfway up a Towering Tower",
-                "access_rules": [],
+                "access_rules": [
+                    "Jetpack, cracker3, powercore",
+                    "Jetpack, cracker3, PreciseMovement"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Treasure Pod Mk.3",
+                        "chest_unopened_img": "images/items/treasurepod3.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 2690,
+                        "y": 921
+                    }
+                ]
             },
             {
                 "name": "In a High-up Nook",
-                "access_rules": [],
+                "access_rules": [
+                    "Jetpack, cracker3, powercore",
+                    "Jetpack, cracker3, PreciseMovement"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Treasure Pod Mk.3",
+                        "chest_unopened_img": "images/items/treasurepod3.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 2693,
+                        "y": 1014
+                    }
+                ]
             },
             {
                 "name": "Situated on a Collapsed Bridge",
-                "access_rules": [],
+                "access_rules": [
+                    "Jetpack, cracker3, powercore",
+                    "Jetpack, cracker3, PreciseMovement"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Treasure Pod Mk.3",
+                        "chest_unopened_img": "images/items/treasurepod3.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 2763,
+                        "y": 898
+                    }
+                ]
             },
+            {
+                "name": "Painted Hen Stowaway Crate",
+                "access_rules": [],
+                "visibility_rules": ["EnableStylishDlcTreasurePods"],
+                "sections": [
+                    {
+                        "name": "Secret Style",
+                        "chest_unopened_img": "images/items/treasurepod4.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 2690,
+                        "y": 1006
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Glass Desert Second Half",
+        "access_rules": [
+            "^$CanReach|GlassDesertSecondHalf"
+        ],
+        "children": [
             {
                 "name": "Flames Burning at an Unperceivable Pace",
                 "access_rules": [],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "H Note",
+                        "chest_unopened_img": "images/items/HNotes.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 2723,
+                        "y": 730
+                    }
+                ]
             },
             {
                 "name": "Two Doors",
                 "access_rules": [],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "H Note",
+                        "chest_unopened_img": "images/items/HNotes.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 2637,
+                        "y": 563
+                    }
+                ]
             },
             {
                 "name": "She Stole a Piece of My Heart",
                 "access_rules": [],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "H Note",
+                        "chest_unopened_img": "images/items/HNotes.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 2642,
+                        "y": 520
+                    }
+                ]
             },
             {
                 "name": "Sold the Ranch",
                 "access_rules": [],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "H Note",
+                        "chest_unopened_img": "images/items/HNotes.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 2639,
+                        "y": 463
+                    }
+                ]
             },
             {
                 "name": "I Wasnt Ready",
                 "access_rules": [],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "H Note",
+                        "chest_unopened_img": "images/items/HNotes.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 2641,
+                        "y": 397
+                    }
+                ]
             },
             {
                 "name": "The Sand Sea",
-                "access_rules": [],
+                "access_rules": ["Jetpack"],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "H Note",
+                        "chest_unopened_img": "images/items/HNotes.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 2671,
+                        "y": 644
+                    }
+                ]
             },
             {
                 "name": "Down in a Hole",
-                "access_rules": [],
+                "access_rules": ["cracker2"],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Treasure Pod Mk.2",
+                        "chest_unopened_img": "images/items/treasurepod2.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 2699,
+                        "y": 793
+                    }
+                ]
             },
             {
                 "name": "Just Around the Brick Wall",
-                "access_rules": [],
+                "access_rules": [
+                    "Jetpack, cracker2",
+                    "cracker2, PreciseMovement"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Treasure Pod Mk.2",
+                        "chest_unopened_img": "images/items/treasurepod2.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 2790,
+                        "y": 648
+                    }
+                ]
             },
             {
                 "name": "Dead-End Forgotten to the World",
-                "access_rules": [],
+                "access_rules": ["Jetpack, cracker2, powercore"],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Treasure Pod Mk.2",
+                        "chest_unopened_img": "images/items/treasurepod2.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 2799,
+                        "y": 718
+                    }
+                ]
             },
             {
                 "name": "Under the Private Island",
-                "access_rules": [],
+                "access_rules": ["Jetpack, cracker3"],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Treasure Pod Mk.3",
+                        "chest_unopened_img": "images/items/treasurepod3.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 2571,
+                        "y": 962
+                    }
+                ]
             },
             {
                 "name": "Hiding Behind a Sheer Mountain",
-                "access_rules": [],
+                "access_rules": ["Jetpack, cracker3"],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Treasure Pod Mk.3",
+                        "chest_unopened_img": "images/items/treasurepod3.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 2535,
+                        "y": 836
+                    }
+                ]
             },
             {
                 "name": "Hover from One Tower to Another",
-                "access_rules": [],
+                "access_rules": [
+                    "Jetpack, cracker3, powercore",
+                    "Jetpack, cracker3, PreciseMovement"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Treasure Pod Mk.3",
+                        "chest_unopened_img": "images/items/treasurepod3.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 2775,
+                        "y": 588
+                    }
+                ]
             },
             {
                 "name": "Stupidly High Up",
-                "access_rules": [],
+                "access_rules": [
+                    "Jetpack, cracker3, powercore",
+                    "Jetpack, cracker3, PreciseMovement"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Treasure Pod Mk.3",
+                        "chest_unopened_img": "images/items/treasurepod3.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 2662,
+                        "y": 815
+                    }
+                ]
             },
             {
                 "name": "Ruined Wall On a Cliff",
-                "access_rules": [],
+                "access_rules": [
+                    "Jetpack, cracker3, powercore",
+                    "Jetpack, cracker3, PreciseMovement"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Treasure Pod Mk.3",
+                        "chest_unopened_img": "images/items/treasurepod3.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 2708,
+                        "y": 841
+                    }
+                ]
             },
             {
                 "name": "In a Supporting Pillar",
-                "access_rules": [],
+                "access_rules": ["Jetpack, cracker3"],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Treasure Pod Mk.3",
+                        "chest_unopened_img": "images/items/treasurepod3.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 2852,
+                        "y": 915
+                    }
+                ]
             },
             {
                 "name": "Hidden at the Edge of the Sand Sea",
-                "access_rules": [],
+                "access_rules": ["cracker3"],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Treasure Pod Mk.3",
+                        "chest_unopened_img": "images/items/treasurepod3.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 2893,
+                        "y": 808
+                    }
+                ]
             },
             {
                 "name": "At the Base of a Fire Glass Sculpture",
-                "access_rules": [],
+                "access_rules": ["Jetpack, cracker3, powercore2"],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Treasure Pod Mk.3",
+                        "chest_unopened_img": "images/items/treasurepod3.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 2859,
+                        "y": 745
+                    }
+                ]
             },
             {
                 "name": "The Highest Fountain",
-                "access_rules": [],
+                "access_rules": ["Jetpack, cracker3"],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Treasure Pod Mk.3",
+                        "chest_unopened_img": "images/items/treasurepod3.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 2704,
+                        "y": 656
+                    }
+                ]
             },
             {
                 "name": "Lonely Pillar in the Sand Sea",
-                "access_rules": [],
+                "access_rules": ["Jetpack, cracker3, powercore"],
                 "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Painted Hen Stowaway Crate",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Treasure Pod Mk.3",
+                        "chest_unopened_img": "images/items/treasurepod3.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 2473,
+                        "y": 954
+                    }
+                ]
             },
             {
                 "name": "On a Private Island",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
+                "access_rules": ["Jetpack"],
+                "visibility_rules": ["EnableStylishDlcTreasurePods"],
+                "sections": [
+                    {
+                        "name": "Secret Style",
+                        "chest_unopened_img": "images/items/treasurepod4.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 2591,
+                        "y": 924
+                    }
+                ]
             },
             {
                 "name": "Overlooking Great Glass Pillars",
                 "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
+                "visibility_rules": ["EnableStylishDlcTreasurePods"],
+                "sections": [
+                    {
+                        "name": "Secret Style",
+                        "chest_unopened_img": "images/items/treasurepod4.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 2736,
+                        "y": 734
+                    }
+                ]
             },
             {
                 "name": "Jagged Rock Formation in a Plateu",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            }
-        ],
-        "map_locations": [
-            {
-                "map": "Glass Desert",
-                "x": 647,
-                "y": 1258,
-                "size": 6
+                "access_rules": ["Jetpack"],
+                "visibility_rules": ["EnableStylishDlcTreasurePods"],
+                "sections": [
+                    {
+                        "name": "Secret Style",
+                        "chest_unopened_img": "images/items/treasurepod4.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 2851,
+                        "y": 812
+                    }
+                ]
             }
         ]
     }

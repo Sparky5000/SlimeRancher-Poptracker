@@ -1,182 +1,137 @@
 [
     {
-        "name": "Buy Personal Upgrade (Air Drive)",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-            " "
-        ]
-    },
-    {
-        "name": "Buy Personal Upgrade (Dash Boots lv.1)",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-            " "
-        ]
-    },
-    {
-        "name": "Buy Personal Upgrade (Dash Boots lv.2)",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-            " "
-        ]
-    },
-    {
-        "name": "Buy Personal Upgrade (Heart Module lv.1)",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-            " "
-        ]
-    },
-    {
-        "name": "Buy Personal Upgrade (Heart Module lv.2)",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-            " "
-        ]
-    },
-    {
-        "name": "Buy Personal Upgrade (Heart Module lv.3)",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-            " "
-        ]
-    },
-    {
-        "name": "Buy Personal Upgrade (Heart Module lv.4)",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-            " "
-        ]
-    },
-    {
-        "name": "Buy Personal Upgrade (Jetpack)",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-            " "
-        ]
-    },
-    {
-        "name": "Buy Personal Upgrade (Liquid Slot)",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-            " "
-        ]
-    },
-    {
-        "name": "Buy Personal Upgrade (Power Core lv.1)",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-            " "
-        ]
-    },
-    {
-        "name": "Buy Personal Upgrade (Power Core lv.2)",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-            " "
-        ]
-    },
-    {
-        "name": "Buy Personal Upgrade (Power Core lv.3)",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-            " "
-        ]
-    },
-    {
-        "name": "Buy Personal Upgrade (Pulse Wave)",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-            " "
-        ]
-    },
-    {
-        "name": "Buy Personal Upgrade (Tank Booster lv.1)",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-            " "
-        ]
-    },
-    {
-        "name": "Buy Personal Upgrade (Tank Booster lv.2)",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-            " "
-        ]
-    },
-    {
-        "name": "Buy Personal Upgrade (Tank Booster lv.3)",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-            " "
-        ]
-    },
-    {
-        "name": "Buy Personal Upgrade (Tank Booster lv.4)",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-            " "
-        ]
-    },
-    {
-        "name": "Buy Personal Upgrade (Treasure Cracker lv.1)",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-            " "
-        ]
-    },
-    {
-        "name": "Buy Personal Upgrade (Treasure Cracker lv.2)",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-            " "
-        ]
-    },
-    {
-        "name": "Buy Personal Upgrade (Treasure Cracker lv.3)",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-            " "
+        "name": "Personal Upgrades",
+        "sections": [
+            {
+                "name": "Buy Personal Upgrade (Air Drive)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "access_rules": ["^$CanReach|DryReefMain"]
+            },
+            {
+                "name": "Buy Personal Upgrade (Dash Boots lv.1)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "access_rules": []
+            },
+            {
+                "name": "Buy Personal Upgrade (Dash Boots lv.2)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "access_rules": ["^$CanReach|AncientRuinsMain"]
+            },
+            {
+                "name": "Buy Personal Upgrade (Heart Module lv.1)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "access_rules": []
+            },
+            {
+                "name": "Buy Personal Upgrade (Heart Module lv.2)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "access_rules": ["^$CanReach|DryReefMain"]
+            },
+            {
+                "name": "Buy Personal Upgrade (Heart Module lv.3)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "access_rules": ["^$CanReach|DryReefMain"]
+            },
+            {
+                "name": "Buy Personal Upgrade (Heart Module lv.4)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "access_rules": ["^$CanReach|AncientRuinsMain"]
+            },
+            {
+                "name": "Buy Personal Upgrade (Jetpack)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "access_rules": []
+            },
+            {
+                "name": "Buy Personal Upgrade (Liquid Slot)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "access_rules": []
+            },
+            {
+                "name": "Buy Personal Upgrade (Power Core lv.1)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "access_rules": []
+            },
+            {
+                "name": "Buy Personal Upgrade (Power Core lv.2)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "access_rules": ["^$CanReach|DryReefMain"]
+            },
+            {
+                "name": "Buy Personal Upgrade (Power Core lv.3)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "access_rules": ["^$CanReach|DryReefMain"]
+            },
+            {
+                "name": "Buy Personal Upgrade (Pulse Wave)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "access_rules": []
+            },
+            {
+                "name": "Buy Personal Upgrade (Tank Booster lv.1)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "access_rules": []
+            },
+            {
+                "name": "Buy Personal Upgrade (Tank Booster lv.2)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "access_rules": ["^$CanReach|DryReefMain"]
+            },
+            {
+                "name": "Buy Personal Upgrade (Tank Booster lv.3)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "access_rules": ["^$CanReach|DryReefMain"]
+            },
+            {
+                "name": "Buy Personal Upgrade (Tank Booster lv.4)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "access_rules": ["^$CanReach|AncientRuinsMain"]
+            },
+            {
+                "name": "Buy Personal Upgrade (Treasure Cracker lv.1)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "access_rules": ["^$CanReach|TheLab,^$CanReach|DryReefMain"],
+                "visibility_rules": ["$TreasureCrackerVis|1"]
+            },
+            {
+                "name": "Buy Personal Upgrade (Treasure Cracker lv.2)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "access_rules": ["^$CanReach|TheLab,^$CanReach|DryReefMain"],
+                "visibility_rules": ["$TreasureCrackerVis|2"]
+            },
+            {
+                "name": "Buy Personal Upgrade (Treasure Cracker lv.3)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "access_rules": ["^$CanReach|TheLab,^$CanReach|DryReefMain"],
+                "visibility_rules": ["$TreasureCrackerVis|3"]
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "World Map",
+                "x": 1285,
+                "y": 1375
+            }
         ]
     }
 ]

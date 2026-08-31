@@ -1,74 +1,232 @@
 [
     {
-        "name": "Slime Gate",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
+        "name": "Dry Reef Beach to Ring Island",
         "access_rules": [
-            " "
+            "^$CanReach|DryReefBeach"
         ],
         "sections": [
             {
-                "name": "Dry Reef Beach to Ring Island",
+                "name": "Slime Gate",
+                "hosted_item": "slimegateDRBtoRI",
                 "access_rules": [],
                 "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Dry Reef to Moss Blanket",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Dry Reef to Indigo Quarry",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Moss Blanket to Ancient Ruins Transition",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Indigo Quarry to Ancient Ruins Transition",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Ancient Ruins to Glass Desert",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Glass Desert Central Gate",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Glass Desert Lower Gate",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Ancient Ruins Transition to Ancient Ruins",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
+                "item_count": 0
             }
         ],
         "map_locations": [
             {
-                "map": "Slime Gate",
-                "x": 1843,
-                "y": 1475,
-                "size": 6
+                "map": "World Map",
+                "x": 949,
+                "y": 1230,
+                "shape": "diamond",
+                "size": 25
+            }
+        ]
+    },
+    {
+        "name": "Dry Reef to Moss Blanket",
+        "access_rules": [
+            "^$CanReach|MossBlanketMain"
+        ],
+        "sections": [
+            {
+                "name": "Slime Gate",
+                "hosted_item": "slimegateDRtoMB",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 0
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "World Map",
+                "x": 1024,
+                "y": 928,
+                "shape": "diamond",
+                "size": 25
+            }
+        ]
+    },
+    {
+        "name": "Dry Reef to Indigo Quarry",
+        "access_rules": [
+            "^$CanReach|IndigoQuarryBeforeFirstBridge"
+        ],
+        "sections": [
+            {
+                "name": "Slime Gate",
+                "hosted_item": "slimegateDRtoIQ",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 0
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "World Map",
+                "x": 1210,
+                "y": 1071,
+                "shape": "diamond",
+                "size": 25
+            }
+        ]
+    },
+    {
+        "name": "Moss Blanket to Ancient Ruins Transition",
+        "access_rules": [
+            "^$CanReach|AncientRuinsTransition, ^$CanReach|MossBlanketMain"
+        ],
+        "sections": [
+            {
+                "name": "Slime Gate",
+                "hosted_item": "slimegateMBtoART",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 0
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "World Map",
+                "x": 1156,
+                "y": 836,
+                "shape": "diamond",
+                "size": 25
+            }
+        ]
+    },
+    {
+        "name": "Indigo Quarry to Ancient Ruins Transition",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            "^$CanReach|AncientRuinsTransition, ^$CanReach|IndigoQuarryAncientRuinsTransitionOverlap"
+        ],
+        "sections": [
+            {
+                "name": "Slime Gate",
+                "hosted_item": "slimegateIQtoART",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 0
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "World Map",
+                "x": 1219,
+                "y": 872,
+                "shape": "diamond",
+                "size": 25
+            }
+        ]
+    },
+    {
+        "name": "Ancient Ruins to Glass Desert",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            "^$CanReach|GlassDesertFirstHalf"
+        ],
+        "sections": [
+            {
+                "name": "Slime Gate",
+                "hosted_item": "slimegateARtoGD",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 0
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "World Map",
+                "x": 1243,
+                "y": 291,
+                "shape": "diamond",
+                "size": 25
+            }
+        ]
+    },
+    {
+        "name": "Glass Desert Central Gate",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            "^$CanReach|GlassDesertFirstHalf"
+        ],
+        "sections": [
+            {
+                "name": "Slime Gate",
+                "hosted_item": "slimegateGDCG",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 0
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "World Map",
+                "x": 2643,
+                "y": 906,
+                "shape": "diamond",
+                "size": 25
+            }
+        ]
+    },
+    {
+        "name": "Glass Desert Lower Gate",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            "^$CanReach|GlassDesertFirstHalf"
+        ],
+        "sections": [
+            {
+                "name": "Slime Gate",
+                "hosted_item": "slimegateGDLG",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 0
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "World Map",
+                "x": 2826,
+                "y": 949,
+                "shape": "diamond",
+                "size": 25
+            }
+        ]
+    },
+    {
+        "name": "Ancient Ruins Transition to Ancient Ruins",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            "^$CanReach|AncientRuinsMain"
+        ],
+        "sections": [
+            {
+                "name": "Slime Gate",
+                "hosted_item": "slimegateARTtoAR",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 0
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "World Map",
+                "x": 1224,
+                "y": 743,
+                "shape": "diamond",
+                "size": 25
             }
         ]
     }

@@ -2,7 +2,7 @@
     {
         "name": "Easy Skips",
         "type": "toggle",
-        "img": "images/settings/EasySkips.png",
+        "img": "images/settings/Slime.png",
         "codes": "EasySkips"
     },
     {
@@ -26,46 +26,59 @@
     {
         "name": "Largo Jumps",
         "type": "toggle",
-        "img": "images/settings/LargoJumps.png",
+        "img": "images/settings/Largo.png",
         "codes": "LargoJumps"
     },
     {
         "name": "Jetpack Boosts",
         "type": "toggle",
-        "img": "images/settings/JetpackBoosts.png",
+        "img": "images/items/jetpack.png",
         "codes": "JetpackBoosts"
     },
     {
         "name": "Market Logic",
         "type": "toggle",
-        "img": "images/settings/MarketLogic.png",
+        "img": "images/items/MarketLink.png",
         "codes": "MarketLogic"
     },
     {
         "name": "Plortsanity",
-        "type": "toggle",
-        "img": "images/settings/Plortsanity.png",
-        "codes": "Plortsanity"
+        "type": "progressive",
+        "allow_disabled": true,
+        "stages": [
+            {
+                "name": "Plortsanity - all except gold",
+                "img": "images/settings/Plortsnogold.png",
+                "codes": "Plortsanity_nogold"
+            },
+            {
+                "name": "Plortsanity - all",
+                "img": "images/settings/Plorts.png",
+                "codes": "Plortsanity"
+            }
+        ]
     },
     {
         "name": "Include7z",
         "type": "toggle",
-        "img": "images/settings/Include7z.png",
+        "img": "images/items/7zee.png",
         "codes": "Include7z"
     },
     {
         "name": "Treasure Cracker Checks",
         "type": "consumable",
+        "overlay_background": "#000000",
         "max_quantity": 3,
         "increment": 1,
         "decrement": 1,
         "initial_quantity": 0,
+        "img": "images/items/treasurecracker.png",
         "codes": "TreasureCrackerChecks"
     },
     {
         "name": "EnableStylishDlcTreasurePods",
         "type": "toggle",
-        "img": "images/settings/EnableStylishDlcTreasurePods.png",
+        "img": "images/items/treasurepod4.png",
         "codes": "EnableStylishDlcTreasurePods"
     },
     {
@@ -75,9 +88,21 @@
         "codes": "postgame"
     },
     {
-        "name": "MerketLogic",
+        "name": "Include Ogden",
         "type": "toggle",
-        "img": "images/settings/MarketLogic.png",
-        "codes": "MarketLogic"
+        "img": "images/settings/Ogden.png",
+        "codes": "includeOgden"
+    },
+    {
+        "name": "Include Mochi",
+        "type": "toggle",
+        "img": "images/settings/Mochi.png",
+        "codes": "includeMochi"
+    },
+    {
+        "name": "Include Viktor",
+        "type": "toggle",
+        "img": "images/settings/Viktor.png",
+        "codes": "includeViktor"
     }
 ]

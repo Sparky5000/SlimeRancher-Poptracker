@@ -1,0 +1,56 @@
+[
+    {
+        "name": "Dry Reef Beach to Ring Island",
+        "type": "toggle",
+        "img": "images/items/slimegate.png",
+        "codes": "slimegateDRBtoRI"
+    },
+    {
+        "name": "Dry Reef to Moss Blanket",
+        "type": "toggle",
+        "img": "images/items/slimegate.png",
+        "codes": "slimegateDRtoMB"
+    },
+    {
+        "name": "Dry Reef to Indigo Quarry",
+        "type": "toggle",
+        "img": "images/items/slimegate.png",
+        "codes": "slimegateDRtoIQ"
+    },
+    {
+        "name": "Moss Blanket to Ancient Ruins Transition",
+        "type": "toggle",
+        "img": "images/items/slimegate.png",
+        "codes": "slimegateMBtoART"
+    },
+    {
+        "name": "Indigo Quarry to Ancient Ruins Transition",
+        "type": "toggle",
+        "img": "images/items/slimegate.png",
+        "codes": "slimegateIQtoART"
+    },
+    {
+        "name": "Ancient Ruins to Glass Desert",
+        "type": "toggle",
+        "img": "images/items/slimegate.png",
+        "codes": "slimegateARtoGD"
+    },
+    {
+        "name": "Glass Desert Central Gate",
+        "type": "toggle",
+        "img": "images/items/slimegate.png",
+        "codes": "slimegateGDCG"
+    },
+    {
+        "name": "Glass Desert Lower Gate",
+        "type": "toggle",
+        "img": "images/items/slimegate.png",
+        "codes": "slimegateGDLG"
+    },
+    {
+        "name": "Ancient Ruins Transition to Ancient Ruins",
+        "type": "toggle",
+        "img": "images/items/slimegate.png",
+        "codes": "slimegateARTtoAR"
+    }
+]

@@ -1,140 +1,391 @@
 [
     {
-        "name": "Dry Reef",
+        "name": "Dry Reef Main",
         "chest_unopened_img": "/images/items/close.png",
         "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
         "access_rules": [
-            " "
+            "^$CanReach|DryReefMain"
         ],
         "children": [
             {
-                "name": "Hobsons Greetings",
+                "name": "Hobson's Greetings",
                 "access_rules": [],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "H Note",
+                        "chest_unopened_img": "images/items/Hnotes.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 1260,
+                        "y": 1248
+                    }
+                ]
             },
             {
                 "name": "Indigo Quarry Entrance",
                 "access_rules": [],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "H Note",
+                        "chest_unopened_img": "images/items/Hnotes.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 1143,
+                        "y": 1078
+                    }
+                ]
             },
             {
                 "name": "Great Big Tree",
                 "access_rules": [],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "H Note",
+                        "chest_unopened_img": "images/items/Hnotes.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 920,
+                        "y": 1126
+                    }
+                ]
             },
             {
                 "name": "A Darn Good Boot",
-                "access_rules": [],
+                "access_rules": ["jetpack","ObscureLocations"],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "H Note",
+                        "chest_unopened_img": "images/items/Hnotes.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 1344,
+                        "y": 1171
+                    }
+                ]
             },
             {
                 "name": "Map Data Node",
                 "access_rules": [],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Map",
+                        "chest_unopened_img": "images/items/dryreef.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 1109,
+                        "y": 1132
+                    }
+                ]
             },
             {
                 "name": "Hidden Behind a Short Wall",
-                "access_rules": [],
+                "access_rules": ["cracker"],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Treasure Pod Mk.1",
+                        "chest_unopened_img": "images/items/treasurepod1.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 1188,
+                        "y": 1233
+                    }
+                ]
             },
             {
                 "name": "Phosphor Gordos Personal Pod",
-                "access_rules": [],
+                "access_rules": ["cracker"],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Treasure Pod Mk.1",
+                        "chest_unopened_img": "images/items/treasurepod1.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 1029,
+                        "y": 1133
+                    }
+                ]
             },
             {
-                "name": "In the Cliff Trees Roots",
-                "access_rules": [],
+                "name": "In the Cliff Tree's Roots",
+                "access_rules": [
+                    "Jetpack, cracker",
+                    "cracker, EasySkips"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Treasure Pod Mk.1",
+                        "chest_unopened_img": "images/items/treasurepod1.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 933,
+                        "y": 1137
+                    }
+                ]
             },
             {
                 "name": "Nested by Tabby Gordo",
-                "access_rules": [],
+                "access_rules": ["cracker"],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Treasure Pod Mk.1",
+                        "chest_unopened_img": "images/items/treasurepod1.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 961,
+                        "y": 1085
+                    }
+                ]
             },
             {
                 "name": "Stony Hen Hen Coop",
-                "access_rules": [],
+                "access_rules": ["cracker"],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Treasure Pod Mk.1",
+                        "chest_unopened_img": "images/items/treasurepod1.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 943,
+                        "y": 1218
+                    }
+                ]
             },
             {
                 "name": "Hidden Away on an ARCH-ipelago",
-                "access_rules": [],
+                "access_rules": ["Jetpack, cracker2"],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Treasure Pod Mk.2",
+                        "chest_unopened_img": "images/items/treasurepod2.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 1154,
+                        "y": 1292
+                    }
+                ]
             },
             {
                 "name": "Overlooking the Tarr Hotspot",
-                "access_rules": [],
+                "access_rules": ["cracker2"],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Treasure Pod Mk.1",
+                        "chest_unopened_img": "images/items/treasurepod1.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 1112,
+                        "y": 1084
+                    }
+                ]
             },
             {
                 "name": "Hidden Crevice Under the Hidden Cliff",
-                "access_rules": [],
+                "access_rules": ["cracker3"],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Treasure Pod Mk.3",
+                        "chest_unopened_img": "images/items/treasurepod3.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 1188,
+                        "y": 1263
+                    }
+                ]
             },
+            {
+                "name": "Hidden Treasure of the Pink Gordo",
+                "access_rules": [],
+                "visibility_rules": ["EnableStylishDlcTreasurePods"],
+                "sections": [
+                    {
+                        "name": "Secret Style",
+                        "chest_unopened_img": "images/items/treasurepod4.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 1077,
+                        "y": 1228
+                    }
+                ]
+            },
+            {
+                "name": "Nested in Crystal",
+                "access_rules": [],
+                "visibility_rules": ["EnableStylishDlcTreasurePods"],
+                "sections": [
+                    {
+                        "name": "Secret Style",
+                        "chest_unopened_img": "images/items/treasurepod4.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 1030,
+                        "y": 1124
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Dry Reef Beach",
+        "access_rules": [
+            "^$CanReach|DryReefBeach"
+        ],
+        "children": [
             {
                 "name": "Ruminating on the Beach",
                 "access_rules": [],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "H Note",
+                        "chest_unopened_img": "images/items/Hnotes.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 913,
+                        "y": 1348
+                    }
+                ]
             },
             {
                 "name": "Carrot Patch Cache",
-                "access_rules": [],
+                "access_rules": ["cracker2"],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Treasure Pod Mk.2",
+                        "chest_unopened_img": "images/items/treasurepod2.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 1080,
+                        "y": 1338
+                    }
+                ]
             },
+            {
+                "name": "Tiny Not-Huge Island",
+                "access_rules": ["Jetpack"],
+                "visibility_rules": ["EnableStylishDlcTreasurePods"],
+                "sections": [
+                    {
+                        "name": "Secret Style",
+                        "chest_unopened_img": "images/items/treasurepod4.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 947,
+                        "y": 1386
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Dry Reef Offshoot",
+        "access_rules": [
+            "^$CanReach|DryReefOffshoot"
+        ],
+        "children": [
             {
                 "name": "Hidden in the Shade",
                 "access_rules": [],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Treasure Pod Mk.1",
+                        "chest_unopened_img": "images/items/treasurepod1.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 1326,
+                        "y": 1231
+                    }
+                ]
             },
             {
                 "name": "Beneath the Wooden Scaffolding",
                 "access_rules": [],
                 "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Hidden Treasure of the Pink Gordo",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Nested in Crystal",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Tiny Not-Huge Island",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            }
-        ],
-        "map_locations": [
-            {
-                "map": "Dry Reef",
-                "x": 1019,
-                "y": 817,
-                "size": 6
+                "sections": [
+                    {
+                        "name": "Treasure Pod Mk.2",
+                        "chest_unopened_img": "images/items/treasurepod2.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 1442,
+                        "y": 1191
+                    }
+                ]
             }
         ]
     }

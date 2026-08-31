@@ -1,11 +1,41 @@
 [
     {
-        "name": "progressivemarketstonks",
-        "type": "toggle",
-        "img": "images/items/progressivemarketstonks.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "progressivemarketstonks"
+        "name": "The Ranch",
+        "type": "static",
+        "img": "images/items/theranch.png",
+        "codes": "homeranch"
+    },
+    {
+        "name": "The Slime Sea",
+        "type": "static",
+        "img": "images/items/slimesea.png",
+        "codes": "slimesea"
+    },
+    {
+        "name": "progressive market stonks",
+        "type": "progressive",
+        "stages": [
+            {
+                "img": "images/items/stonks.png",
+                "codes": "progressivemarketstonks"
+            },
+            {
+                "img": "images/items/stonks2.png",
+                "codes": "progressivemarketstonks"
+            },
+            {
+                "img": "images/items/stonks3.png",
+                "codes": "progressivemarketstonks"
+            },
+            {
+                "img": "images/items/stonks4.png",
+                "codes": "progressivemarketstonks"
+            },
+            {
+                "img": "images/items/stonks5.png",
+                "codes": "progressivemarketstonks"
+            }
+        ]
     },
     {
         "name": "Glass Desert",
@@ -16,18 +46,19 @@
         "codes": "regionunlock-glassdesert"
     },
     {
-        "name": "Liquid Slot",
+        "name": "Water Tank",
         "type": "toggle",
-        "img": "images/items/liquidslot.png",
+        "img": "images/items/watertank.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "liquidslot"
     },
     {
         "name": "Market Link",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/marketlink.png",
-        "initial_active_state": false,
+        "increment": 1,
+        "decrement": 1,
         "overlay_align": "right",
         "codes": "marketlink"
     },
@@ -49,19 +80,28 @@
     },
     {
         "name": "Drone",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/drone.png",
-        "initial_active_state": false,
+        "increment": 1,
+        "decrement": 1,
         "overlay_align": "right",
         "codes": "drone"
     },
     {
         "name": "Progressive Jetpack",
-        "type": "toggle",
-        "img": "images/items/progressivejetpack.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "progressivejetpack"
+        "type": "progressive",
+        "stages": [
+            {
+                "name": "Jetpack",
+                "img": "images/items/jetpack.png",
+                "codes": "Jetpack,progressivejetpack"
+            },
+            {
+                "name": "Air Drive",
+                "img": "images/items/jetpack2.png",
+                "codes": "Jetpack2,progressivejetpack"
+            }
+        ]
     },
     {
         "name": "Moss Blanket",
@@ -81,11 +121,29 @@
     },
     {
         "name": "Progressive Max Health",
-        "type": "toggle",
-        "img": "images/items/progressivemaxhealth.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "progressivemaxhealth"
+        "type": "progressive",
+        "stages": [
+            {
+                "name": "Heart Module",
+                "img": "images/items/heartmodule.png",
+                "codes": "HeartModule,progressivemaxhealth"
+            },
+            {
+                "name": "Heart Module Mk II",
+                "img": "images/items/heartmodule2.png",
+                "codes": "HeartModule2,progressivemaxhealth"
+            },
+            {
+                "name": "Heart Module Mk III",
+                "img": "images/items/heartmodule3.png",
+                "codes": "HeartModule3,progressivemaxhealth"
+            },
+            {
+                "name": "Heart Module Ultra",
+                "img": "images/items/heartmodule4.png",
+                "codes": "HeartModule4,progressivemaxhealth"
+            }
+        ]
     },
     {
         "name": "Ogden's Retreat",
@@ -97,9 +155,10 @@
     },
     {
         "name": "Advanced Drone",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/advanceddrone.png",
-        "initial_active_state": false,
+        "increment": 1,
+        "decrement": 1,
         "overlay_align": "right",
         "codes": "advanceddrone"
     },
@@ -121,16 +180,24 @@
     },
     {
         "name": "Progressive Run Efficiency",
-        "type": "toggle",
-        "img": "images/items/progressiverunefficiency.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "progressiverunefficiency"
+        "type": "progressive",
+        "stages": [
+            {
+                "name": "Dash Boots",
+                "img": "images/items/dashboots.png",
+                "codes": "dashboots,progressiverunefficiency"
+            },
+            {
+                "name": "Ultra Dash Boots",
+                "img": "images/items/ultradashboots.png",
+                "codes": "ultradashboots,progressiverunefficiency"
+            }
+        ]
     },
     {
-        "name": "Air Burst",
+        "name": "Pulse Wave",
         "type": "toggle",
-        "img": "images/items/airburst.png",
+        "img": "images/items/pulsewave.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "airburst"
@@ -153,19 +220,50 @@
     },
     {
         "name": "Progressive Max Ammo",
-        "type": "toggle",
-        "img": "images/items/progressivemaxammo.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "progressivemaxammo"
+        "type": "progressive",
+        "stages": [
+            {
+                "name": "Tank Booster",
+                "img": "images/items/tankbooster.png",
+                "codes": "tankbooster,progressivemaxammo"
+            },
+            {
+                "name": "Tank Booster Mk II",
+                "img": "images/items/tankbooster2.png",
+                "codes": "tankbooster2,progressivemaxammo"
+            },
+            {
+                "name": "Tank Booster Mk III",
+                "img": "images/items/tankbooster3.png",
+                "codes": "tankbooster3,progressivemaxammo"
+            },
+            {
+                "name": "Tank Booster Ultra",
+                "img": "images/items/tankbooster4.png",
+                "codes": "tankbooster4,progressivemaxammo"
+            }
+        ]
     },
     {
         "name": "Progressive Treasure Cracker",
-        "type": "toggle",
-        "img": "images/items/progressivetreasurecracker.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "progressivetreasurecracker"
+        "type": "progressive",
+        "stages": [
+            {
+                "name": "Treasure Cracker",
+                "img": "images/items/treasurecracker.png",
+                "codes": "cracker,progressivetreasurecracker"
+            },
+            {
+                "name": "Treasure Cracker Mk II",
+                "img": "images/items/treasurecracker2.png",
+                "codes": "cracker2,progressivetreasurecracker"
+            },
+            {
+                "name": "Treasure Cracker Mk III",
+                "img": "images/items/treasurecracker3.png",
+                "codes": "cracker3,progressivetreasurecracker"
+            }
+        ]
     },
     {
         "name": "Ancient Ruins Transition",
@@ -217,13 +315,24 @@
     },
     {
         "name": "Progressive Max Energy",
-        "type": "consumable",
-        "img": "images/items/progressivemaxenergy.png",
-        "max_quantity": 3,
-        "increment": 1,
-        "decrement": 1,
-        "initial_quantity": 0,
-        "codes": "progressivemaxenergy"
+        "type": "progressive",
+        "stages": [
+            {
+                "name": "Power Core",
+                "img": "images/items/powercore.png",
+                "codes": "powercore,progressivemaxenergy"
+            },
+            {
+                "name": "Power Core Mk II",
+                "img": "images/items/powercore2.png",
+                "codes": "powercore2,progressivemaxenergy"
+            },
+            {
+                "name": "Power Core Mk III",
+                "img": "images/items/powercore3.png",
+                "codes": "powercore3,progressivemaxenergy"
+            }
+        ]
     },
     {
         "name": "The Lab",
@@ -232,13 +341,5 @@
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "regionunlock-thelab"
-    },
-    {
-        "name": "Update",
-        "type": "toggle",
-        "img": "images/items/update.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "update"
     }
 ]

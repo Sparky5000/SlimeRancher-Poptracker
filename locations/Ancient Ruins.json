@@ -1,146 +1,412 @@
 [
     {
-        "name": "Ancient Ruins",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-            " "
-        ],
-        "sections": [
+        "name": "Ancient Ruins Main",
+        "access_rules": ["^$CanReach|AncientRuinsMain"],
+        "children": [
             {
                 "name": "These Folks Like Slimes",
                 "access_rules": [],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "H Note",
+                        "chest_unopened_img": "images/items/HNotes.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 1246,
+                        "y": 643
+                    }
+                ]
             },
             {
                 "name": "You Gotta Choose a Path",
                 "access_rules": [],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "H Note",
+                        "chest_unopened_img": "images/items/HNotes.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 1201,
+                        "y": 603
+                    }
+                ]
             },
             {
                 "name": "Ice-Cold Lemonade",
                 "access_rules": [],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "H Note",
+                        "chest_unopened_img": "images/items/HNotes.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 1225,
+                        "y": 461
+                    }
+                ]
             },
             {
                 "name": "Map Data Node",
                 "access_rules": [],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Map",
+                        "chest_unopened_img": "images/items/ancientruins.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 1288,
+                        "y": 590
+                    }
+                ]
             },
             {
                 "name": "Tree Memorial",
-                "access_rules": [],
+                "access_rules": ["cracker"],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Treasure Pod Mk.1",
+                        "chest_unopened_img": "images/items/treasurepod1.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 1290,
+                        "y": 548
+                    }
+                ]
             },
             {
                 "name": "A Flowery Respite",
-                "access_rules": [],
+                "access_rules": [
+                    "Jetpack, cracker",
+                    "cracker, PreciseMovement"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Treasure Pod Mk.1",
+                        "chest_unopened_img": "images/items/treasurepod1.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 1318,
+                        "y": 523
+                    }
+                ]
             },
             {
                 "name": "Hidden Nook",
-                "access_rules": [],
+                "access_rules": [
+                    "Jetpack, cracker2",
+                    "cracker2, LargoJumps",
+                    "cracker2, PreciseMovement"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Treasure Pod Mk.2",
+                        "chest_unopened_img": "images/items/treasurepod2.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 1344,
+                        "y": 606
+                    }
+                ]
             },
             {
                 "name": "The Hidden Turnabout",
-                "access_rules": [],
+                "access_rules": ["cracker2"],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Treasure Pod Mk.2",
+                        "chest_unopened_img": "images/items/treasurepod2.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 1232,
+                        "y": 572
+                    }
+                ]
             },
             {
                 "name": "Caught Up in the Explosion",
-                "access_rules": [],
+                "access_rules": ["cracker2"],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Treasure Pod Mk.2",
+                        "chest_unopened_img": "images/items/treasurepod2.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 1201,
+                        "y": 523
+                    }
+                ]
             },
             {
                 "name": "The End of a Long and Arduous Journey",
-                "access_rules": [],
+                "access_rules": ["cracker2"],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Treasure Pod Mk.2",
+                        "chest_unopened_img": "images/items/treasurepod2.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 1267,
+                        "y": 470
+                    }
+                ]
             },
             {
                 "name": "In a Crumbled Pile",
-                "access_rules": [],
+                "access_rules": ["cracker2"],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Treasure Pod Mk.2",
+                        "chest_unopened_img": "images/items/treasurepod2.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 1257,
+                        "y": 309
+                    }
+                ]
             },
             {
                 "name": "At the End of a Broken Pillar Path",
-                "access_rules": [],
+                "access_rules": [
+                    "Jetpack, cracker2",
+                    "cracker2, PreciseMovement"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Treasure Pod Mk.2",
+                        "chest_unopened_img": "images/items/treasurepod2.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 1303,
+                        "y": 552
+                    }
+                ]
             },
             {
                 "name": "Theres Slimes in the Walls",
-                "access_rules": [],
+                "access_rules": ["Jetpack, cracker3"],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Treasure Pod Mk.3",
+                        "chest_unopened_img": "images/items/treasurepod3.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 1206,
+                        "y": 633
+                    }
+                ]
             },
             {
                 "name": "Collapsed Upper Staircase",
-                "access_rules": [],
+                "access_rules": ["Jetpack, cracker3"],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Treasure Pod Mk.3",
+                        "chest_unopened_img": "images/items/treasurepod3.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 1374,
+                        "y": 628
+                    }
+                ]
             },
             {
                 "name": "The Room With No Door",
-                "access_rules": [],
+                "access_rules": [
+                    "Jetpack, cracker3",
+                    "cracker3, PreciseMovement"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Treasure Pod Mk.3",
+                        "chest_unopened_img": "images/items/treasurepod3.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 1295,
+                        "y": 487
+                    }
+                ]
             },
             {
                 "name": "Shrine Overlooking the Ancient Ruins",
-                "access_rules": [],
+                "access_rules": [
+                    "Jetpack, cracker3",
+                    "cracker3, ObscureLocations, LargoJumps"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Treasure Pod Mk.3",
+                        "chest_unopened_img": "images/items/treasurepod3.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 1298,
+                        "y": 498
+                    }
+                ]
             },
             {
                 "name": "Hidden Nook on a High Up Platform",
-                "access_rules": [],
+                "access_rules": ["cracker3"],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Treasure Pod Mk.3",
+                        "chest_unopened_img": "images/items/treasurepod3.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 1332,
+                        "y": 436
+                    }
+                ]
             },
             {
                 "name": "Follow the Sunken Pillars",
-                "access_rules": [],
+                "access_rules": [
+                    "Jetpack, cracker3",
+                    "cracker3, PreciseMovement, ObscureLocations"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Truly Untamed Country",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Treasure Pod Mk.3",
+                        "chest_unopened_img": "images/items/treasurepod3.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 1213,
+                        "y": 391
+                    }
+                ]
             },
             {
                 "name": "Everything Quiet on the Western Front",
                 "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
+                "visibility_rules": ["EnableStylishDlcTreasurePods"],
+                "sections": [
+                    {
+                        "name": "Secret Style",
+                        "chest_unopened_img": "images/items/treasurepod4.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 1202,
+                        "y": 545
+                    }
+                ]
             },
             {
                 "name": "Above the Ancient Teleporter",
                 "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
+                "visibility_rules": ["EnableStylishDlcTreasurePods"],
+                "sections": [
+                    {
+                        "name": "Secret Style",
+                        "chest_unopened_img": "images/items/treasurepod4.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 1265,
+                        "y": 306
+                    }
+                ]
             }
+        ]
+    },
+    {
+        "name": "Ancient Ruins Teleporter Room",
+        "access_rules": [
+            "^$CanReach|AncientRuinsTeleporterRoom"
         ],
-        "map_locations": [
+        "children": [
             {
-                "map": "Ancient Ruins",
-                "x": 2370,
-                "y": 1910,
-                "size": 6
+                "name": "Truly Untamed Country",
+                "access_rules": [],
+                "visibility_rules": [],
+                "sections": [
+                    {
+                        "name": "H Note",
+                        "chest_unopened_img": "images/items/HNotes.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 1231,
+                        "y": 213
+                    }
+                ]
             }
         ]
     }

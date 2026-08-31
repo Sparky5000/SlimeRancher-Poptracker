@@ -1,140 +1,387 @@
 [
     {
-        "name": "Indigo Quarry",
+        "name": "Indigo Quarry Before First Bridge",
         "chest_unopened_img": "/images/items/close.png",
         "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
         "access_rules": [
-            " "
+            "^$CanReach|IndigoQuarryBeforeFirstBridge"
         ],
-        "sections": [
+        "children": [
             {
                 "name": "I Liked Her Laugh",
                 "access_rules": [],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "H Note",
+                        "chest_unopened_img": "images/items/Hnotes.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 1287,
+                        "y": 1057
+                    }
+                ]
             },
             {
                 "name": "Crystal Wind Chime",
-                "access_rules": [],
+                "access_rules": ["Jetpack","EasySkips"],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "H Note",
+                        "chest_unopened_img": "images/items/Hnotes.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 1652,
+                        "y": 1123
+                    }
+                ]
             },
             {
                 "name": "Peeping Puddle Slimes",
                 "access_rules": [],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "H Note",
+                        "chest_unopened_img": "images/items/Hnotes.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 1561,
+                        "y": 1006
+                    }
+                ]
             },
             {
                 "name": "Map Data Node",
                 "access_rules": [],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Map",
+                        "chest_unopened_img": "images/items/IndigoQuarry.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 1449,
+                        "y": 1071
+                    }
+                ]
             },
             {
                 "name": "Skate Fast Eat Grass",
-                "access_rules": [],
+                "access_rules": ["cracker"],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Treasure Pod Mk.1",
+                        "chest_unopened_img": "images/items/treasurepod1.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 1425,
+                        "y": 1079
+                    }
+                ]
             },
             {
                 "name": "Coral Tube Treasure",
-                "access_rules": [],
+                "access_rules": ["cracker"],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Treasure Pod Mk.1",
+                        "chest_unopened_img": "images/items/treasurepod1.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 1568,
+                        "y": 1107
+                    }
+                ]
             },
             {
                 "name": "The Boom Zone",
-                "access_rules": [],
+                "access_rules": ["cracker"],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Treasure Pod Mk.1",
+                        "chest_unopened_img": "images/items/treasurepod1.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 1312,
+                        "y": 1053
+                    }
+                ]
             },
             {
                 "name": "Above the Smoke and Ashes",
-                "access_rules": [],
+                "access_rules": ["Jetpack, cracker2","cracker2, EasySkips"],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Treasure Pod Mk.2",
+                        "chest_unopened_img": "images/items/treasurepod2.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 1646,
+                        "y": 1095
+                    }
+                ]
             },
             {
                 "name": "Personal Puddle Pod",
-                "access_rules": [],
+                "access_rules": ["cracker2"],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Treasure Pod Mk.2",
+                        "chest_unopened_img": "images/items/treasurepod2.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 1577,
+                        "y": 1015
+                    }
+                ]
             },
             {
                 "name": "Hidden Behind Stalagtmites",
-                "access_rules": [],
+                "access_rules": ["cracker3"],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Treasure Pod Mk.3",
+                        "chest_unopened_img": "images/items/treasurepod3.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 1389,
+                        "y": 1045
+                    }
+                ]
             },
             {
                 "name": "On a Cliff Before Puddle Lake",
-                "access_rules": [],
+                "access_rules": ["Jetpack, cracker3","cracker3, EasySkips"],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Treasure Pod Mk.3",
+                        "chest_unopened_img": "images/items/treasurepod3.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 1582,
+                        "y": 1047
+                    }
+                ]
             },
             {
                 "name": "Across Hexium Crystal Formations",
-                "access_rules": [],
+                "access_rules": ["Jetpack, cracker3"],
                 "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Under a Hexium Crystal",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Under Crumbled Scaffolding",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Slightly Irradiated Reward",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Through the Radiation Cave",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Crystal Cache behind Rickety Bridges",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Treasure After the End",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Treasure Pod Mk.3",
+                        "chest_unopened_img": "images/items/treasurepod3.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 1298,
+                        "y": 1021
+                    }
+                ]
             },
             {
                 "name": "Ashore Near Puddle Lake",
                 "access_rules": [],
+                "visibility_rules": ["EnableStylishDlcTreasurePods"],
+                "sections": [
+                    {
+                        "name": "Secret Style",
+                        "chest_unopened_img": "images/items/treasurepod4.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 1547,
+                        "y": 1007
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Indigo Quarry After The Bridge",
+        "access_rules": ["^$CanReach|IndigoQuarryAfterTheBridge"],
+        "children": [
+            {
+                "name": "Under a Hexium Crystal",
+                "access_rules": ["cracker"],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Treasure Pod Mk.1",
+                        "chest_unopened_img": "images/items/treasurepod1.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 1602,
+                        "y": 872
+                    }
+                ]
+            },
+            {
+                "name": "Under Crumbled Scaffolding",
+                "access_rules": ["cracker2"],
+                "visibility_rules": [],
+                "sections": [
+                    {
+                        "name": "Treasure Pod Mk.2",
+                        "chest_unopened_img": "images/items/treasurepod2.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 1386,
+                        "y": 981
+                    }
+                ]
+            },
+            {
+                "name": "Slightly Irradiated Reward",
+                "access_rules": ["cracker2"],
+                "visibility_rules": [],
+                "sections": [
+                    {
+                        "name": "Treasure Pod Mk.2",
+                        "chest_unopened_img": "images/items/treasurepod2.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 1467,
+                        "y": 1041
+                    }
+                ]
+            },
+            {
+                "name": "Through the Radiation Cave",
+                "access_rules": ["Jetpack, cracker3"],
+                "visibility_rules": [],
+                "sections": [
+                    {
+                        "name": "Treasure Pod Mk.3",
+                        "chest_unopened_img": "images/items/treasurepod3.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 1491,
+                        "y": 970
+                    }
+                ]
+            },
+            {
+                "name": "Crystal Cache behind Rickety Bridges",
+                "access_rules": [
+                    "Jetpack, cracker3",
+                    "cracker3, PreciseMovement, DangerousSkips"
+                ],
+                "visibility_rules": [],
+                "sections": [
+                    {
+                        "name": "Treasure Pod Mk.3",
+                        "chest_unopened_img": "images/items/treasurepod3.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 1491,
+                        "y": 839
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Indigo Quarry Ancient Ruins Transition Overlap",
+        "access_rules": ["^$CanReach|IndigoQuarryAncientRuinsTransitionOverlap"],
+        "children": [
+            {
+                "name": "Treasure After the End",
+                "access_rules": ["cracker2"],
+                "visibility_rules": [],
+                "sections": [
+                    {
+                        "name": "Treasure Pod Mk.2",
+                        "chest_unopened_img": "images/items/treasurepod2.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 1302,
+                        "y": 923
+                    }
+                ]
             },
             {
                 "name": "Follow the Ravine",
                 "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            }
-        ],
-        "map_locations": [
-            {
-                "map": "Indigo Quarry",
-                "x": 50,
-                "y": 633,
-                "size": 6
+                "visibility_rules": ["EnableStylishDlcTreasurePods"],
+                "sections": [
+                    {
+                        "name": "Secret Style",
+                        "chest_unopened_img": "images/items/treasurepod4.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": 1226,
+                        "y": 890
+                    }
+                ]
             }
         ]
     }
