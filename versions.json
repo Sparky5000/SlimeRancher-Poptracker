@@ -1,7 +1,12 @@
 {
     "versions": [
       {
-        "package_version": "1.0.0"
-      }
+            "package_version": "1.0.0",
+            "download_url": "https://github.com/Sparky5000/SlimeRancher-Poptracker/archive/refs/tags/v1.0.0.zip",
+            "sha256": "dbf8ba20d381af065529ebedc5a0c95a8c10804a0cb782459e7b022b1d14212b",
+            "changelog": [
+                "Initial release of pack"
+            ]
+        }
     ]
 }
