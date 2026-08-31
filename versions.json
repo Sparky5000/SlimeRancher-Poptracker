@@ -8,7 +8,7 @@
                 "fixed saber plort logic",
                 "removed unused plorts from logic"
             ]
-        
+        },
         {
             "package_version": "1.0.2",
             "download_url": "https://github.com/Sparky5000/SlimeRancher-Poptracker/archive/refs/tags/v1.0.2.zip",
