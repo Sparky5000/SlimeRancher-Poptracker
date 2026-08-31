@@ -28,8 +28,8 @@ GlassDesertSecondHalf = slime_rancher_location.new("GlassDesertSecondHalf")
 TheLab = slime_rancher_location.new("TheLab")
 SlimeSeaMustacheShrine = slime_rancher_location.new("SlimeSeaMustacheShrine")
 SlimeSeaOffMossBlanket = slime_rancher_location.new("SlimeSeaOffMossBlanket")
-SlimeSeaBetweenGrottoAndDryReedIsland1 = slime_rancher_location.new("SlimeSeaBetweenGrottoAndDryReedIsland1")
-SlimeSeaBetweenGrottoAndDryReedIsland2 = slime_rancher_location.new("SlimeSeaBetweenGrottoAndDryReedIsland2")
+SlimeSeaBetweenGrottoAndDryReefIsland1 = slime_rancher_location.new("SlimeSeaBetweenGrottoAndDryReefIsland1")
+SlimeSeaBetweenGrottoAndDryReefIsland2 = slime_rancher_location.new("SlimeSeaBetweenGrottoAndDryReefIsland2")
 PostGame = slime_rancher_location.new("PostGame")
 DryReefHVault = slime_rancher_location.new("DryReefHVault")
 IndigoQuarryHVault = slime_rancher_location.new("IndigoQuarryHVault")
@@ -38,34 +38,34 @@ MossBlanketHVault = slime_rancher_location.new("MossBlanketHVault")
 -- Connections
 -- The ranch
 Entry_Point:connect_one_way(TheRanch)
-TheRanch:connect_one_way(TheLab,function() return hasTheLab() end)
-TheRanch:connect_one_way(DryReefMain,function() return hasDryReef() end)
+TheRanch:connect_one_way(TheLab,hasTheLab)
+TheRanch:connect_one_way(DryReefMain,hasDryReef)
 TheRanch:connect_one_way(DryReefBeach,function()
     return ALL(
         hasDryReef,
         ObscureLocations
     )
 end)
-TheRanch:connect_one_way(TheOverGrowth,function() return hasOverGrowth() end)
+TheRanch:connect_one_way(TheOverGrowth,hasOverGrowth)
 TheRanch:connect_one_way(TheDocks,function()
     return ALL(
         hasDocks,
         ObscureLocations
     )
 end)
-TheRanch:connect_one_way(TheGrotto,function() return hasGrotto() end)
+TheRanch:connect_one_way(TheGrotto,hasGrotto)
 -- The Lab and Viktors Workshop
 TheLab:connect_one_way(ViktorsWorkshop,function()
     return ALL(
         hasViktorsWorkshop,
         hasPlort("Quantum"),
-        slimeGateARTtoAR
+        CanReach("AncientRuinsMain")
     )
 end)
-ViktorsWorkshop:connect_one_way(TheSlimeulations,function() return hasSlimeulation() end)
+ViktorsWorkshop:connect_one_way(TheSlimeulations,hasSlimeulation)
 -- Dry Reef Main
-DryReefMain:connect_one_way(MossBlanketMain,function() return hasMossBlanket() end)
-DryReefMain:connect_one_way(IndigoQuarryBeforeFirstBridge,function() return hasIndigoQuarry() end)
+DryReefMain:connect_one_way(MossBlanketMain,hasMossBlanket)
+DryReefMain:connect_one_way(IndigoQuarryBeforeFirstBridge,hasIndigoQuarry)
 DryReefMain:connect_one_way(DryReefOffshoot,function()
     return ALL(
         hasDryReef,
@@ -75,24 +75,24 @@ end)
 DryReefMain:connect_one_way(SlimeSeaMustacheShrine, function()
     return ALL(
         hasJetpack,
-        has("progressivemaxenergy",3),
+        has("powercore3"),
         ObscureLocations
     )
 end)
-DryReefMain:connect_one_way(DryReefBeach,function() return hasDryReef() end)
-DryReefMain:connect_one_way(TheDocks,function() return hasDocks() end)
+DryReefMain:connect_one_way(DryReefBeach,hasDryReef)
+DryReefMain:connect_one_way(TheDocks,hasDocks)
 -- The Overgrowth
-TheOverGrowth:connect_one_way(DryReefBeach,function() return hasDryReef() end)
+TheOverGrowth:connect_one_way(DryReefBeach,hasDryReef)
 TheOverGrowth:connect_one_way(OgdensRetreat,function()
     return ALL(
         hasOgdensRetreat,
         hasPlort("Boom"),
         hasPlort("Honey"),
         hasPlort("Hunter"),
-        slimeGateDRtoMB
+        CanReach("MossBlanketMain")
     )
 end)
-TheOverGrowth:connect_one_way(TheDocks,function() return hasDocks() end)
+TheOverGrowth:connect_one_way(TheDocks,hasDocks)
 -- The Grotto
 TheGrotto:connect_one_way(MochisManor,function()
     return ALL(
@@ -100,10 +100,10 @@ TheGrotto:connect_one_way(MochisManor,function()
         hasPlort("Boom"),
         hasPlort("Rad"),
         hasPlort("Crystal"),
-        slimeGateDRtoIQ
+        CanReach("IndigoQuarryBeforeFirstBridge")
     )
 end)
-TheGrotto:connect_one_way(SlimeSeaBetweenGrottoAndDryReedIsland1,function()
+TheGrotto:connect_one_way(SlimeSeaBetweenGrottoAndDryReefIsland1,function()
     return ANY(
         ALL(
             PreciseMovement,
@@ -113,7 +113,7 @@ TheGrotto:connect_one_way(SlimeSeaBetweenGrottoAndDryReedIsland1,function()
     )
 end)
 -- Slime Sea Islands between grotto and dry reef
-SlimeSeaBetweenGrottoAndDryReedIsland1:connect_two_ways_stuck(SlimeSeaBetweenGrottoAndDryReedIsland2,function()
+SlimeSeaBetweenGrottoAndDryReefIsland1:connect_two_ways_stuck(SlimeSeaBetweenGrottoAndDryReefIsland2,function()
     return ANY(
         hasJetpack(),
         ALL(
@@ -122,18 +122,18 @@ SlimeSeaBetweenGrottoAndDryReedIsland1:connect_two_ways_stuck(SlimeSeaBetweenGro
         )
     )
 end,
-function() return hasJetpack() end)
-SlimeSeaBetweenGrottoAndDryReedIsland2:connect_two_ways_stuck(DryReefOffshoot,function()
+hasJetpack)
+SlimeSeaBetweenGrottoAndDryReefIsland2:connect_two_ways_stuck(DryReefOffshoot,function()
     return ALL(
         hasDryReef,
         hasJetpack
     )
 end,
-function() return hasJetpack() end)
+hasJetpack)
 -- Mochis Manor
-MochisManor:connect_one_way(NimbleValley,function() return hasNimbleValley() end)
+MochisManor:connect_one_way(NimbleValley,hasNimbleValley)
 -- Ogdens Retreat
-OgdensRetreat:connect_one_way(TheWilds,function() return hasWilds() end)
+OgdensRetreat:connect_one_way(TheWilds,hasWilds)
 -- Dry Reef Beach
 DryReefBeach:connect_one_way(DryReefRingIsland,function()
     return ALL(
@@ -158,8 +158,8 @@ IndigoQuarryAfterTheBridge:connect_two_ways_stuck(IndigoQuarryAncientRuinsTransi
     )
 end,
 function() return hasIndigoQuarry() end)
-IndigoQuarryAfterTheBridge:connect_one_way(IndigoQuarryAsheIsles,function() return hasIndigoQuarry() end)
-IndigoQuarryAncientRuinsTransitionOverlap:connect_two_ways_stuck(AncientRuinsTransition,function() return hasAncientRuins() end,
+IndigoQuarryAfterTheBridge:connect_one_way(IndigoQuarryAsheIsles,hasIndigoQuarry)
+IndigoQuarryAncientRuinsTransitionOverlap:connect_two_ways_stuck(AncientRuinsTransition,hasAncientRuinsTransition,
 function()
     return ALL(
         hasIndigoQuarry,
@@ -179,7 +179,7 @@ MossBlanketMain:connect_one_way(MossBlanketMushroomIsland,function()
         )
     )
 end)
-MossBlanketMain:connect_one_way(AncientRuinsTransition,function() return hasAncientRuinsTransition() end)
+MossBlanketMain:connect_one_way(AncientRuinsTransition,hasAncientRuinsTransition)
 MossBlanketMain:connect_one_way(MossBlanketHuntersDomain,function()
     return ALL(
         hasMossBlanket,
@@ -197,9 +197,9 @@ MossBlanketHuntersDomain:connect_one_way(SlimeSeaOffMossBlanket,function()
         hasMossBlanket,
         hasJetpack,
         ANY(
-            has("progressivemaxenergy",3),
+            has("powercore3"),
             ALL(
-                has("progressivemaxenergy",2),
+                has("powercore2"),
                 ObscureLocations
             )
         )
@@ -217,7 +217,7 @@ AncientRuinsTransition:connect_one_way(AncientRuinsMain,function()
         hasPlort("Honey")
     )
 end)
-AncientRuinsMain:connect_one_way(AncientRuinsTeleporterRoom,function() return hasAncientRuins() end)
+AncientRuinsMain:connect_one_way(AncientRuinsTeleporterRoom,hasAncientRuins)
 AncientRuinsTeleporterRoom:connect_one_way(GlassDesertFirstHalf,function()
     return ALL(
         hasGlassDesert,
@@ -225,8 +225,8 @@ AncientRuinsTeleporterRoom:connect_one_way(GlassDesertFirstHalf,function()
     )
 end)
 -- Glass Desert
-GlassDesertFirstHalf:connect_one_way(GlassDesertSecondHalf,function() return hasGlassDesert() end)
-GlassDesertSecondHalf:connect_one_way(PostGame,function() return PostGameEnabled() end)
+GlassDesertFirstHalf:connect_one_way(GlassDesertSecondHalf,hasGlassDesert)
+GlassDesertSecondHalf:connect_one_way(PostGame,PostGameEnabled)
 -- Post Game
 PostGame:connect_one_way(DryReefHVault,function()
     return ALL(

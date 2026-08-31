@@ -78,10 +78,9 @@ function CanReach(name)
     location = NAMED_LOCATIONS[name]
 
     if location == nil then
-        print(name, location:accessibility())
         return ACCESS_NONE
     end
-    print(name, location:accessibility())
+    --print(name, location:accessibility())
     return location:accessibility()
 end
 
@@ -294,8 +293,8 @@ function slime_rancher_location:discover(accessibility, keys)
                     key = keys
                 end
                 if access > oldAccess or (access == oldAccess and key < oldKey) then -- not sure about the <
-                    print(self.name, "to", location.name)
-                    print(accessLVL[self:accessibility()], "from", self.name, "to", location.name, ":", accessLVL[access])
+                    --print(self.name, "to", location.name)
+                    --print(accessLVL[self:accessibility()], "from", self.name, "to", location.name, ":", accessLVL[access])
                     location:discover(access, key)
                 end
             end

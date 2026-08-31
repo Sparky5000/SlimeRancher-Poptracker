@@ -83,40 +83,178 @@ function hasTheLab()
     return has("regionunlock-thelab")
 end
 
+-- treasure cracker check visibilty function
+
+function TreasureCrackerVis(amount)
+    return Tracker:ProviderCountForCode("TreasureCrackerChecks") >= tonumber(amount)
+end
+
 -- Plort Logic functions
 function hasPlort(plort)
---    if plort == "Pink" then
+    if plort == "Pink" then
         return ACCESS_NORMAL
     end
---    if plort == "Tabby" then
---       local Tabby = {"DryReefMain","DryReefBeach","DryReefRingIsland","MossBlanketMain","MossBlanketMushroomIsland","AncientRuinsMain","GlassDesertFirstHalf","GlassDesertSecondHalf","TheWilds","DryReefOffshoot"}
---        for _, tabbyregion in ipairs(Tabby) do
---            if CanReach(tabbyregion) then
---                return ACCESS_NORMAL
---            end
---        end
---    end
---    if plort == "Rock" then
---        if MarketLogic() then
---            return ACCESS_NORMAL
---        end
---        local Rock = {"DryReefMain","DryReefBeach","DryReefRingIsland","IndigoQuarryBeforeFirstBridge","IndigoQuarryAfterTheBridge","IndigoQuarryAsheIsles","IndigoQuarryAncientRuinsTransitionOverlap","AncientRuinsMain","GlassDesertFirstHalf","GlassDesertSecondHalf","TheWilds","DryReefOffshoot"}
---        for i, rockregion in ipairs(Rock) do
---            if CanReach(rockregion) then
---                return ACCESS_NORMAL
---            end
---        end
---    end
---end
-
--- Slime Gate Logic Functions, abbreviated Startlocation to EndLocation
-
-function slimeGateARTtoAR()
-    return ACCESS_NORMAL
-end
-function slimeGateDRtoMB()
-    return ACCESS_NORMAL
-end
-function slimeGateDRtoIQ()
-    return ACCESS_NORMAL
+    if plort == "Tabby" then
+        if MarketLogic() > 0 then
+            return ACCESS_NORMAL
+        else
+            return ANY(
+                CanReach("DryReefMain"),
+                CanReach("DryReefBeach"),
+                CanReach("DryReefRingIsland"),
+                CanReach("MossBlanketMain"),
+                CanReach("MossBlanketMushroomIsland"),
+                CanReach("AncientRuinsMain"),
+                CanReach("GlassDesertFirstHalf"),
+                CanReach("GlassDesertSecondHalf"),
+                CanReach("TheWilds"),
+                CanReach("DryReefOffshoot")
+            )
+        end
+    end
+    if plort == "Rock" then
+        if MarketLogic() > 0 then
+            return ACCESS_NORMAL
+        else
+            return ANY(
+                CanReach("DryReefMain"),
+                CanReach("DryReefBeach"),
+                CanReach("DryReefRingIsland"),
+                CanReach("IndigoQuarryBeforeFirstBridge"),
+                CanReach("IndigoQuarryAfterTheBridge"),
+                CanReach("IndigoQuarryAsheIsles"),
+                CanReach("IndigoQuarryAncientRuinsTransitionOverlap"),
+                CanReach("AncientRuinsMain"),
+                CanReach("GlassDesertFirstHalf"),
+                CanReach("GlassDesertSecondHalf"),
+                CanReach("TheWilds"),
+                CanReach("DryReefOffshoot")
+            )
+        end
+    end
+    if plort == "Phosphor" then
+        if MarketLogic() > 0 then
+            return ACCESS_NORMAL
+        else
+            return ANY(
+                CanReach("DryReefMain"),
+                CanReach("DryReefBeach"),
+                CanReach("DryReefRingIsland"),
+                CanReach("SlimeSeaBetweenGrottoAndDryReedIsland2"),
+                CanReach("IndigoQuarryBeforeFirstBridge"),
+                CanReach("IndigoQuarryAfterTheBridge"),
+                CanReach("IndigoQuarryAsheIsles"),
+                CanReach("IndigoQuarryAncientRuinsTransitionOverlap"),
+                CanReach("MossBlanketMain"),
+                CanReach("MossBlanketMushroomIsland"),
+                CanReach("AncientRuinsMain"),
+                CanReach("SlimeSeaBetweenGrottoAndDryReedIsland1"),
+                CanReach("MossBlanketHuntersDomain")
+            )
+        end
+    end
+    if plort == "Boom" then
+        if MarketLogic() > 0 then
+            return CanReach("DryReefMain")
+        else
+            return ANY(
+                CanReach("IndigoQuarryBeforeFirstBridge"),
+                CanReach("IndigoQuarryAfterTheBridge"),
+                CanReach("IndigoQuarryAncientRuinsTransitionOverlap"),
+                CanReach("MossBlanketMain"),
+                CanReach("AncientRuinsMain")
+            )
+        end
+    end
+    if plort == "Rad" then
+        if MarketLogic() > 0 then
+            return CanReach("DryReefMain")
+        else
+            return ANY(
+                CanReach("IndigoQuarryBeforeFirstBridge"),
+                CanReach("IndigoQuarryAfterTheBridge"),
+                CanReach("TheWilds")
+            )
+        end
+    end
+    if plort == "Crystal" then
+        if MarketLogic() > 0 then
+            return CanReach("DryReefMain")
+        else
+            return ANY(
+                CanReach("IndigoQuarryBeforeFirstBridge"),
+                CanReach("IndigoQuarryAsheIsles")
+            )
+        end
+    end
+    if plort == "Honey" then
+        if MarketLogic() > 0 then
+            return CanReach("DryReefMain")
+        else
+            return CanReach("MossBlanketMain")
+        end
+    end
+    if plort == "Hunter" then
+        if MarketLogic() > 0 then
+            return CanReach("DryReefMain")
+        else
+            return CanReach("MossBlanketMain")
+        end
+    end
+    if plort == "Puddle" then
+        if MarketLogic() > 0 then
+            return CanReach("DryReefMain")
+        else
+            return ANY(
+                CanReach("IndigoQuarryBeforeFirstBridge"),
+                CanReach("MossBlanketMain"),
+                CanReach("AncientRuinsMain")
+            )
+        end
+    end
+    if plort == "Lucky" then
+        return ANY(
+            CanReach("DryReefMain"),
+            CanReach("DryReefBeach"),
+            CanReach("DryReefRingIsland"),
+            CanReach("SlimeSeaBetweenGrottoAndDryReedIsland2"),
+            CanReach("IndigoQuarryBeforeFirstBridge"),
+            CanReach("IndigoQuarryAfterTheBridge"),
+            CanReach("IndigoQuarryAsheIsles"),
+            CanReach("IndigoQuarryAncientRuinsTransitionOverlap"),
+            CanReach("MossBlanketMain"),
+            CanReach("MossBlanketMushroomIsland"),
+            CanReach("AncientRuinsMain"),
+            CanReach("GlassDesertFirstHalf"),
+            CanReach("GlassDesertSecondHalf"),
+            CanReach("TheWilds"),
+            CanReach("DryReefOffshoot"),
+            CanReach("SlimeSeaBetweenGrottoAndDryReedIsland1"),
+            CanReach("MossBlanketHuntersDomain"),
+            CanReach("SlimeSeaMustacheShrine"),
+            CanReach("AncientRuinsTransition"),
+            CanReach("SlimeSeaOffMossBlanket")
+        )
+    end
+    if plort == "Quantum" then
+        return CanReach("AncientRuinsMain")
+    end
+    if plort == "Dervish" or "Tangle" or "Mosaic" or "Fire" then
+        return ANY(
+            CanReach("GlassDesertFirstHalf"),
+            CanReach("GlassDesertSecondHalf")
+        )
+    end
+    if plort == "Gold" then
+        return CanReach("GlassDesertFirstHalf")
+    end
+    if plort == "Saber" then
+        return CanReach("TheWilds")
+    end
+    if plort == "Quicksilver" then
+        return CanReach("NimbleValley")
+    end
+    if plort == "Glitch" then
+        return CanReach("TheSlimeulations")
+    end
 end

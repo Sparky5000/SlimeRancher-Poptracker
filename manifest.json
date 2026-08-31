@@ -1,22 +1,17 @@
 {
     "name": "Slime Rancher Archipelago",
     "game_name": "Slime Rancher",
-    "package_version": "0.0.1",
-    "package_uid": "slime rancher_ap",
-    "author": "builder_script",
+    "package_version": "1.0.0",
+    "package_uid": "slime_rancher_ap",
+    "author": "Sparky5000",
     "variants": {
         "Map Tracker": {
             "display_name": "Map Tracker",
             "flags": [
                 "ap"
             ]
-        },
-        "Items Only": {
-            "display_name": "Items Only",
-            "flags": [
-                "ap"
-            ]
         }
     },
-    "min_poptracker_version": "0.31.0"
+    "min_poptracker_version": "0.31.0",
+    "versions_url": "https://raw.githubusercontent.com/Sparky5000/SlimeRancher-Poptracker/refs/heads/main/versions.json"
 }
