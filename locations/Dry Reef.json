@@ -371,7 +371,7 @@
             },
             {
                 "name": "Beneath the Wooden Scaffolding",
-                "access_rules": [],
+                "access_rules": ["cracker2"],
                 "visibility_rules": [],
                 "sections": [
                     {
