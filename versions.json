@@ -1,6 +1,15 @@
 {
     "versions": [
         {
+            "package_version": "1.0.3",
+            "download_url": "https://github.com/Sparky5000/SlimeRancher-Poptracker/archive/refs/tags/v1.0.3.zip",
+            "sha256": "ef913afd2418c3563209630703444140547f59ad8eaf2cfd166561a8ab61a77b",
+            "changelog": [
+                "fixed saber plort logic",
+                "removed unused plorts from logic"
+            ]
+        
+        {
             "package_version": "1.0.2",
             "download_url": "https://github.com/Sparky5000/SlimeRancher-Poptracker/archive/refs/tags/v1.0.2.zip",
             "sha256": "0f937ddcb0ac60d65316520e2d2590b426ded694d399a12bf76a5a8e94e0f8ff",
