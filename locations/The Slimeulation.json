@@ -69,7 +69,7 @@
                 "sections": [
                     {
                         "name": "Treasure Pod Mk.2",
-                        "chest_unopened_img": "images/items/.png"
+                        "chest_unopened_img": "images/items/treasurepod2.png"
                     }
                 ],
                 "map_locations": [
