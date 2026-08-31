@@ -1,6 +1,7 @@
 # Slime Rancher Archipelago Poptracker Pack by Sparky5000
 Installation
-- place pack in your poptracker/packs folder
+- install [Poptracker](https://github.com/black-sliver/PopTracker)
+- place the pack zip in your poptracker/packs folder
 
 Credits
 
