@@ -1,6 +1,16 @@
 {
     "versions": [
         {
+            "package_version": "1.0.2",
+            "download_url": "https://github.com/Sparky5000/SlimeRancher-Poptracker/archive/refs/tags/v1.0.2.zip",
+            "sha256": "0f937ddcb0ac60d65316520e2d2590b426ded694d399a12bf76a5a8e94e0f8ff",
+            "changelog": [
+                "fixed a missing location image",
+                "fixed missing access rules on the 2 dry reef offshoot locations",
+                "added spaces to some settings names for consistency"
+            ]
+        },
+        {
             "package_version": "1.0.1",
             "download_url": "https://github.com/Sparky5000/SlimeRancher-Poptracker/archive/refs/tags/v1.0.1.zip",
             "sha256": "da2e9fb2d5e66811e56690db7a08380d558c1e013520af5e862cb710e5872a67",
