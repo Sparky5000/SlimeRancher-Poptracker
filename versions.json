@@ -1,6 +1,14 @@
 {
     "versions": [
-      {
+        {
+            "package_version": "1.0.1",
+            "download_url": "https://github.com/Sparky5000/SlimeRancher-Poptracker/archive/refs/tags/v1.0.1.zip",
+            "sha256": "da2e9fb2d5e66811e56690db7a08380d558c1e013520af5e862cb710e5872a67",
+            "changelog": [
+                "Added tracking for McGuffin Hunt items"
+            ]
+        },
+        {
             "package_version": "1.0.0",
             "download_url": "https://github.com/Sparky5000/SlimeRancher-Poptracker/archive/refs/tags/v1.0.0.zip",
             "sha256": "dbf8ba20d381af065529ebedc5a0c95a8c10804a0cb782459e7b022b1d14212b",
