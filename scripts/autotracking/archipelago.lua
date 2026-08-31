@@ -264,6 +264,7 @@ function OnClear(slot_data)
     Tracker:FindObjectForCode("LargoJumps").Active = (slot_data['largo_jumps'])
     Tracker:FindObjectForCode("JetpackBoosts").Active = (slot_data['jetpack_boosts'])
     Tracker:FindObjectForCode("MarketLogic").Active = (slot_data['market_logic'])
+    Tracker:FindObjectForCode("maxletters").AcquiredCount = (slot_data['mail_count']) or 0
 
     if Archipelago.PlayerNumber > -1 then
         if #ALL_LOCATIONS > 0 then

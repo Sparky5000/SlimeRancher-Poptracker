@@ -104,5 +104,21 @@
         "type": "toggle",
         "img": "images/settings/Viktor.png",
         "codes": "includeViktor"
+    },
+    {
+        "name": "slash",
+        "type": "static",
+        "img": "images/settings/slash.png",
+        "codes": "slash"
+    },
+    {
+        "name": "Max Letters",
+        "type": "consumable",
+        "img": "images/items/Letter.png",
+        "increment": 1,
+        "decrement": 1,
+        "overlay_align": "right",
+        "overlay_font_size": 50,
+        "codes": "maxletters"
     }
 ]

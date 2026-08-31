@@ -341,5 +341,15 @@
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "regionunlock-thelab"
+    },
+    {
+        "name": "Casey's Letter",
+        "type": "consumable",
+        "img": "images/items/Letter.png",
+        "increment": 1,
+        "decrement": 1,
+        "overlay_align": "right",
+        "overlay_font_size": 50,
+        "codes": "letter"
     }
 ]

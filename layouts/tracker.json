@@ -55,6 +55,15 @@
                                 "type": "layout",
                                 "key": "Gadgets"
                             }
+                        },
+                        {
+                            "type": "group",
+                            "header": "McGuffin Hunt",
+                            "dock": "top",
+                            "content": {
+                                "type": "layout",
+                                "key": "McGuffin"
+                            }
                         }
                     ]
                 },

@@ -27,5 +27,6 @@ ITEM_MAPPING = {
 	[26] = {{"progressivemarketstonks"}},
 	[27] = {{"progressivemaxenergy"}},
 	[28] = {{"progressivejetpack"}},
-	[29] = {{"progressivetreasurecracker"}}
+	[29] = {{"progressivetreasurecracker"}},
+	[35] = {{"letter"}}
 }

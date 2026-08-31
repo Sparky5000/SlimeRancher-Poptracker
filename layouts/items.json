@@ -11,7 +11,7 @@
                 "content": [
                     {
                         "type": "itemgrid",
-                        "item_margin": "2, 2",
+                        "item_margin": "2, 1",
                         "h_alignment": "center",
                         "item_h_alignment": "center",
                         "item_v_alignment": "center",
@@ -47,7 +47,7 @@
                 "content": [
                     {
                         "type": "itemgrid",
-                        "item_margin": "2, 2",
+                        "item_margin": "2, 1",
                         "h_alignment": "left",
                         "item_h_alignment": "center",
                         "item_v_alignment": "center",
@@ -82,7 +82,7 @@
                 "content": [
                     {
                         "type": "itemgrid",
-                        "item_margin": "2, 2",
+                        "item_margin": "2, 1",
                         "h_alignment": "left",
                         "item_h_alignment": "center",
                         "item_v_alignment": "center",
@@ -117,7 +117,7 @@
                 "content": [
                     {
                         "type": "itemgrid",
-                        "item_margin": "2, 2",
+                        "item_margin": "2, 1",
                         "h_alignment": "left",
                         "item_h_alignment": "center",
                         "item_v_alignment": "center",
@@ -157,7 +157,7 @@
                 "content": [
                     {
                         "type": "itemgrid",
-                        "item_margin": "2, 2",
+                        "item_margin": "2, 1",
                         "h_alignment": "left",
                         "item_h_alignment": "center",
                         "item_v_alignment": "center",
@@ -168,6 +168,36 @@
                                 "drone",
                                 "advanceddrone",
                                 "marketlink"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "McGuffin": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 1",
+                        "h_alignment": "left",
+                        "item_h_alignment": "center",
+                        "item_v_alignment": "center",
+                        "item_height": 64,
+                        "item_width": 64,
+                        "rows": [
+                            [
+                                "letter",
+                                "slash",
+                                "maxletters"
                             ]
                         ]
                     }
