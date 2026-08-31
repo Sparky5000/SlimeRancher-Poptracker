@@ -248,13 +248,4 @@ function hasPlort(plort)
     if plort == "Gold" then
         return CanReach("GlassDesertFirstHalf")
     end
-    if plort == "Saber" then
-        return CanReach("TheWilds")
-    end
-    if plort == "Quicksilver" then
-        return CanReach("NimbleValley")
-    end
-    if plort == "Glitch" then
-        return CanReach("TheSlimeulations")
-    end
 end

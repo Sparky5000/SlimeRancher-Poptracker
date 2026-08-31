@@ -6,88 +6,89 @@
             {
                 "name": "Sell a Boom Plort",
                 "chest_unopened_img": "/images/plorts/boomplort.png",
-                "access_rules": ["^$hasPlort|Boom"]
+                "access_rules": ["$hasPlort|Boom"]
             },
             {
                 "name": "Sell a Crystal Plort",
                 "chest_unopened_img": "/images/plorts/crystalplort.png",
-                "access_rules": ["^$hasPlort|Crystal"]
+                "access_rules": ["$hasPlort|Crystal"]
             },
             {
                 "name": "Sell a Dervish Plort",
                 "chest_unopened_img": "/images/plorts/dervishplort.png",
-                "access_rules": ["^$hasPlort|Dervish"]
+                "access_rules": ["$hasPlort|Dervish"]
             },
             {
                 "name": "Sell a Fire Plort",
                 "chest_unopened_img": "/images/plorts/fireplort.png",
-                "access_rules": ["^$hasPlort|Fire"]
+                "access_rules": ["$hasPlort|Fire"]
             },
             {
                 "name": "Sell a Gold Plort",
                 "chest_unopened_img": "/images/plorts/goldplort.png",
                 "visibility_rules": ["Plortsanity"],
-                "access_rules": ["^$hasPlort|Gold"]
+                "access_rules": ["$hasPlort|Gold"]
             },
             {
                 "name": "Sell a Honey Plort",
                 "chest_unopened_img": "/images/plorts/honey.png",
-                "access_rules": ["^$hasPlort|Honey"]
+                "access_rules": ["$hasPlort|Honey"]
             },
             {
                 "name": "Sell a Hunter Plort",
                 "chest_unopened_img": "/images/plorts/hunter.png",
-                "access_rules": ["^$hasPlort|Hunter"]
+                "access_rules": ["$hasPlort|Hunter"]
             },
             {
                 "name": "Sell a Mosaic Plort",
                 "chest_unopened_img": "/images/plorts/mosaicplort.png",
-                "access_rules": ["^$hasPlort|Mosaic"]
+                "access_rules": ["$hasPlort|Mosaic"]
             },
             {
                 "name": "Sell a Phosphor Plort",
                 "chest_unopened_img": "/images/plorts/phosphorplort.png",
-                "access_rules": ["^$hasPlort|Phosphor"]
+                "access_rules": ["$hasPlort|Phosphor"]
             },
             {
                 "name": "Sell a Pink Plort",
                 "chest_unopened_img": "/images/plorts/pinkplort.png",
-                "access_rules": ["^$hasPlort|Pink"]
+                "access_rules": ["$hasPlort|Pink"]
             },
             {
                 "name": "Sell a Puddle Plort",
                 "chest_unopened_img": "/images/plorts/puddleplort.png",
-                "access_rules": ["^$hasPlort|Puddle"]
+                "access_rules": ["$hasPlort|Puddle"]
             },
             {
                 "name": "Sell a Quantum Plort",
                 "chest_unopened_img": "/images/plorts/quantumplort.png",
-                "access_rules": ["^$hasPlort|Quantum"]
+                "access_rules": ["$hasPlort|Quantum"]
             },
             {
                 "name": "Sell a Rad Plort",
                 "chest_unopened_img": "/images/plorts/radplort.png",
-                "access_rules": ["^$hasPlort|Rad"]
+                "access_rules": ["$hasPlort|Rad"]
             },
             {
                 "name": "Sell a Rock Plort",
                 "chest_unopened_img": "/images/plorts/rockplort.png",
-                "access_rules": ["^$hasPlort|Rock"]
+                "access_rules": ["$hasPlort|Rock"]
             },
             {
                 "name": "Sell a Saber Plort",
                 "chest_unopened_img": "/images/plorts/saberplort.png",
-                "access_rules": ["^$hasPlort|Saber"]
+                "visibility_rules": ["includeOgden"],
+                "access_rules": ["^$CanReach|TheWilds"]
             },
             {
                 "name": "Sell a Tabby Plort",
                 "chest_unopened_img": "/images/plorts/tabbyplort.png",
-                "access_rules": ["^$hasPlort|Tabby"]
+                "access_rules": ["$hasPlort|Tabby"]
             },
             {
                 "name": "Sell a Tangle Plort",
                 "chest_unopened_img": "/images/plorts/tangleplort.png",
-                "access_rules": ["^$hasPlort|Tangle"]
+                "access_rules": ["$hasPlort|Tangle"]
             }
         ],
         "map_locations": [
