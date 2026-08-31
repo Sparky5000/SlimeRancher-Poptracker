@@ -353,7 +353,7 @@
         "children": [
             {
                 "name": "Hidden in the Shade",
-                "access_rules": [],
+                "access_rules": ["cracker"],
                 "visibility_rules": [],
                 "sections": [
                     {
