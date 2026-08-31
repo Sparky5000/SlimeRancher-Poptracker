@@ -59,7 +59,7 @@
         ]
     },
     {
-        "name": "Include7z",
+        "name": "Include 7z",
         "type": "toggle",
         "img": "images/items/7zee.png",
         "codes": "Include7z"
@@ -76,7 +76,7 @@
         "codes": "TreasureCrackerChecks"
     },
     {
-        "name": "EnableStylishDlcTreasurePods",
+        "name": "Enable Stylish DLC Treasure Pods",
         "type": "toggle",
         "img": "images/items/treasurepod4.png",
         "codes": "EnableStylishDlcTreasurePods"
