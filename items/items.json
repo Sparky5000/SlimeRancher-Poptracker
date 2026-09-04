@@ -2,13 +2,13 @@
     {
         "name": "The Ranch",
         "type": "static",
-        "img": "images/items/theranch.png",
+        "img": "images/items/regions/theranch.png",
         "codes": "homeranch"
     },
     {
         "name": "The Slime Sea",
         "type": "static",
-        "img": "images/items/slimesea.png",
+        "img": "images/items/regions/slimesea.png",
         "codes": "slimesea"
     },
     {
@@ -16,23 +16,23 @@
         "type": "progressive",
         "stages": [
             {
-                "img": "images/items/stonks.png",
+                "img": "images/items/upgrades/stonks.png",
                 "codes": "progressivemarketstonks"
             },
             {
-                "img": "images/items/stonks2.png",
+                "img": "images/items/upgrades/stonks2.png",
                 "codes": "progressivemarketstonks"
             },
             {
-                "img": "images/items/stonks3.png",
+                "img": "images/items/upgrades/stonks3.png",
                 "codes": "progressivemarketstonks"
             },
             {
-                "img": "images/items/stonks4.png",
+                "img": "images/items/upgrades/stonks4.png",
                 "codes": "progressivemarketstonks"
             },
             {
-                "img": "images/items/stonks5.png",
+                "img": "images/items/upgrades/stonks5.png",
                 "codes": "progressivemarketstonks"
             }
         ]
@@ -40,7 +40,7 @@
     {
         "name": "Glass Desert",
         "type": "toggle",
-        "img": "images/items/glassdesert.png",
+        "img": "images/items/regions/glassdesert.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "regionunlock-glassdesert"
@@ -48,7 +48,7 @@
     {
         "name": "Water Tank",
         "type": "toggle",
-        "img": "images/items/watertank.png",
+        "img": "images/items/upgrades/watertank.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "liquidslot"
@@ -65,7 +65,7 @@
     {
         "name": "The Slimeulations",
         "type": "toggle",
-        "img": "images/items/theslimeulations.png",
+        "img": "images/items/regions/theslimeulations.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "regionunlock-theslimeulations"
@@ -73,7 +73,7 @@
     {
         "name": "The Docks",
         "type": "toggle",
-        "img": "images/items/thedocks.png",
+        "img": "images/items/regions/thedocks.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "regionunlock-thedocks"
@@ -93,12 +93,12 @@
         "stages": [
             {
                 "name": "Jetpack",
-                "img": "images/items/jetpack.png",
+                "img": "images/items/upgrades/jetpack.png",
                 "codes": "Jetpack,progressivejetpack"
             },
             {
                 "name": "Air Drive",
-                "img": "images/items/jetpack2.png",
+                "img": "images/items/upgrades/jetpack2.png",
                 "codes": "Jetpack2,progressivejetpack"
             }
         ]
@@ -106,7 +106,7 @@
     {
         "name": "Moss Blanket",
         "type": "toggle",
-        "img": "images/items/mossblanket.png",
+        "img": "images/items/regions/mossblanket.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "regionunlock-mossblanket"
@@ -114,7 +114,7 @@
     {
         "name": "The Grotto",
         "type": "toggle",
-        "img": "images/items/thegrotto.png",
+        "img": "images/items/regions/thegrotto.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "regionunlock-thegrotto"
@@ -125,22 +125,22 @@
         "stages": [
             {
                 "name": "Heart Module",
-                "img": "images/items/heartmodule.png",
+                "img": "images/items/upgrades/heartmodule.png",
                 "codes": "HeartModule,progressivemaxhealth"
             },
             {
                 "name": "Heart Module Mk II",
-                "img": "images/items/heartmodule2.png",
+                "img": "images/items/upgrades/heartmodule2.png",
                 "codes": "HeartModule2,progressivemaxhealth"
             },
             {
                 "name": "Heart Module Mk III",
-                "img": "images/items/heartmodule3.png",
+                "img": "images/items/upgrades/heartmodule3.png",
                 "codes": "HeartModule3,progressivemaxhealth"
             },
             {
                 "name": "Heart Module Ultra",
-                "img": "images/items/heartmodule4.png",
+                "img": "images/items/upgrades/heartmodule4.png",
                 "codes": "HeartModule4,progressivemaxhealth"
             }
         ]
@@ -148,7 +148,7 @@
     {
         "name": "Ogden's Retreat",
         "type": "toggle",
-        "img": "images/items/ogdensretreat.png",
+        "img": "images/items/regions/ogdensretreat.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "regionunlock-ogdensretreat"
@@ -165,7 +165,7 @@
     {
         "name": "The Wilds",
         "type": "toggle",
-        "img": "images/items/thewilds.png",
+        "img": "images/items/regions/thewilds.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "regionunlock-thewilds"
@@ -173,7 +173,7 @@
     {
         "name": "Mochi's Manor",
         "type": "toggle",
-        "img": "images/items/mochismanor.png",
+        "img": "images/items/regions/mochismanor.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "regionunlock-mochismanor"
@@ -184,12 +184,12 @@
         "stages": [
             {
                 "name": "Dash Boots",
-                "img": "images/items/dashboots.png",
+                "img": "images/items/upgrades/dashboots.png",
                 "codes": "dashboots,progressiverunefficiency"
             },
             {
                 "name": "Ultra Dash Boots",
-                "img": "images/items/ultradashboots.png",
+                "img": "images/items/upgrades/ultradashboots.png",
                 "codes": "ultradashboots,progressiverunefficiency"
             }
         ]
@@ -197,7 +197,7 @@
     {
         "name": "Pulse Wave",
         "type": "toggle",
-        "img": "images/items/pulsewave.png",
+        "img": "images/items/upgrades/pulsewave.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "airburst"
@@ -205,7 +205,7 @@
     {
         "name": "Dry Reef",
         "type": "toggle",
-        "img": "images/items/dryreef.png",
+        "img": "images/items/regions/dryreef.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "regionunlock-dryreef"
@@ -213,7 +213,7 @@
     {
         "name": "The Overgrowth",
         "type": "toggle",
-        "img": "images/items/theovergrowth.png",
+        "img": "images/items/regions/theovergrowth.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "regionunlock-theovergrowth"
@@ -224,22 +224,22 @@
         "stages": [
             {
                 "name": "Tank Booster",
-                "img": "images/items/tankbooster.png",
+                "img": "images/items/upgrades/tankbooster.png",
                 "codes": "tankbooster,progressivemaxammo"
             },
             {
                 "name": "Tank Booster Mk II",
-                "img": "images/items/tankbooster2.png",
+                "img": "images/items/upgrades/tankbooster2.png",
                 "codes": "tankbooster2,progressivemaxammo"
             },
             {
                 "name": "Tank Booster Mk III",
-                "img": "images/items/tankbooster3.png",
+                "img": "images/items/upgrades/tankbooster3.png",
                 "codes": "tankbooster3,progressivemaxammo"
             },
             {
                 "name": "Tank Booster Ultra",
-                "img": "images/items/tankbooster4.png",
+                "img": "images/items/upgrades/tankbooster4.png",
                 "codes": "tankbooster4,progressivemaxammo"
             }
         ]
@@ -250,17 +250,17 @@
         "stages": [
             {
                 "name": "Treasure Cracker",
-                "img": "images/items/treasurecracker.png",
+                "img": "images/items/upgrades/treasurecracker.png",
                 "codes": "cracker,progressivetreasurecracker"
             },
             {
                 "name": "Treasure Cracker Mk II",
-                "img": "images/items/treasurecracker2.png",
+                "img": "images/items/upgrades/treasurecracker2.png",
                 "codes": "cracker2,progressivetreasurecracker"
             },
             {
                 "name": "Treasure Cracker Mk III",
-                "img": "images/items/treasurecracker3.png",
+                "img": "images/items/upgrades/treasurecracker3.png",
                 "codes": "cracker3,progressivetreasurecracker"
             }
         ]
@@ -268,7 +268,7 @@
     {
         "name": "Ancient Ruins Transition",
         "type": "toggle",
-        "img": "images/items/ancientruinstransition.png",
+        "img": "images/items/regions/ancientruinstransition.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "regionunlock-ancientruinstransition"
@@ -276,7 +276,7 @@
     {
         "name": "Indigo Quarry",
         "type": "toggle",
-        "img": "images/items/indigoquarry.png",
+        "img": "images/items/regions/indigoquarry.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "regionunlock-indigoquarry"
@@ -284,7 +284,7 @@
     {
         "name": "Viktor's Workshop",
         "type": "toggle",
-        "img": "images/items/viktorsworkshop.png",
+        "img": "images/items/regions/viktorsworkshop.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "regionunlock-viktorsworkshop"
@@ -292,7 +292,7 @@
     {
         "name": "Golden Sureshot",
         "type": "toggle",
-        "img": "images/items/goldensureshot.png",
+        "img": "images/items/upgrades/goldensureshot.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "goldensureshot"
@@ -300,7 +300,7 @@
     {
         "name": "Nimble Valley",
         "type": "toggle",
-        "img": "images/items/nimblevalley.png",
+        "img": "images/items/regions/nimblevalley.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "regionunlock-nimblevalley"
@@ -308,7 +308,7 @@
     {
         "name": "Ancient Ruins",
         "type": "toggle",
-        "img": "images/items/ancientruins.png",
+        "img": "images/items/regions/ancientruins.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "regionunlock-ancientruins"
@@ -319,17 +319,17 @@
         "stages": [
             {
                 "name": "Power Core",
-                "img": "images/items/powercore.png",
+                "img": "images/items/upgrades/powercore.png",
                 "codes": "powercore,progressivemaxenergy"
             },
             {
                 "name": "Power Core Mk II",
-                "img": "images/items/powercore2.png",
+                "img": "images/items/upgrades/powercore2.png",
                 "codes": "powercore2,progressivemaxenergy"
             },
             {
                 "name": "Power Core Mk III",
-                "img": "images/items/powercore3.png",
+                "img": "images/items/upgrades/powercore3.png",
                 "codes": "powercore3,progressivemaxenergy"
             }
         ]
@@ -337,7 +337,7 @@
     {
         "name": "The Lab",
         "type": "toggle",
-        "img": "images/items/thelab.png",
+        "img": "images/items/regions/thelab.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "regionunlock-thelab"

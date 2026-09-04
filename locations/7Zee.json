@@ -1,7 +1,8 @@
 [
     {
         "name": "7Zee Rewards Club",
-        "chest_unopened_img": "/images/items/7zee.png",
+        "chest_unopened_img": "/images/items/7zeeopened.png",
+        "chest_opened_img": "/images/items/7zee.png",
         "overlay_background": "#000000",
         "access_rules": [],
         "visibility_rules": ["Include7z"],
