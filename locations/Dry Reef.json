@@ -15,7 +15,8 @@
                 "sections": [
                     {
                         "name": "H Note",
-                        "chest_unopened_img": "images/items/Hnotes.png"
+                        "chest_unopened_img": "images/items/Hnotes.png",
+                        "chest_opened_img": "images/items/Hnotesopened.png"
                     }
                 ],
                 "map_locations": [
@@ -33,7 +34,8 @@
                 "sections": [
                     {
                         "name": "H Note",
-                        "chest_unopened_img": "images/items/Hnotes.png"
+                        "chest_unopened_img": "images/items/Hnotes.png",
+                        "chest_opened_img": "images/items/Hnotesopened.png"
                     }
                 ],
                 "map_locations": [
@@ -51,7 +53,8 @@
                 "sections": [
                     {
                         "name": "H Note",
-                        "chest_unopened_img": "images/items/Hnotes.png"
+                        "chest_unopened_img": "images/items/Hnotes.png",
+                        "chest_opened_img": "images/items/Hnotesopened.png"
                     }
                 ],
                 "map_locations": [
@@ -69,7 +72,8 @@
                 "sections": [
                     {
                         "name": "H Note",
-                        "chest_unopened_img": "images/items/Hnotes.png"
+                        "chest_unopened_img": "images/items/Hnotes.png",
+                        "chest_opened_img": "images/items/Hnotesopened.png"
                     }
                 ],
                 "map_locations": [
@@ -87,7 +91,8 @@
                 "sections": [
                     {
                         "name": "Map",
-                        "chest_unopened_img": "images/items/dryreef.png"
+                        "chest_unopened_img": "images/items/regions/dryreef.png",
+                        "chest_opened_img": "images/items/regions/dryreefopened.png"
                     }
                 ],
                 "map_locations": [
@@ -105,7 +110,8 @@
                 "sections": [
                     {
                         "name": "Treasure Pod Mk.1",
-                        "chest_unopened_img": "images/items/treasurepod1.png"
+                        "chest_unopened_img": "images/items/treasurepod1.png",
+                        "chest_opened_img": "images/items/treasurepod1opened.png"
                     }
                 ],
                 "map_locations": [
@@ -123,7 +129,8 @@
                 "sections": [
                     {
                         "name": "Treasure Pod Mk.1",
-                        "chest_unopened_img": "images/items/treasurepod1.png"
+                        "chest_unopened_img": "images/items/treasurepod1.png",
+                        "chest_opened_img": "images/items/treasurepod1opened.png"
                     }
                 ],
                 "map_locations": [
@@ -144,7 +151,8 @@
                 "sections": [
                     {
                         "name": "Treasure Pod Mk.1",
-                        "chest_unopened_img": "images/items/treasurepod1.png"
+                        "chest_unopened_img": "images/items/treasurepod1.png",
+                        "chest_opened_img": "images/items/treasurepod1opened.png"
                     }
                 ],
                 "map_locations": [
@@ -162,7 +170,8 @@
                 "sections": [
                     {
                         "name": "Treasure Pod Mk.1",
-                        "chest_unopened_img": "images/items/treasurepod1.png"
+                        "chest_unopened_img": "images/items/treasurepod1.png",
+                        "chest_opened_img": "images/items/treasurepod1opened.png"
                     }
                 ],
                 "map_locations": [
@@ -180,7 +189,8 @@
                 "sections": [
                     {
                         "name": "Treasure Pod Mk.1",
-                        "chest_unopened_img": "images/items/treasurepod1.png"
+                        "chest_unopened_img": "images/items/treasurepod1.png",
+                        "chest_opened_img": "images/items/treasurepod1opened.png"
                     }
                 ],
                 "map_locations": [
@@ -198,7 +208,8 @@
                 "sections": [
                     {
                         "name": "Treasure Pod Mk.2",
-                        "chest_unopened_img": "images/items/treasurepod2.png"
+                        "chest_unopened_img": "images/items/treasurepod2.png",
+                        "chest_opened_img": "images/items/treasurepod2opened.png"
                     }
                 ],
                 "map_locations": [
@@ -216,7 +227,8 @@
                 "sections": [
                     {
                         "name": "Treasure Pod Mk.1",
-                        "chest_unopened_img": "images/items/treasurepod1.png"
+                        "chest_unopened_img": "images/items/treasurepod1.png",
+                        "chest_opened_img": "images/items/treasurepod1opened.png"
                     }
                 ],
                 "map_locations": [
@@ -234,7 +246,8 @@
                 "sections": [
                     {
                         "name": "Treasure Pod Mk.3",
-                        "chest_unopened_img": "images/items/treasurepod3.png"
+                        "chest_unopened_img": "images/items/treasurepod3.png",
+                        "chest_opened_img": "images/items/treasurepod3opened.png"
                     }
                 ],
                 "map_locations": [
@@ -252,7 +265,8 @@
                 "sections": [
                     {
                         "name": "Secret Style",
-                        "chest_unopened_img": "images/items/treasurepod4.png"
+                        "chest_unopened_img": "images/items/treasurepod4.png",
+                        "chest_opened_img": "images/items/treasurepod4opened.png"
                     }
                 ],
                 "map_locations": [
@@ -270,7 +284,8 @@
                 "sections": [
                     {
                         "name": "Secret Style",
-                        "chest_unopened_img": "images/items/treasurepod4.png"
+                        "chest_unopened_img": "images/items/treasurepod4.png",
+                        "chest_opened_img": "images/items/treasurepod4opened.png"
                     }
                 ],
                 "map_locations": [
@@ -296,7 +311,8 @@
                 "sections": [
                     {
                         "name": "H Note",
-                        "chest_unopened_img": "images/items/Hnotes.png"
+                        "chest_unopened_img": "images/items/Hnotes.png",
+                        "chest_opened_img": "images/items/Hnotesopened.png"
                     }
                 ],
                 "map_locations": [
@@ -314,7 +330,8 @@
                 "sections": [
                     {
                         "name": "Treasure Pod Mk.2",
-                        "chest_unopened_img": "images/items/treasurepod2.png"
+                        "chest_unopened_img": "images/items/treasurepod2.png",
+                        "chest_opened_img": "images/items/treasurepod2opened.png"
                     }
                 ],
                 "map_locations": [
@@ -332,7 +349,8 @@
                 "sections": [
                     {
                         "name": "Secret Style",
-                        "chest_unopened_img": "images/items/treasurepod4.png"
+                        "chest_unopened_img": "images/items/treasurepod4.png",
+                        "chest_opened_img": "images/items/treasurepod4opened.png"
                     }
                 ],
                 "map_locations": [
@@ -358,7 +376,8 @@
                 "sections": [
                     {
                         "name": "Treasure Pod Mk.1",
-                        "chest_unopened_img": "images/items/treasurepod1.png"
+                        "chest_unopened_img": "images/items/treasurepod1.png",
+                        "chest_opened_img": "images/items/treasurepod1opened.png"
                     }
                 ],
                 "map_locations": [
@@ -376,7 +395,8 @@
                 "sections": [
                     {
                         "name": "Treasure Pod Mk.2",
-                        "chest_unopened_img": "images/items/treasurepod2.png"
+                        "chest_unopened_img": "images/items/treasurepod2.png",
+                        "chest_opened_img": "images/items/treasurepod2opened.png"
                     }
                 ],
                 "map_locations": [

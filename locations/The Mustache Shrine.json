@@ -9,7 +9,8 @@
             {
                 "name": "Mustache Stache Cache",
                 "access_rules": ["cracker3"],
-                "chest_unopened_img": "images/items/treasurepod3.png"
+                "chest_unopened_img": "images/items/treasurepod3.png",
+                "chest_opened_img": "images/items/treasurepod3opened.png"
             }
         ],
         "map_locations": [

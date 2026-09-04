@@ -15,7 +15,8 @@
                 "sections": [
                     {
                         "name": "H Note",
-                        "chest_unopened_img": "images/items/Hnotes.png"
+                        "chest_unopened_img": "images/items/Hnotes.png",
+                        "chest_opened_img": "images/items/Hnotesopened.png"
                     }
                 ],
                 "map_locations": [
