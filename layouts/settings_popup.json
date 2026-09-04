@@ -90,7 +90,7 @@
                                         },
                                         {
                                             "type": "group",
-                                            "header": "DLC",
+                                            "header": "Additional Content",
                                             "header_background": "#3e4b57",
                                             "background": "#363636",
                                             "content": [
