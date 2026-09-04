@@ -32,7 +32,7 @@
     {
         "name": "Jetpack Boosts",
         "type": "toggle",
-        "img": "images/items/jetpack.png",
+        "img": "images/items/upgrades/jetpack.png",
         "codes": "JetpackBoosts"
     },
     {
@@ -72,7 +72,7 @@
         "increment": 1,
         "decrement": 1,
         "initial_quantity": 0,
-        "img": "images/items/treasurecracker.png",
+        "img": "images/items/upgrades/treasurecracker.png",
         "codes": "TreasureCrackerChecks"
     },
     {

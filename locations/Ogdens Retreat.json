@@ -12,7 +12,8 @@
                 "sections": [
                     {
                         "name": "Treasure Pod Mk.1",
-                        "chest_unopened_img": "images/items/treasurepod1.png"
+                        "chest_unopened_img": "images/items/treasurepod1.png",
+                        "chest_opened_img": "images/items/treasurepod1opened.png"
                     }
                 ],
                 "map_locations": [

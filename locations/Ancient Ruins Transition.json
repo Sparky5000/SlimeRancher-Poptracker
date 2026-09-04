@@ -5,7 +5,7 @@
             {
                 "name": "Slime Buddy",
                 "chest_unopened_img": "/images/items/treasurepod2.png",
-                "chest_opened_img": "/images/items/open.png",
+                "chest_opened_img": "/images/items/treasurepod2opened.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "^$CanReach|AncientRuinsTransition"

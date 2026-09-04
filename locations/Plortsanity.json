@@ -6,88 +6,105 @@
             {
                 "name": "Sell a Boom Plort",
                 "chest_unopened_img": "/images/plorts/boomplort.png",
+                "chest_opened_img": "/images/plorts/boomplortopened.png",
                 "access_rules": ["$hasPlort|Boom"]
             },
             {
                 "name": "Sell a Crystal Plort",
                 "chest_unopened_img": "/images/plorts/crystalplort.png",
+                "chest_opened_img": "/images/plorts/crystalplortopened.png",
                 "access_rules": ["$hasPlort|Crystal"]
             },
             {
                 "name": "Sell a Dervish Plort",
                 "chest_unopened_img": "/images/plorts/dervishplort.png",
+                "chest_opened_img": "/images/plorts/dervishplortsparkywillneverknowbecausehewon'treadthepr.png",
                 "access_rules": ["$hasPlort|Dervish"]
             },
             {
                 "name": "Sell a Fire Plort",
                 "chest_unopened_img": "/images/plorts/fireplort.png",
+                "chest_opened_img": "/images/plorts/fireplortopened.png",
                 "access_rules": ["$hasPlort|Fire"]
             },
             {
                 "name": "Sell a Gold Plort",
                 "chest_unopened_img": "/images/plorts/goldplort.png",
+                "chest_opened_img": "/images/plorts/goldplortopened.png",
                 "visibility_rules": ["Plortsanity"],
                 "access_rules": ["$hasPlort|Gold"]
             },
             {
                 "name": "Sell a Honey Plort",
                 "chest_unopened_img": "/images/plorts/honey.png",
+                "chest_opened_img": "/images/plorts/honeyplortopened.png",
                 "access_rules": ["$hasPlort|Honey"]
             },
             {
                 "name": "Sell a Hunter Plort",
                 "chest_unopened_img": "/images/plorts/hunter.png",
+                "chest_opened_img": "/images/plorts/hunterplortopened.png",
                 "access_rules": ["$hasPlort|Hunter"]
             },
             {
                 "name": "Sell a Mosaic Plort",
                 "chest_unopened_img": "/images/plorts/mosaicplort.png",
+                "chest_opened_img": "/images/plorts/mosaicplortopened.png",
                 "access_rules": ["$hasPlort|Mosaic"]
             },
             {
                 "name": "Sell a Phosphor Plort",
                 "chest_unopened_img": "/images/plorts/phosphorplort.png",
+                "chest_opened_img": "/images/plorts/phospherplortopnededed.png",
                 "access_rules": ["$hasPlort|Phosphor"]
             },
             {
                 "name": "Sell a Pink Plort",
                 "chest_unopened_img": "/images/plorts/pinkplort.png",
+                "chest_opened_img": "/images/plorts/pinkplortcreepersayshi.png",
                 "access_rules": ["$hasPlort|Pink"]
             },
             {
                 "name": "Sell a Puddle Plort",
                 "chest_unopened_img": "/images/plorts/puddleplort.png",
+                "chest_opened_img": "/images/plorts/puddleplortopened.png",
                 "access_rules": ["$hasPlort|Puddle"]
             },
             {
                 "name": "Sell a Quantum Plort",
                 "chest_unopened_img": "/images/plorts/quantumplort.png",
+                "chest_opened_img": "/images/plorts/quantumplortopened.png",
                 "access_rules": ["$hasPlort|Quantum"]
             },
             {
                 "name": "Sell a Rad Plort",
                 "chest_unopened_img": "/images/plorts/radplort.png",
+                "chest_opened_img": "/images/plorts/radplortopened.png",
                 "access_rules": ["$hasPlort|Rad"]
             },
             {
                 "name": "Sell a Rock Plort",
                 "chest_unopened_img": "/images/plorts/rockplort.png",
+                "chest_opened_img": "/images/plorts/rockplortopened.png",
                 "access_rules": ["$hasPlort|Rock"]
             },
             {
                 "name": "Sell a Saber Plort",
                 "chest_unopened_img": "/images/plorts/saberplort.png",
+                "chest_opened_img": "/images/plorts/saberplortopened.png",
                 "visibility_rules": ["includeOgden"],
                 "access_rules": ["^$CanReach|TheWilds"]
             },
             {
                 "name": "Sell a Tabby Plort",
                 "chest_unopened_img": "/images/plorts/tabbyplort.png",
+                "chest_opened_img": "/images/plorts/tabbyplortSOLDTOYOUINTHEREDHAT.png",
                 "access_rules": ["$hasPlort|Tabby"]
             },
             {
                 "name": "Sell a Tangle Plort",
                 "chest_unopened_img": "/images/plorts/tangleplort.png",
+                "chest_opened_img": "/images/plorts/tangleplortopened.png",
                 "access_rules": ["$hasPlort|Tangle"]
             }
         ],

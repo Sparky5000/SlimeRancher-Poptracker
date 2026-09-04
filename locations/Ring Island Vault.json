@@ -2,6 +2,7 @@
     {
         "name": "Ring Island Vault",
         "chest_unopened_img": "/images/items/treasurepod3.png",
+        "chest_opened_img": "/images/items/treasurepod3opened.png",
         "overlay_background": "#000000",
         "access_rules": [
             "^$CanReach|DryReefHVault, cracker3"
