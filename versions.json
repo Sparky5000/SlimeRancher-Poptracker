@@ -1,6 +1,14 @@
 {
     "versions": [
         {
+            "package_version": "1.0.5",
+            "download_url": "https://github.com/Sparky5000/SlimeRancher-Poptracker/archive/refs/tags/v1.0.5.zip",
+            "sha256": "e8110250b896ce99ecb738f7e33b9fae5d52b3e551d034e0b6513222fadc7be0",
+            "changelog": [
+                "renamed a setting group for better clarity"
+            ]
+        }
+        {
             "package_version": "1.0.4",
             "download_url": "https://github.com/Sparky5000/SlimeRancher-Poptracker/archive/refs/tags/v1.0.4.zip",
             "sha256": "6428918bea5ae6c2c7e90fe373fa0fe5ba1c577a136dd4d09a7cb9624516482b",
