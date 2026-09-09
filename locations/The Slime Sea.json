@@ -54,7 +54,7 @@
                 "access_rules": [
                     "^$CanReach|SlimeSeaBetweenGrottoAndDryReefIsland1"
                 ],
-                "visibility_rules": [],
+                "visibility_rules": ["EnableStylishDlcTreasurePods"],
                 "sections": [
                     {
                         "name": "Secret Style",
