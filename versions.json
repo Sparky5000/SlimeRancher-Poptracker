@@ -1,13 +1,21 @@
 {
     "versions": [
         {
+            "package_version": "1.0.6",
+            "download_url": "https://github.com/Sparky5000/SlimeRancher-Poptracker/archive/refs/tags/v1.0.6.zip",
+            "sha256": "f767d78382af646d6fc0e76ce052a610dd3e2a472e3c01d87340807624ea724d",
+            "changelog": [
+                "fixed visibility rule on the In Between a Rock and an Island secret style treasure pod"
+            ]
+        },
+        {
             "package_version": "1.0.5",
             "download_url": "https://github.com/Sparky5000/SlimeRancher-Poptracker/archive/refs/tags/v1.0.5.zip",
             "sha256": "e8110250b896ce99ecb738f7e33b9fae5d52b3e551d034e0b6513222fadc7be0",
             "changelog": [
                 "renamed a setting group for better clarity"
             ]
-        }
+        },
         {
             "package_version": "1.0.4",
             "download_url": "https://github.com/Sparky5000/SlimeRancher-Poptracker/archive/refs/tags/v1.0.4.zip",
