@@ -36,13 +36,13 @@
             },
             {
                 "name": "Sell a Honey Plort",
-                "chest_unopened_img": "/images/plorts/honey.png",
+                "chest_unopened_img": "/images/plorts/honeyplort.png",
                 "chest_opened_img": "/images/plorts/honeyplortopened.png",
                 "access_rules": ["$hasPlort|Honey"]
             },
             {
                 "name": "Sell a Hunter Plort",
-                "chest_unopened_img": "/images/plorts/hunter.png",
+                "chest_unopened_img": "/images/plorts/hunterplort.png",
                 "chest_opened_img": "/images/plorts/hunterplortopened.png",
                 "access_rules": ["$hasPlort|Hunter"]
             },
@@ -54,7 +54,7 @@
             },
             {
                 "name": "Sell a Phosphor Plort",
-                "chest_unopened_img": "/images/plorts/phosphorplort.png",
+                "chest_unopened_img": "/images/plorts/phospherplort.png",
                 "chest_opened_img": "/images/plorts/phospherplortopnededed.png",
                 "access_rules": ["$hasPlort|Phosphor"]
             },
