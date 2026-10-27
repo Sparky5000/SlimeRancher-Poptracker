@@ -18,6 +18,7 @@
                 "name": "Buy Personal Upgrade (Dash Boots lv.2)",
                 "chest_unopened_img": "/images/items/newbuck.png",
                 "chest_opened_img": "/images/items/newbuckopened.png",
+                "visibility_rules": "Include7z",
                 "access_rules": ["^$CanReach|AncientRuinsMain"]
             },
             {
