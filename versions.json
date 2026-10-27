@@ -1,6 +1,17 @@
 {
     "versions": [
         {
+            "package_version": "1.0.7",
+            "download_url": "https://github.com/Sparky5000/SlimeRancher-Poptracker/archive/refs/tags/v1.0.7.zip",
+            "sha256": "3df241557eda02add4588409614eb4c1ff9ab2a79bca570b415b0405b023f5dc",
+            "changelog": [
+                "Added 7zee visibilty rule to the 'buy personal upgrade' Locations that are actually obtained through 7zee",
+                "moved 'Thats a Whole Lotta Kookadobas' to its correct location on the map",
+                "removed some unused files",
+                "changed some of sterlia's joke file names (hi creeper)"
+            ]
+        },
+        {
             "package_version": "1.0.6",
             "download_url": "https://github.com/Sparky5000/SlimeRancher-Poptracker/archive/refs/tags/v1.0.6.zip",
             "sha256": "f767d78382af646d6fc0e76ce052a610dd3e2a472e3c01d87340807624ea724d",
