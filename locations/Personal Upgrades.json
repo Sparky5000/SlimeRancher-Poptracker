@@ -43,6 +43,7 @@
                 "name": "Buy Personal Upgrade (Heart Module lv.4)",
                 "chest_unopened_img": "/images/items/newbuck.png",
                 "chest_opened_img": "/images/items/newbuckopened.png",
+                "visibility_rules": "Include7z",
                 "access_rules": ["^$CanReach|AncientRuinsMain"]
             },
             {
@@ -103,6 +104,7 @@
                 "name": "Buy Personal Upgrade (Tank Booster lv.4)",
                 "chest_unopened_img": "/images/items/newbuck.png",
                 "chest_opened_img": "/images/items/newbuckopened.png",
+                "visibility_rules": "Include7z",
                 "access_rules": ["^$CanReach|AncientRuinsMain"]
             },
             {
