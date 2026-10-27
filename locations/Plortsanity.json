@@ -18,7 +18,7 @@
             {
                 "name": "Sell a Dervish Plort",
                 "chest_unopened_img": "/images/plorts/dervishplort.png",
-                "chest_opened_img": "/images/plorts/dervishplortsparkywillneverknowbecausehewon'treadthepr.png",
+                "chest_opened_img": "/images/plorts/dervishplortopened.png",
                 "access_rules": ["$hasPlort|Dervish"]
             },
             {
@@ -55,13 +55,13 @@
             {
                 "name": "Sell a Phosphor Plort",
                 "chest_unopened_img": "/images/plorts/phospherplort.png",
-                "chest_opened_img": "/images/plorts/phospherplortopnededed.png",
+                "chest_opened_img": "/images/plorts/phospherplortopened.png",
                 "access_rules": ["$hasPlort|Phosphor"]
             },
             {
                 "name": "Sell a Pink Plort",
                 "chest_unopened_img": "/images/plorts/pinkplort.png",
-                "chest_opened_img": "/images/plorts/pinkplortcreepersayshi.png",
+                "chest_opened_img": "/images/plorts/pinkplortopened.png",
                 "access_rules": ["$hasPlort|Pink"]
             },
             {
@@ -98,7 +98,7 @@
             {
                 "name": "Sell a Tabby Plort",
                 "chest_unopened_img": "/images/plorts/tabbyplort.png",
-                "chest_opened_img": "/images/plorts/tabbyplortSOLDTOYOUINTHEREDHAT.png",
+                "chest_opened_img": "/images/plorts/tabbyplortopened.png",
                 "access_rules": ["$hasPlort|Tabby"]
             },
             {
