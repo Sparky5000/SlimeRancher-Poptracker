@@ -26,7 +26,8 @@
     {
         "name": "Dry Reef to Moss Blanket",
         "access_rules": [
-            "^$CanReach|MossBlanketMain"
+            "^$CanReach|MossBlanketMain",
+            "^$CanReach|DryReefMain, Marketlogic"
         ],
         "sections": [
             {
@@ -50,7 +51,8 @@
     {
         "name": "Dry Reef to Indigo Quarry",
         "access_rules": [
-            "^$CanReach|IndigoQuarryBeforeFirstBridge"
+            "^$CanReach|IndigoQuarryBeforeFirstBridge",
+            "^$CanReach|DryReefMain, Marketlogic"
         ],
         "sections": [
             {
@@ -74,7 +76,9 @@
     {
         "name": "Moss Blanket to Ancient Ruins Transition",
         "access_rules": [
-            "^$CanReach|AncientRuinsTransition, ^$CanReach|MossBlanketMain"
+            "^$CanReach|AncientRuinsTransition, ^$CanReach|MossBlanketMain",
+            "^$CanReach|AncientRuinsTransition, MarketLogic",
+            "^$CanReach|MossBlanketMain, MarketLogic"
         ],
         "sections": [
             {
@@ -101,7 +105,9 @@
         "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
         "access_rules": [
-            "^$CanReach|AncientRuinsTransition, ^$CanReach|IndigoQuarryAncientRuinsTransitionOverlap"
+            "^$CanReach|AncientRuinsTransition, ^$CanReach|IndigoQuarryAncientRuinsTransitionOverlap",
+            "^$CanReach|AncientRuinsTransition, MarketLogic",
+            "^$CanReach|IndigoQuarryAncientRuinsTranitionOverlap,  MarketLogic"
         ],
         "sections": [
             {
@@ -209,7 +215,8 @@
         "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
         "access_rules": [
-            "^$CanReach|AncientRuinsMain"
+            "^$CanReach|AncientRuinsMain",
+            "^$CanReach|AncientRuinsTransition, $hasPlort|Tabby, $hasPlort|Rock, $hasPlort|Phosphor, $hasPlort|Honey, $hasPlort|Boom, MarketLogic"
         ],
         "sections": [
             {
